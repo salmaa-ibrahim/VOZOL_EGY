@@ -25,25 +25,42 @@
 .logo {
   margin-left: 20px;
   display: flex;
+  align-items: center;
   width: 100px;
   height: 70px;
   text-decoration: none;
   color: inherit;
 }
-.logo img {
+/* .logo img {
+  width: 100%;
+} */
+.logoImg{
   width: 100%;
 }
+
+.egy{
+  margin-top: 15px;
+  width: 40px;
+  height: 27px;
+}
 .sitename {
+  background-color: #111;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 40px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0px;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 700;
   font-style: normal;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /* font-family: "Ubuntu", sans-serif; */
 }
 
 .sitename p {
   font-size: 20px;
+  color: #ffffff;
 }
 .main-nav {
   /* background-color: firebrick; */
@@ -118,20 +135,36 @@
     /* display: none; */
     overflow-x: auto;
   }
+  .logo{
+    margin-left: 0px;
+  }
+  .actions{
+    gap : 20px
+  }
+  .main-nav{
+    gap:40px
+  }
 }
 
 @media screen and (max-width: 480px) {
   .header-inner {
-    padding: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 0px;
   }
   .logo {
-    line-height: 0.8;
-    width: 60px;
-    height: 60px;
-    margin-right: 22px;
+    line-height: 0;
+    width: 50px;
+    height: 50px;
+    margin-right: 0px;
+    margin-left: 5px;
   }
+
+  .egy{
+  margin-top: 8px;
+  width: 20px;
+  height: 15px;
+}
   .sitename {
-    font-size: 14px;
+    font-size: 12px;
   }
   .main-nav {
     gap: 25px;

@@ -1,0 +1,382 @@
+/* src/components/AllProducts/AllProducts.css */
+.all-products-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background: #f8f9fa;
+  min-height: 100vh;
+}
+
+/* الهيدر */
+.products-header {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.products-header h1 {
+  color: #2c3e50;
+  margin: 0 0 10px 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.breadcrumb {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* صفحة الفلاتر */
+.filters-page {
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.filters-section {
+  margin-bottom: 40px;
+}
+
+.filters-section h2 {
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-bottom: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.filters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-group label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #2c3e50;
+  font-size: 0.9rem;
+}
+
+.filter-group select {
+  padding: 12px;
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+  background: white;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.filter-group select:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.find-it-btn {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  transition: background 0.3s ease;
+}
+
+.find-it-btn:hover {
+  background: #c0392b;
+}
+
+/* الأقسام */
+.categories-section {
+  margin-top: 30px;
+}
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.category-card {
+  background: #f8f9fa;
+  padding: 25px 15px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.category-card:hover {
+  background: #e9ecef;
+  transform: translateY(-2px);
+}
+
+.category-card.active {
+  background: #3498db;
+  color: white;
+  border-color: #2980b9;
+}
+
+.category-card h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* صفحة النتائج */
+.results-page {
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* الفلاتر النشطة */
+.active-filters {
+  margin-bottom: 25px;
+}
+
+.filter-tags {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.filter-tag {
+  background: #e3f2fd;
+  color: #1976d2;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* عنوان النتائج */
+.results-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #e9ecef;
+}
+
+.results-header h2 {
+  color: #2c3e50;
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.results-count {
+  color: #e74c3c;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* المنتجات */
+.products-results {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.product-card {
+  display: flex;
+  gap: 20px;
+  padding: 25px;
+  border: 2px solid #e9ecef;
+  border-radius: 10px;
+  transition: border-color 0.3s ease;
+}
+
+.product-card:hover {
+  border-color: #3498db;
+}
+
+.product-image {
+  flex: 0 0 120px;
+}
+
+.product-image img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.image-placeholder {
+  width: 120px;
+  height: 120px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #7f8c8d;
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 10px;
+}
+
+.product-info {
+  flex: 1;
+}
+
+.product-name {
+  color: #2c3e50;
+  margin: 0 0 10px 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.product-specs {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.puffs {
+  color: #27ae60;
+  font-weight: 600;
+}
+
+.flavors {
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+.product-description {
+  color: #5a6c7d;
+  margin: 0 0 15px 0;
+  line-height: 1.5;
+}
+
+.product-actions {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.more-details-btn {
+  background: none;
+  border: none;
+  color: #3498db;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 0.9rem;
+}
+
+.more-details-btn:hover {
+  color: #2980b9;
+}
+
+.learn-more-btn {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.learn-more-btn:hover {
+  background: #2980b9;
+}
+
+/* زر الرجوع */
+.back-section {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 2px solid #e9ecef;
+}
+
+.back-btn {
+  background: #95a5a6;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.back-btn:hover {
+  background: #7f8c8d;
+}
+
+/* التصميم المتجاوب */
+@media (max-width: 768px) {
+  .all-products-container {
+    padding: 15px;
+  }
+  
+  .filters-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .categories-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  
+  .product-card {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .product-image {
+    align-self: center;
+  }
+  
+  .results-header {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+  
+  .product-actions {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .products-header h1 {
+    font-size: 2rem;
+  }
+  
+  .filters-page,
+  .results-page {
+    padding: 20px;
+  }
+  
+  .categories-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .category-card {
+    padding: 20px 10px;
+  }
+  
+  .category-card h3 {
+    font-size: 1rem;
+  }
+}

@@ -19,6 +19,10 @@ const products = {
       brand: "STAR series",
       video: "/assets/videos/video1.mp4",
       description: "A smooth blend of vanilla flavors.",
+      deviceType: "Pod",
+      puffs: "5000",
+      technology: "Nicotine Salt",
+      flavors: "8"
     },
     {
       id: 2,
@@ -28,6 +32,10 @@ const products = {
       img: "/assets/products/p2.webp",
       brand: "STAR series",
       description: "A bold espresso shot with rich flavors.",
+      deviceType: "non-Pod",
+    puffs: "1000",
+    technology: "Nicotine Salt",
+    flavors: "8"
     },
     {
       id: 3,
@@ -148,16 +156,17 @@ const products = {
       brand: "vape series",
       description: "A luxurious rose experience.",
     },
-     {
-    id: 16,
-    name: "VOZOL GEAR 10000",
-    price: "299.99",
-    originalPrice: "349.99",
-    description: "جهاز VOZOL GEAR 10000 بتقنية متطورة وبطارية طويلة الأمد. يتميز بتصميم أنيق وأداء عالي مع تقنية الشفط التلقائي. مثالي للاستخدام اليومي مع نكهات متنوعة.",
-    img: "/assets/products/p1.webp",
-    brand: "GEAR",
-    flavors: ["تفاح أخضر", "نعناع منعش", "فراولة", "مانجو تروبيكال", "عناب"]
-  }
+    {
+      id: 16,
+      name: "VOZOL GEAR 10000",
+      price: "299.99",
+      originalPrice: "349.99",
+      description:
+        "جهاز VOZOL GEAR 10000 بتقنية متطورة وبطارية طويلة الأمد. يتميز بتصميم أنيق وأداء عالي مع تقنية الشفط التلقائي. مثالي للاستخدام اليومي مع نكهات متنوعة.",
+      img: "/assets/products/p1.webp",
+      brand: "GEAR",
+      flavors: ["تفاح أخضر", "نعناع منعش", "فراولة", "مانجو تروبيكال", "عناب"],
+    },
   ],
 };
 

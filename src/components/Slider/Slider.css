@@ -193,9 +193,11 @@
 
 @media (max-width: 480px) {
     .slider {
-        height: 180px;
+        background-color:transparent;
+        height: 250px;
+        padding-top: 10px;
     }
-    
+
     .slide-content h2 {
         font-size: 1.5rem;
     }
@@ -205,12 +207,13 @@
     }
 
     .slide-content img {
-        width: 30rem;
-        height: 100%;
+        width: auto;
+        height: auto;
     }
     .slide-content video{
-    width: 27rem;
+    width: 27.5rem;
     height: 100%;
+    object-fit: contain;
 }
     
     .arrow {

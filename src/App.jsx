@@ -11,6 +11,7 @@ import SearchBar from "./components/SearchBar/SearchBar";
 import AboutSection from "./components/About/AboutSection"; // إضافة الاستيراد
 import FreeShipping from "./components/FreeShipping/FreeShipping";
 import ProductDetails from "./components/ProductDetails/ProductDetails";
+// import AllProducts from "./pages/AllProducts/AllProducts";
 import Checkout from "./pages/Checkout/Checkout";
 import Footer from "./components/Footer/Footer";
 import WhatsAppFab from "./components/WhatsAppFab/WhatsAppFab";
@@ -51,7 +52,7 @@ export default function App() {
       );
       setFilteredProducts(filtered);
     }
-  }, [searchQuery, data.products]);
+  }, [searchQuery]);
 
   const handleSearch = (query) => {
     setSearchQuery(query);
@@ -130,6 +131,8 @@ export default function App() {
           <Route path="/about" element={<AboutSection />} />
 
           <Route path="/checkout" element={<Checkout />} />
+          {/* <Route path="/products" element={<AllProducts />} /> */}
+
         </Routes>
         <Footer />
         <WhatsAppFab />

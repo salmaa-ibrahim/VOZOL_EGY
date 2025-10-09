@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 import { useNavigate, NavLink } from "react-router-dom";
 import { useCart } from "../../contexts/CartContext";
 import "./Header.css";
-import logo from "../../../assets/logo.svg";
+// import logo from "../../../assets/logo.svg";
+import logo2 from "../../../public/assets/Icons/vozolIcon.jpeg"
+import logo from "../../../public/assets/Icons/VOZOL LOGO.svg"
 import instagramIcon from "../../../assets/social media icons/instagram_icon.svg";
 import facebookIcon from "../../../assets/social media icons/facebook_icon.svg";
 import whatsappIcon from "../../../assets/social media icons/whatsapp_icon.svg";
@@ -21,10 +23,11 @@ export default function Header() {
     <header className="site-header">
       <div className="header-inner">
         <a className="logo" aria-hidden href="/">
-          <img src={logo} alt="Logo" />
-          <p>
+          <img src={logo} alt="Logo" className="logoImg" />
+          <img src={logo2} alt="logo"  className="egy"/>
+          {/* <p>
             <p></p> <sub className="sitename">egy</sub>
-          </p>
+          </p> */}
         </a>
 
         <nav className="main-nav">
