@@ -63,7 +63,7 @@ export default function App() {
       );
       setFilteredProducts(filtered);
     }
-  }, [searchQuery, data.products]);
+  }, [searchQuery]);
 
   const handleSearch = (query) => {
     setSearchQuery(query);
