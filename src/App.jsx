@@ -1,15 +1,3 @@
-// import './App.css'
-
-// function App() {
-
-//   return (
-//     <>
-//     hello bbb
-//     </>
-//   )
-// }
-
-// export default App
 import React, { useEffect, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import AgeGate from "./components/AgeGate/AgeGate";
@@ -63,7 +51,7 @@ export default function App() {
       );
       setFilteredProducts(filtered);
     }
-  }, [searchQuery]);
+  }, [searchQuery, data.products]);
 
   const handleSearch = (query) => {
     setSearchQuery(query);

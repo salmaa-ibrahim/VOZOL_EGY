@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import products from '../../data/products';
 import './SearchBar.css';
-import SearchIcon from '../../../assets/Icons/search-icon.svg'; // تأكد من مسار الأيقونة
+import SearchIcon from '../../../public/assets/Icons/search-icon.svg'; // تأكد من مسار الأيقونة
 
 const SearchBar = () => {
   const [searchTerm, setSearchTerm] = useState('');
