@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import products from '../../Data/Products';
+import products from '../../Data/products';
 import './SearchBar.css';
 import SearchIcon from '../../../assets/Icons/search-icon.svg'; // تأكد من مسار الأيقونة
 
