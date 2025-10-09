@@ -1,0 +1,35 @@
+:root {
+  --container-width: 100%;
+  --bg: #fff;
+  --fg: #111;
+}
+* {
+  box-sizing: border-box;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial;
+}
+body {
+  margin: 0;
+  /* background: linear-gradient(135deg, #ffffff 0%, #8d8b8d 100%); */
+  /* background: linear-gradient(90deg, #ffffff 0%, #e5a2e7 100%); */
+  /* background: linear-gradient(90deg, #ffffff 0%, #d4d1d4 100%); */
+  /* background: linear-gradient(100deg, #ffffff 0%, #9e989e 100%); */
+  /* width: 100%; */
+  color: var(--fg);
+  -webkit-font-smoothing: antialiased;
+}
+/* .container {
+  padding: 20px;
+} */
+.btn {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #111;
+  background: transparent;
+  cursor: pointer;
+}
+.btn.primary {
+  background: #111;
+  color: #fff;
+  border-color: #111;
+}
