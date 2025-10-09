@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Arya&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+.site-header {
+  position: sticky;
+  top: 0;
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+
+  /* background: linear-gradient(100deg, #ffffff 0%, #d1cdd1 100%); */
+  /* background: #fff; */
+  /* background: linear-gradient(15deg, #ffffff 0%, #ca8bcc 100%); */
+  color: #111;
+  /* border-bottom: 1px solid #eee; */
+  z-index: 1000;
+}
+.header-inner {
+  /* width: 100%; */
+  /* background-color: #ca8bcc; */
+  /* max-width: 1600px; */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px 0px 70px;
+}
+
+.logo {
+  margin-left: 20px;
+  display: flex;
+  width: 100px;
+  height: 70px;
+  text-decoration: none;
+  color: inherit;
+}
+.logo img {
+  width: 100%;
+}
+.sitename {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.sitename p {
+  font-size: 20px;
+}
+.main-nav {
+  /* background-color: firebrick; */
+  display: flex;
+  gap: 95px;
+  font-size: 17px;
+}
+.main-nav a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+.main-nav a:hover {
+  color: #684db3;
+}
+.main-nav .active {
+  color: #4c4461;
+}
+.actions {
+  /* width: 20%; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 35px;
+}
+/* .lang-btn {
+  padding: 6px 8px;
+  border-radius: 6px;
+  border: 1px solid #111;
+  background: transparent;
+  cursor: pointer;
+} */
+.social:hover {
+  border: 1px solid #b6b5bb;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.social img {
+  width: 20px;
+  height: 20px;
+}
+.cart-btn {
+  padding: 6px 8px;
+  border: none;
+  background-color: transparent;
+}
+.cart {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+}
+.cart-count {
+  position: absolute;
+  top: 20%;
+  right: 1%;
+  /* background-color: #684db3; */
+  /* color: white; */
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  .main-nav {
+    /* display: none; */
+    overflow-x: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header-inner {
+    padding: 0px 0px 0px 10px;
+  }
+  .logo {
+    line-height: 0.8;
+    width: 60px;
+    height: 60px;
+    margin-right: 22px;
+  }
+  .sitename {
+    font-size: 14px;
+  }
+  .main-nav {
+    gap: 25px;
+    font-size: 13px;
+  }
+  .actions {
+    gap: 5px;
+  }
+
+  .disapper {
+    display: none;
+  }
+  .social img {
+    width: 20px;
+    height: 20px;
+  }
+  .cart-btn {
+    padding: 0 12px 0 0;
+  }
+}

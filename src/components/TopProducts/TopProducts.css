@@ -1,0 +1,25 @@
+.top-products {
+  /* max-width: 1200px; */
+  margin: 26px auto;
+}
+.top-list {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.top-products h1 {
+  margin: 15px 0px;
+}
+@media (max-width: 800px) {
+  .top-list {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .top-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  
+}

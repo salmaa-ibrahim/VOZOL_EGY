@@ -1,0 +1,267 @@
+/* src/components/Footer/Footer.css */
+.footer {
+  /* background: #f8f9fa; */
+  /* border-top: 1px solid #e9ecef; */
+  margin-top: 60px;
+}
+
+.footerContainer {
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Main Content */
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 40px;
+  padding: 40px 0 30px;
+  align-items: start;
+}
+
+/* Left Section */
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.brand-info h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin: 0 0 5px 0;
+}
+
+.brand-info p {
+  color: #6c757d;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.contact-simple p {
+  margin: 5px 0;
+  color: #495057;
+  font-size: 0.9rem;
+}
+
+/* Middle Section */
+.footer-middle {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.links-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.links-column h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin: 0 0 15px 0;
+}
+
+.links-column a {
+  color: #6c757d;
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+  transition: color 0.2s ease;
+}
+
+.links-column a:hover {
+  color: #2c3e50;
+}
+
+/* Right Section */
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-right h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin: 0;
+}
+
+.footer-right p {
+  color: #6c757d;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.newsletter-simple {
+  display: flex;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  overflow: hidden;
+  background: white;
+}
+
+.email-input {
+  flex: 1;
+  border: none;
+  padding: 10px 15px;
+  font-size: 0.9rem;
+  outline: none;
+}
+
+.subscribe-btn {
+  background: #2c3e50;
+  color: white;
+  border: none;
+  padding: 0 15px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.subscribe-btn:hover {
+  background: #34495e;
+}
+
+/* Policies Section */
+.policies-simple {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 25px 0;
+  border-top: 1px solid #e9ecef;
+  border-bottom: 1px solid #e9ecef;
+  direction: rtl;
+}
+
+.policy-item {
+  text-align: center;
+  padding: 15px;
+  background: white;
+  border-radius: 6px;
+  border: 1px solid #e9ecef;
+}
+
+.policy-item span {
+  color: #2c3e50;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+/* Bottom Bar */
+.footer-bottom {
+  padding: 20px 0;
+}
+
+.footer-bottom-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom p {
+  color: #6c757d;
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+.social-simple {
+  display: flex;
+  gap: 15px;
+}
+
+.social-simple a {
+  color: #6c757d;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.social-simple a:hover {
+  color: #2c3e50;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    text-align: center;
+  }
+  
+  .footer-middle {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .policies-simple {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  
+  .footer-bottom-content {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+  
+  .newsletter-simple {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-content {
+    padding: 30px 0 20px;
+  }
+  
+  .policies-simple {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  
+  .policy-item {
+    padding: 12px;
+  }
+  
+  .policy-item span {
+    font-size: 0.8rem;
+  }
+  
+  .container {
+    padding: 0 15px;
+  }
+}
+
+/* Minimal Animations */
+.links-column a {
+  position: relative;
+}
+
+.links-column a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: -2px;
+  left: 0;
+  background: #2c3e50;
+  transition: width 0.2s ease;
+}
+
+.links-column a:hover::after {
+  width: 100%;
+}
+
+.subscribe-btn {
+  transition: transform 0.2s ease;
+}
+
+.subscribe-btn:hover {
+  transform: scale(1.05);
+}

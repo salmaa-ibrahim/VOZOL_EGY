@@ -1,0 +1,28 @@
+.wa-fab {
+  position: fixed;
+  right: 12px;
+  bottom: 12px;
+  background: #25d366;
+  color: #fff;
+  padding: 10px 12px;
+  border-radius: 28px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  z-index: 999;
+  text-decoration: none;
+}
+.wa-fab svg {
+  filter: brightness(0) invert(1);
+}
+@media (max-width: 600px) {
+  .wa-fab {
+    /* right: 80%; */
+    bottom: 8px;
+    padding: 8px 10px;
+    font-size: 0.9rem;
+  }
+  .wa-fab span {
+    display: none;
+  }
+}
