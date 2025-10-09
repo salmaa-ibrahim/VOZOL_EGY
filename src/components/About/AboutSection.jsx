@@ -1,7 +1,7 @@
 // src/components/About/AboutSection.jsx
 import React from "react";
 import "./AboutSection.css";
-import img2 from "../../../assets/AboutImages/aboutImg2.webp";
+// import img2 from "../../../assets/AboutImages/aboutImg2.webp";
 import video1 from "../../../assets/videos/video1.mp4";
 import video2 from "../../../assets/videos/video2.mp4";
 const AboutSection = () => {
