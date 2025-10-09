@@ -15,7 +15,7 @@ const products = {
       name: "Voz Blend",
       flavor: "Vanilla",
       price: 120,
-      img: "/assets/products/p1.webp",
+      img: "../../public/assets/products/p1.webp",
       brand: "STAR series",
       video: "/assets/videos/video1.mp4",
       description: "A smooth blend of vanilla flavors.",
