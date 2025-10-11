@@ -117,10 +117,10 @@ const Footer = () => {
           <div className="footer-bottom-content">
             <p>&copy; 2024 VOZOLEGY. All rights reserved.</p>
             <div className="social-simple">
-              <a href="#">FB</a>
+              {/* <a href="#">FB</a>
               <a href="#">IG</a>
               <a href="#">TW</a>
-              <a href="#">WA</a>
+              <a href="#">WA</a> */}
             </div>
           </div>
         </div>
