@@ -1,12 +1,15 @@
 // src/components/Footer/Footer.jsx
-import React from 'react';
-import './Footer.css';
+import React from "react";
+import "./Footer.css";
+import facebookIcon from "../../../assets/social media icons/facebook_icon.svg";
+import instagramIcon from "../../../assets/social media icons/instagram_icon.svg";
+import tiktokIcon from "../../../assets/social media icons/tiktok_icon.svg";
+import whatsappIcon from "../../../assets/social media icons/whatsapp_icon.svg";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footerContainer">
-        
         {/* Main Content */}
         <div className="policies-simple">
           <div className="policy-item">
@@ -27,7 +30,6 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-content">
-          
           {/* Left Section - Brand Info */}
           <div className="footer-left">
             <div className="brand-info">
@@ -42,23 +44,54 @@ const Footer = () => {
 
           {/* Middle Section - Links */}
           <div className="footer-middle">
-            <div className="links-column">
+            {/* <div className="links-column">
               <h4>Shop</h4>
               <a href="/products">Products</a>
               <a href="/top-products">Top Products</a>
               <a href="#">New Arrivals</a>
-            </div>
-            <div className="links-column">
+            </div> */}
+            {/* <div className="links-column">
               <h4>Support</h4>
               <a href="#">Contact</a>
               <a href="#">Shipping Info</a>
               <a href="#">Returns</a>
-            </div>
+            </div> */}
             <div className="links-column">
-              <h4>Company</h4>
-              <a href="#about">About</a>
-              <a href="#">Careers</a>
-              <a href="#">Blog</a>
+              <h4>Contact Us</h4>
+              <div className="social-col">
+                <a
+                className="socialFooter"
+                href="https://www.instagram.com/vozol_egy?igsh=cWc5ZnU4aTJlN25v"
+                target="_blank"
+              >
+                <img src={instagramIcon} alt="" />
+                <p>vozol_egy</p>
+              </a>
+              <a
+                className="socialFooter"
+                href="https://www.facebook.com/share/17G6ZiBo2m/?mibextid=wwXIfr"
+                target="_blank"
+              >
+                <img src={facebookIcon} alt="" />
+                <p>Vozol Egy</p>
+              </a>
+              <a
+                className="socialFooter"
+                href="https://wa.me/201141341192?text=مرحباً، أريد الاستفسار عن المنتجات"
+                target="_blank"
+              >
+                <img src={whatsappIcon} alt="" />
+                <p>WhatsApp</p>
+              </a>
+              <a
+                className="socialFooter "
+                href="https://www.tiktok.com/@vozol.egy?_t=ZS-90SMD4tlqIZ&_r=1"
+                target="_blank"
+              >
+                <img src={tiktokIcon} alt="" />
+                <p>vozol.egy</p>
+              </a>
+              </div>
             </div>
           </div>
 
@@ -67,19 +100,17 @@ const Footer = () => {
             <h4>Newsletter</h4>
             <p>Stay updated with our latest offers</p>
             <div className="newsletter-simple">
-              <input 
-                type="email" 
-                placeholder="Your email" 
+              <input
+                type="email"
+                placeholder="Your email"
                 className="email-input"
               />
               <button className="subscribe-btn">→</button>
             </div>
           </div>
-
         </div>
 
         {/* Policies Section - Arabic */}
-        
 
         {/* Bottom Bar */}
         <div className="footer-bottom">
@@ -93,7 +124,6 @@ const Footer = () => {
             </div>
           </div>
         </div>
-
       </div>
     </footer>
   );

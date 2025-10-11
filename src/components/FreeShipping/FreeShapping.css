@@ -1,9 +1,9 @@
-.shadow-dance-container {
+/* .shadow-dance-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 25vh;
-  background-color: #b30808;
+  background-color: #000000;
   margin-top: 10px;
 }
 .shadow-dance-text {
@@ -38,5 +38,39 @@
     
   .shadow-dance-container{
     height: 10vh;
+  }
+} */
+
+/* بديل أبسط */
+.shipping-container {
+/* margin-top: 10px; */
+  width: 100%;
+  overflow: hidden;
+  background-color: #221f1f;
+  padding: 8px 0;
+  direction: rtl;
+
+}
+
+.shipping-bar {
+  width: 100%;
+}
+
+.sliding-text {
+  display: inline-block;
+  white-space: nowrap;
+  color: rgb(255, 254, 254);
+  font-weight: bold;
+  font-size: 14px;
+  animation: slideText 18s linear infinite;
+  padding: 0 20px;
+}
+
+@keyframes slideText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
   }
 }

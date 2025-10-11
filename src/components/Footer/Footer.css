@@ -185,6 +185,22 @@
   color: #2c3e50;
 }
 
+
+.socialFooter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+}
+.socialFooter img {
+  width: 30px;
+  height: 30px;
+}
+
+.socialFooter p{
+  font-weight: 600;
+  font-size: 18px;
+}
 /* Responsive Design */
 @media (max-width: 768px) {
   .footer-content {
@@ -236,8 +252,18 @@
   .container {
     padding: 0 15px;
   }
+  .socialFooter{
+    justify-content: left;
+  }
+  .social-col{
+    column-gap: 40px;
+  }
 }
+.social-col {
+  display: grid;
+  grid-template-columns: auto auto;
 
+}
 /* Minimal Animations */
 .links-column a {
   position: relative;

@@ -60,7 +60,7 @@ export default function Slider({ items }) {
                        autoPlay 
                        playsInline
                        preload="auto"
-                       loading="lazy"
+                      //  loading="lazy"
                 ></video>
               </div>
             </div>

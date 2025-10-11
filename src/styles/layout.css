@@ -8,6 +8,10 @@ footer {
   text-align: center;
   color: #777;
 }
+
+.App{
+  background: linear-gradient(135deg, #fff, #f8f9fa);
+}
 @media screen and (min-width: 768px) {
   .container {
     /* max-width: 750px; */

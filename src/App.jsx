@@ -64,6 +64,8 @@ export default function App() {
         {showAd && <AdPopup onClose={() => setShowAd(false)} />}
 
         <Header />
+                                <FreeShipping />
+
 
         <Routes>
           <Route
@@ -71,7 +73,6 @@ export default function App() {
             element={
               <main className="container">
                 <Slider items={data.banners} />
-                <FreeShipping />
                 {/* شريط البحث */}
                 <div className="search-section">
                   <SearchBar
