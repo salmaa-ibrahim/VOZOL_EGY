@@ -1,9 +1,10 @@
 // src/components/About/AboutSection.jsx
 import React from "react";
 import "./AboutSection.css";
-// import img2 from "../../../assets/AboutImages/aboutImg2.webp";
-import video1 from "../../../public/assets/videos/video1.mp4";
-import video2 from "../../../public/assets/videos/video2.mp4";
+import AboutImg from "../../../public/assets/AboutImages/aboutImg2.webp";
+// import video1 from "../../../public/assets/videos/video1.mp4";
+// import video2 from "../../../public/assets/videos/video2.mp4";
+import AboutImg2 from "../../../public/assets/banar images/banar2.webp";
 const AboutSection = () => {
   return (
     <section className="about-section" id="about">
@@ -82,18 +83,18 @@ const AboutSection = () => {
               </p>
             </div> */}
             <div className="about-image">
-              {/* <img 
-                src="https://via.placeholder.com/400x300/e74c3c/ffffff?text=Vozo+Vision" 
+              <img 
+                src={AboutImg} 
                 alt="Vozo Vision" 
-              /> */}
-              <video
+              />
+              {/* <video
                 src={video1}
                 type="video/mp4"
                 muted
                 loop
                 autoPlay
                 width="700"
-              ></video>
+              ></video> */}
             </div>
           </div>
 
@@ -112,11 +113,11 @@ const AboutSection = () => {
               </ul>
             </div>
             <div className="about-image">
-              {/* <img 
-                src="https://via.placeholder.com/400x300/9b59b6/ffffff?text=Vozo+Products" 
+              <img 
+                src={AboutImg2} 
                 alt="Vozo Products" 
-              /> */}
-              <video
+              />
+              {/* <video
                 src={video2}
                 type="video/mp4"
                 muted
@@ -124,7 +125,7 @@ const AboutSection = () => {
                 autoPlay
                 width="700"
                 style={{ marginTop: "50px" }}
-              ></video>
+              ></video> */}
             </div>
           </div>
         </div>

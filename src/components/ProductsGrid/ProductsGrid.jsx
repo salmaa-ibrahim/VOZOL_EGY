@@ -49,7 +49,8 @@ const ProductsGrid = ({ products }) => {
 
           {/* بانر البراند */}
           <div className="brand-video">
-            <video src={brandProducts[0].video} alt={`${brand} banner`}  autoPlay loop />
+            {/* <video src={brandProducts[0].video} alt={`${brand} banner`}  autoPlay loop /> */}
+            <img src={brandProducts[0].BrandImg} alt={`${brand} banner`} />
           </div>
           
           {/* منتجات البراند */}
