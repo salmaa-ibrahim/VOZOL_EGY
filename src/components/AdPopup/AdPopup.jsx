@@ -5,7 +5,7 @@ export default function AdPopup({ onClose }){
   return (
     <div className="ad-backdrop">
       <div className="ad-card">
-        <img src="../../../public/assets/Ads/AD.webp" alt="ad" />
+        <img src="/assets/Ads/AD.webp" alt="ad" />
         <button className="ad-close" onClick={onClose}>Cancel</button>
       </div>
     </div>
