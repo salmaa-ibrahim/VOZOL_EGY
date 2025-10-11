@@ -1,10 +1,10 @@
 const products = {
   banners: [
     // { id: 1, title: 'Banner 4', titleOne: 'Premium Vape Products' , titleTwo: 'Discover the best vaping experience' },
-    { id: 1, title: "Banner 1", video: "/assets/videos/video2.mp4" },
-    { id: 2, title: "Banner 2", video: "/assets/videos/video1.mp4" },
-    { id: 3, title: "Banner 3", video: "/assets/videos/video2.mp4" },
-    { id: 4, title: "Banner 4", video: "/assets/videos/video1.mp4" },
+    { id: 1, title: "Banner 1", video: "../../public/assets/videos/video1.mp4" },
+    { id: 2, title: "Banner 2", video: "../../public/assets/videos/video2.mp4" },
+    { id: 3, title: "Banner 3", video: "../../public/assets/videos/video1.mp4" },
+    { id: 4, title: "Banner 4", video: "../../public/assets/videos/video2.mp4" },
     { id: 3, title: "Banner 2", img: "/assets/banar images/banar1.webp" },
     { id: 4, title: "Banner 3", img: "/assets/banar images/banar2.webp" },
     { id: 5, title: "Banner 4", img: "/assets/banar images/banar3.webp" },
@@ -17,7 +17,7 @@ const products = {
       price: 120,
       img: "/assets/products/p1.webp",
       brand: "STAR series",
-      video: "/assets/videos/video1.mp4",
+      video: "../../public/assets/videos/video1.mp4",
       description: "A smooth blend of vanilla flavors.",
       deviceType: "Pod",
       puffs: "5000",
@@ -71,7 +71,7 @@ const products = {
       price: 150,
       img: "/assets/products/p1.webp",
       brand: "VISTA series",
-      video: "/assets/videos/video2.mp4",
+      video: "../../public/assets/videos/video2.mp4",
       description: "A rich chocolate experience.",
     },
     {
@@ -126,7 +126,7 @@ const products = {
       price: 135,
       img: "/assets/products/p1.webp",
       brand: "vape series",
-      video: "/assets/videos/video1.mp4",
+      video: "../../public/assets/videos/video1.mp4",
       description: "A luxurious rose experience.",
     },
     {
@@ -164,6 +164,7 @@ const products = {
       description:
         "جهاز VOZOL GEAR 10000 بتقنية متطورة وبطارية طويلة الأمد. يتميز بتصميم أنيق وأداء عالي مع تقنية الشفط التلقائي. مثالي للاستخدام اليومي مع نكهات متنوعة.",
       img: "/assets/products/p1.webp",
+      video:"../../public/assets/videos/video1.mp4",
       brand: "GEAR",
       flavors: ["تفاح أخضر", "نعناع منعش", "فراولة", "مانجو تروبيكال", "عناب"],
     },
