@@ -4,6 +4,7 @@ import "./AboutSection.css";
 // import img2 from "../../../assets/AboutImages/aboutImg2.webp";
 import video1 from "../../../assets/videos/video1.mp4";
 import video2 from "../../../assets/videos/video2.mp4";
+import OptimizedVideo from '../OptimizedVideo';
 const AboutSection = () => {
   return (
     <section className="about-section" id="about">
@@ -86,14 +87,14 @@ const AboutSection = () => {
                 src="https://via.placeholder.com/400x300/e74c3c/ffffff?text=Vozo+Vision" 
                 alt="Vozo Vision" 
               /> */}
-              <video
+              <OptimizedVideo
                 src={video1}
                 type="video/mp4"
-                muted
-                loop
-                autoPlay
+                muted={true}
+                loop={true}
+                autoPlay={true}
                 width="700"
-              ></video>
+              ></OptimizedVideo>
             </div>
           </div>
 
