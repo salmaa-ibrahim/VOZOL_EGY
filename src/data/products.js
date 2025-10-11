@@ -7,16 +7,16 @@ const products = {
       title: "Banner 2",
       video: "../../public/assets/videos/video2.mp4",
     },
-    {
-      id: 3,
-      title: "Banner 3",
-      video: "../../public/assets/videos/video1.mp4",
-    },
-    {
-      id: 4,
-      title: "Banner 4",
-      video: "../../public/assets/videos/video2.mp4",
-    },
+    // {
+    //   id: 3,
+    //   title: "Banner 3",
+    //   video: "../../public/assets/videos/video1.mp4",
+    // },
+    // {
+    //   id: 4,
+    //   title: "Banner 4",
+    //   video: "../../public/assets/videos/video2.mp4",
+    // },
     { id: 3, title: "Banner 2", img: "/assets/banar images/banar1.webp" },
     { id: 4, title: "Banner 3", img: "/assets/banar images/banar2.webp" },
     { id: 5, title: "Banner 4", img: "/assets/banar images/banar3.webp" },
