@@ -29,7 +29,7 @@ const products = {
       price: 120,
       img: "/assets/products/p1.webp",
       brand: "STAR series",
-      BrandImg: "../../public/assets/banar images/banar1.webp",
+      BrandImg: "/assets/banar images/banar1.webp",
       video: "../../public/assets/videos/video1.mp4",
       description: "A smooth blend of vanilla flavors.",
       deviceType: "Pod",
