@@ -51,7 +51,8 @@ const Checkout = () => {
         _subject: `🎉 طلب جديد - ${orderData.fullName} - ${orderId}`,
         _template: 'table',
         _autoresponse: `مرحباً ${orderData.fullName}، تم استلام طلبك بنجاح! سنتصل بك خلال 24 ساعة.`,
-        _cc: "semsemaa127@gmail.com , saidelshazly27@gmail.com", // إضافة CC للتأكد من وصول الرسالة
+        _cc: "semsemaa127@gmail.com,saidelshazly27@gmail.com",
+ // إضافة CC للتأكد من وصول الرسالة
         
         // بيانات العميل
         '👤 الاسم الكامل': orderData.fullName,
@@ -79,8 +80,8 @@ const Checkout = () => {
       };
 
       // المحاولة الأولى: FormSubmit API
-      // const formSubmitResponse = await fetch('https://formsubmit.co/ajax/semsemaa127@gmail.com', {
-        const formSubmitResponse = await fetch('https://formsubmit.co/e3e483805619fb9dace776e21c799b40', {
+      const formSubmitResponse = await fetch('https://formsubmit.co/ajax/semsemaa127@gmail.com', {
+        // const formSubmitResponse = await fetch('https://formsubmit.co/e3e483805619fb9dace776e21c799b40', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
