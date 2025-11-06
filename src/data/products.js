@@ -19,10 +19,11 @@ const products = {
     { id: 4, title: "Banner 4", img: "/assets/banar images/banar3.webp" },
   ],
   products: [
+    //brand one
     {
       id: 1,
       name: "Voz Blend",
-      flavor: "Vanilla",
+      flavor: "Vanilla salma",
       price: 120,
       img: "/assets/products/p1.webp",
       brand: "STAR series",
