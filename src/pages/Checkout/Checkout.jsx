@@ -88,8 +88,8 @@ const Checkout = () => {
         },
         body: JSON.stringify(emailContent)
       });
-
-      const backupResponse = await fetch('https://formsubmit.co/el/confirm/e47a9b9d73c47ff96639fd1f71699947', { // اللينك بتاع الإيميل التاني
+      const backupResponse = await fetch('https://formsubmit.co/ajax/saidelshazli27@gmail.com', {
+      // const backupResponse = await fetch('https://formsubmit.co/el/confirm/e47a9b9d73c47ff96639fd1f71699947', { // اللينك بتاع الإيميل التاني
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(emailContent)
