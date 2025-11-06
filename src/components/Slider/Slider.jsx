@@ -54,14 +54,14 @@ export default function Slider({ items }) {
                 {/* <h2>{item.titleOne}</h2>
                 <p>{item.titleTwo}</p> */}
                 <img src={items[idx].img}  />
-                <video src={item.video} 
+                {/* <video src={item.video} 
                        muted 
                        loop 
                        autoPlay 
                        playsInline
                        preload="auto"
                       //  loading="lazy"
-                ></video>
+                ></video> */}
               </div>
             </div>
           ))}
