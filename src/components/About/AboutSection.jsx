@@ -4,7 +4,8 @@ import "./AboutSection.css";
 import AboutImg from "../../../public/assets/AboutImages/aboutImg2.webp";
 // import video1 from "../../../public/assets/videos/video1.mp4";
 // import video2 from "../../../public/assets/videos/video2.mp4";
-import AboutImg2 from "../../../public/assets/banar images/banar2.webp";
+import AboutImg3 from "../../../public/assets/AboutImages/Screenshot 2025-11-06 123341.png";
+import AboutImg2 from "../../../public/assets/AboutImages/aboutImg2.webp";
 const AboutSection = () => {
   return (
     <section className="about-section" id="about">
@@ -83,10 +84,7 @@ const AboutSection = () => {
               </p>
             </div> */}
             <div className="about-image">
-              <img 
-                src={AboutImg} 
-                alt="Vozo Vision" 
-              />
+              <img src={AboutImg3} alt="Vozo Vision" />
               {/* <video
                 src={video1}
                 type="video/mp4"
@@ -99,7 +97,7 @@ const AboutSection = () => {
           </div>
 
           <div className="about-item">
-            <div className="about-text">
+            {/* <div className="about-text">
               <h3>Our Products</h3>
               <p>
                 We offer a wide range of Vape products suitable for all tastes
@@ -113,20 +111,8 @@ const AboutSection = () => {
               </ul>
             </div>
             <div className="about-image">
-              <img 
-                src={AboutImg2} 
-                alt="Vozo Products" 
-              />
-              {/* <video
-                src={video2}
-                type="video/mp4"
-                muted
-                loop
-                autoPlay
-                width="700"
-                style={{ marginTop: "50px" }}
-              ></video> */}
-            </div>
+              <img src={AboutImg2} alt="" />
+            </div> */}
           </div>
         </div>
 
