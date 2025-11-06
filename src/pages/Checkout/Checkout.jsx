@@ -80,7 +80,7 @@ const Checkout = () => {
       };
 
       // المحاولة الأولى: FormSubmit API
-      const formSubmitResponse = await fetch('https://formsubmit.co/ajax/semsemaa127@gmail.com', {
+      const formSubmitResponse = await fetch('https://formsubmit.co/ajax/semsemaa127@gmail.com,saidelshazly27@gmail.com', {
         // const formSubmitResponse = await fetch('https://formsubmit.co/e3e483805619fb9dace776e21c799b40', {
         method: 'POST',
         headers: {
