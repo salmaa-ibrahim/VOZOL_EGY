@@ -22,7 +22,7 @@ const products = {
     {
       id: 1,
       name: "Voz Blend",
-      flavor: "Vanilla",
+      flavor: "Vanilla salma",
       price: 120,
       img: "/assets/products/p1.webp",
       brand: "STAR series",
