@@ -51,7 +51,7 @@ const Checkout = () => {
         _subject: `🎉 طلب جديد - ${orderData.fullName} - ${orderId}`,
         _template: 'table',
         _autoresponse: `مرحباً ${orderData.fullName}، تم استلام طلبك بنجاح! سنتصل بك خلال 24 ساعة.`,
-        _cc: "semsemaa127@gmail.com,saidelshazli27@gmail.com",
+        _cc: "semsemaa127@gmail.com",
  // إضافة CC للتأكد من وصول الرسالة
         
         // بيانات العميل
