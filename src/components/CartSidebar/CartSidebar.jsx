@@ -71,7 +71,9 @@ const CartSidebar = ({ isOpen, onClose }) => {
               <div className="cart-total">
                 <p>Total  <span>{getCartTotal()} EGP</span></p>
                 <p>Shipping  <span>FREE</span></p>
-                <p>Grand Total  <span>{getCartTotal() + 30} EGP</span></p>
+                {/* <p>Grand Total  <span>{getCartTotal() + 30} EGP</span></p> */}
+                <p>Grand Total  <span>{getCartTotal()} EGP</span></p>
+                {/* <p>Discount  <span>{getCartTotal() > 1000 ? 100 : 0} EGP</span></p> */}
               </div>
 
               <div className="cart-actions">
