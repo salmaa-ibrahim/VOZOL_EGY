@@ -96,8 +96,12 @@
   pointer-events: auto; /* السماح بالأحداث على الأزرار */
 }
 @media screen and (max-width: 480px) {
+  .product-card{
+    padding: 12px 0px 12px 0px;
+  }
   .product-card img {
-    height: 200px;
+    /* height: 200px; */
+    height: auto;
   }
   .product-card p {
     font-size: 18px;

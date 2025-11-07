@@ -7,6 +7,7 @@ import star_40k_6 from"/assets/products/Vozol Star 40000 puffs/6.jpg";
 import star_40k_7 from"/assets/products/Vozol Star 40000 puffs/7.jpg";
 import star_40k_8 from"/assets/products/Vozol Star 40000 puffs/8.jpg";
 import star_40k_9 from"/assets/products/Vozol Star 40000 puffs/9.jpg";
+import star_40k_10 from"/assets/products/Vozol Star 40000 puffs/10.jpg";
 import star_40k_11 from"/assets/products/Vozol Star 40000 puffs/11.jpg";
 import star_40k_12 from"/assets/products/Vozol Star 40000 puffs/12.jpg";
 import star_40k_13 from"/assets/products/Vozol Star 40000 puffs/13.jpg";
@@ -29,11 +30,11 @@ const products = {
     { id: 4, title: "Banner 4", img: "/assets/banar images/banar3.webp" },
   ],
   products: [
-    //Vozol Star 40000 puffs
+                                           //-------------Vozol Star 40000 puffs-------------------
     {
       id: 1,
       name: "Vozol Star 40000 puffs",
-      flavor: "",
+      flavor: "Sour Apple Ice",
       price: 900,
       img: star_40k_1,
       brand: "Vozol Star 40000 puffs",
@@ -49,7 +50,7 @@ const products = {
     {
       id: 2,
       name: "Vozol Star 40000 puffs",
-      flavor: "",
+      flavor: "Peach Ice",
       price: 900,
       img: star_40k_2,
       brand: "Vozol Star 40000 puffs",
@@ -65,7 +66,7 @@ const products = {
     {
       id: 3,
       name: "Vozol Star 40000 puffs",
-      flavor: "",
+      flavor: "Watermelon Grape Boysnbwrry",
       price: 900,
       img: star_40k_3,
       brand: "Vozol Star 40000 puffs",
@@ -81,7 +82,7 @@ const products = {
     {
       id: 4,
       name: "Vozol Star 40000 puffs",
-      flavor: "",
+      flavor: "Melon Ice",
       price: 900,
       img: star_40k_4,
       brand: "Vozol Star 40000 puffs",
@@ -97,7 +98,7 @@ const products = {
     {
       id: 5,
       name: "Vozol Star 40000 puffs",
-      flavor: "",
+      flavor: "cherry cola",
       price: 900,
       img: star_40k_5,
       brand: "Vozol Star 40000 puffs",
@@ -113,7 +114,7 @@ const products = {
     {
       id: 6,
       name: "Vozol Star 40000 puffs",
-      flavor: "",
+      flavor: "watermelon ice",
       price: 900,
       img: star_40k_6,
       brand: "Vozol Star 40000 puffs",
@@ -129,7 +130,7 @@ const products = {
     {
       id: 7,
       name: "Vozol Star 40000 puffs",
-      flavor: "",
+      flavor: "white peach raspberry",
       price: 900,
       img: star_40k_7,
       brand: "Vozol Star 40000 puffs",
@@ -145,7 +146,7 @@ const products = {
     {
       id: 8,
       name: "Vozol Star 40000 puffs",
-      flavor: "",
+      flavor: "watermelon sour peach",
       price: 900,
       img: star_40k_8,
       brand: "Vozol Star 40000 puffs",
@@ -161,7 +162,7 @@ const products = {
     {
       id: 9,
       name: "Vozol Star 40000 puffs",
-      flavor: "",
+      flavor: "vzbull",
       price: 900,
       img: star_40k_9,
       brand: "Vozol Star 40000 puffs",
@@ -177,9 +178,9 @@ const products = {
     {
       id: 10,
       name: "Vozol Star 40000 puffs",
-      flavor: "",
+      flavor: "watermelon grape boysnbwrry",
       price: 900,
-      img: star_40k_11,
+      img: star_40k_10,
       brand: "Vozol Star 40000 puffs",
       BrandImg: "../../public/assets/banar images/star 40000.webp",
       description: "none",
@@ -193,9 +194,9 @@ const products = {
     {
       id: 11,
       name: "Vozol Star 40000 puffs",
-      flavor: "",
+      flavor: "mango ice",
       price: 900,
-      img: "/assets/products/Vozol Star 40000 puffs/11.jpg",
+      img: star_40k_11,
       brand: "Vozol Star 40000 puffs",
       BrandImg: "../../public/assets/banar images/star 40000.webp",
       description: "none",
@@ -209,9 +210,9 @@ const products = {
     {
       id: 12,
       name: "Vozol Star 40000 puffs",
-      flavor: "",
+      flavor: "strawberry watermelon",
       price: 900,
-      img: "/assets/products/Vozol Star 40000 puffs/12.jpg",
+      img: star_40k_12,
       brand: "Vozol Star 40000 puffs",
       BrandImg: "../../public/assets/banar images/star 40000.webp",
       description: "none",
@@ -225,9 +226,9 @@ const products = {
     {
       id: 13,
       name: "Vozol Star 40000 puffs",
-      flavor: "",
+      flavor: "strawmelon peach",
       price: 900,
-      img: "/assets/products/Vozol Star 40000 puffs/13.jpg",
+      img: star_40k_13,
       brand: "Vozol Star 40000 puffs",
       BrandImg: "../../public/assets/banar images/star 40000.webp",
       description: "none",
@@ -241,9 +242,9 @@ const products = {
     {
       id: 14,
       name: "Vozol Star 40000 puffs",
-      flavor: "",
+      flavor: "blueberry watermelon",
       price: 900,
-      img: "/assets/products/Vozol Star 40000 puffs/14.jpg",
+      img: star_40k_14,
       brand: "Vozol Star 40000 puffs",
       BrandImg: "../../public/assets/banar images/star 40000.webp",
       description: "none",
@@ -257,9 +258,9 @@ const products = {
     {
       id: 15,
       name: "Vozol Star 40000 puffs",
-      flavor: "",
+      flavor: "melon gum",
       price: 900,
-      img: "/assets/products/Vozol Star 40000 puffs/15.jpg",
+      img: star_40k_15,
       brand: "Vozol Star 40000 puffs",
       BrandImg: "../../public/assets/banar images/star 40000.webp",
       description: "none",
@@ -273,9 +274,9 @@ const products = {
     {
       id: 16,
       name: "Vozol Star 40000 puffs",
-      flavor: "",
+      flavor: "stubby kiwi",
       price: 900,
-      img: "/assets/products/Vozol Star 40000 puffs/16.jpg",
+      img: star_40k_16,
       brand: "Vozol Star 40000 puffs",
       BrandImg: "../../public/assets/banar images/star 40000.webp",
       description: "none",
@@ -289,9 +290,9 @@ const products = {
     {
       id: 17,
       name: "Vozol Star 40000 puffs",
-      flavor: "",
+      flavor: "blueberry ice",
       price: 900,
-      img: "/assets/products/Vozol Star 40000 puffs/17.jpg",
+      img: star_40k_17,
       brand: "Vozol Star 40000 puffs",
       BrandImg: "../../public/assets/banar images/star 40000.webp",
       description: "none",
@@ -305,9 +306,9 @@ const products = {
     {
       id: 18,
       name: "Vozol Star 40000 puffs",
-      flavor: "",
+      flavor: "cool mint",
       price: 900,
-      img: "/assets/products/Vozol Star 40000 puffs/18.jpg",
+      img: star_40k_18,
       brand: "Vozol Star 40000 puffs",
       BrandImg: "../../public/assets/banar images/star 40000.webp",
       description: "none",
@@ -321,9 +322,9 @@ const products = {
     {
       id: 19,
       name: "Vozol Star 40000 puffs",
-      flavor: "",
+      flavor: "blueberry mint",
       price: 900,
-      img: "/assets/products/Vozol Star 40000 puffs/19.jpg",
+      img: star_40k_19,
       brand: "Vozol Star 40000 puffs",
       BrandImg: "../../public/assets/banar images/star 40000.webp",
       description: "none",
@@ -337,9 +338,9 @@ const products = {
     {
       id: 20,
       name: "Vozol Star 40000 puffs",
-      flavor: "",
+      flavor: "watermelon bubblegum",
       price: 900,
-      img: "/assets/products/Vozol Star 40000 puffs/20.jpg",
+      img: star_40k_20,
       brand: "Vozol Star 40000 puffs",
       BrandImg: "../../public/assets/banar images/star 40000.webp",
       description: "none",
@@ -353,9 +354,9 @@ const products = {
     {
       id: 21,
       name: "Vozol Star 40000 puffs",
-      flavor: "",
+      flavor: "cherimoya grapefruit berries",
       price: 900,
-      img: "/assets/products/Vozol Star 40000 puffs/21.jpg",
+      img: star_40k_21,
       brand: "Vozol Star 40000 puffs",
       BrandImg: "../../public/assets/banar images/star 40000.webp",
       description: "none",
@@ -369,9 +370,9 @@ const products = {
     {
       id: 22,
       name: "Vozol Star 40000 puffs",
-      flavor: "",
+      flavor: "blue razz ice",
       price: 900,
-      img: "/assets/products/Vozol Star 40000 puffs/22.jpg",
+      img: star_40k_22,
       brand: "Vozol Star 40000 puffs",
       BrandImg: "../../public/assets/banar images/star 40000.webp",
       description: "none",
@@ -385,9 +386,9 @@ const products = {
     {
       id: 23,
       name: "Vozol Star 40000 puffs",
-      flavor: "",
+      flavor: "mango peach",
       price: 900,
-      img: "/assets/products/Vozol Star 40000 puffs/23.jpg",
+      img: star_40k_23,
       brand: "Vozol Star 40000 puffs",
       BrandImg: "../../public/assets/banar images/star 40000.webp",
       description: "none",
@@ -401,9 +402,9 @@ const products = {
     {
       id: 24,
       name: "Vozol Star 40000 puffs",
-      flavor: "",
+      flavor: "strawberry ice",
       price: 900,
-      img: "/assets/products/Vozol Star 40000 puffs/24.jpg",
+      img: star_40k_24,
       brand: "Vozol Star 40000 puffs",
       BrandImg: "../../public/assets/banar images/star 40000.webp",
       description: "none",
