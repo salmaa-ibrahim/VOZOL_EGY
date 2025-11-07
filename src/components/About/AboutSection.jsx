@@ -18,7 +18,7 @@ const AboutSection = () => {
 
         <div className="about-content">
           <div className="features">
-            <h3>Why Choose VOZOL?</h3>
+            <h3>Why Choose VOZOLEGY?</h3>
             <div className="features-grid">
               <div className="feature">
                 <div className="feature-icon">💳</div>
