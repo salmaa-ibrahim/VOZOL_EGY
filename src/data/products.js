@@ -12,7 +12,7 @@ const products = {
       name: "Vozol Star 40000 puffs",
       flavor: "Melon Gum",
       price: 900,
-      img: "../../public/assets/products/Vozol Star 40000 puffs/06707253-689e-4572-b2a1-ab4ba246f8e9.jpg",
+      img: "../../assets/Vozol Star 40000 puffs/06707253-689e-4572-b2a1-ab4ba246f8e9.jpg",
       brand: "Vozol Star 40000 puffs",
       BrandImg: "../../public/assets/banar images/star 40000.webp",
       description: "none",
