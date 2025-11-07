@@ -64,8 +64,7 @@ export default function App() {
         {showAd && <AdPopup onClose={() => setShowAd(false)} />}
 
         <Header />
-                                <FreeShipping />
-
+        <FreeShipping />
 
         <Routes>
           <Route
@@ -111,7 +110,136 @@ export default function App() {
               </main>
             }
           />
-\          <Route
+
+          <Route
+            path="/Vozol Star 40000 puffs"
+            element={
+              <main className="container">
+                <ProductsGrid
+                  products={data.products.filter(
+                    (product) => product.brand === "Vozol Star 40000 puffs"
+                  )}
+                  brand="Vozol Star 40000 puffs"
+                />
+              </main>
+            }
+          />
+
+          <Route
+            path="/Vozol Rave 40000 puffs"
+            element={
+              <main className="container">
+                <ProductsGrid
+                  products={data.products.filter(
+                    (product) => product.brand === "Vozol Rave 40000 puffs"
+                  )}
+                  brand="Vozol Rave 40000 puffs"
+                />
+              </main>
+            }
+          />
+
+          <Route
+            path="/Vozol Gear Shisha 25000 puffs"
+            element={
+              <main className="container">
+                <ProductsGrid
+                  products={data.products.filter(
+                    (product) =>
+                      product.brand === "Vozol Gear Shisha 25000 puffs"
+                  )}
+                  brand="Vozol Gear Shisha 25000 puffs"
+                />
+              </main>
+            }
+          />
+
+          <Route
+            path="/Vozol Star 20000 puffs"
+            element={
+              <main className="container">
+                <ProductsGrid
+                  products={data.products.filter(
+                    (product) => product.brand === "Vozol Star 20000 puffs"
+                  )}
+                  brand="Vozol Star 20000 puffs"
+                />
+              </main>
+            }
+          />
+
+          <Route
+            path="/Vozol Gear 20000 puffs"
+            element={
+              <main className="container">
+                <ProductsGrid
+                  products={data.products.filter(
+                    (product) => product.brand === "Vozol Gear 20000 puffs"
+                  )}
+                  brand="Vozol Gear 20000 puffs"
+                />
+              </main>
+            }
+          />
+
+          <Route
+            path="/Vtouch Smart Vape 30000 puffs"
+            element={
+              <main className="container">
+                <ProductsGrid
+                  products={data.products.filter(
+                    (product) =>
+                      product.brand === "Vtouch Smart Vape 30000 puffs"
+                  )}
+                  brand="Vtouch Smart Vape 30000 puffs"
+                />
+              </main>
+            }
+          />
+          <Route
+            path="/Vozol Gear 50000 puffs"
+            element={
+              <main className="container">
+                <ProductsGrid
+                  products={data.products.filter(
+                    (product) => product.brand === "Vozol Gear 50000 puffs"
+                  )}
+                  brand="Vozol Gear 50000 puffs"
+                />
+              </main>
+            }
+          />
+
+          <Route
+            path="/Vozol vista 40000 puffs"
+            element={
+              <main className="container">
+                <ProductsGrid
+                  products={data.products.filter(
+                    (product) => product.brand === "Vozol vista 40000 puffs"
+                  )}
+                  brand="Vozol vista 40000 puffs"
+                />
+              </main>
+            }
+          />
+
+          <Route
+            path="/Cokii Zero Necotine 16000 puffs"
+            element={
+              <main className="container">
+                <ProductsGrid
+                  products={data.products.filter(
+                    (product) =>
+                      product.brand === "Cokii Zero Necotine 16000 puffs"
+                  )}
+                  brand="Cokii Zero Necotine 16000 puffs"
+                />
+              </main>
+            }
+          />
+
+          <Route
             path="/products"
             element={
               <main className="container">
@@ -133,7 +261,6 @@ export default function App() {
 
           <Route path="/checkout" element={<Checkout />} />
           {/* <Route path="/products" element={<AllProducts />} /> */}
-
         </Routes>
         <Footer />
         <WhatsAppFab />

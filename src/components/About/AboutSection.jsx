@@ -1,5 +1,6 @@
 // src/components/About/AboutSection.jsx
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./AboutSection.css";
 import AboutImg from "../../../public/assets/AboutImages/aboutImg2.webp";
 // import video1 from "../../../public/assets/videos/video1.mp4";
@@ -97,22 +98,62 @@ const AboutSection = () => {
           </div>
 
           <div className="about-item">
-            {/* <div className="about-text">
+            <div className="about-text">
               <h3>Our Products</h3>
               <p>
                 We offer a wide range of Vape products suitable for all tastes
                 and levels:
               </p>
+
               <ul className="products-list">
-                <li>🔄 Beginner and advanced Vape devices</li>
-                <li>💨 E-liquids with various flavors</li>
-                <li>🔋 Batteries and accessories</li>
-                <li>🎯 Care and maintenance products</li>
+                <li> 
+                  <NavLink to="/Vozol Star 40000 puffs" className={({ isActive }) => isActive ? "product-link active" : "product-link"}>
+                     Vozol Star 40000 puffs
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/Vozol Rave 20000 puffs" className={({ isActive }) => isActive ? "product-link active" : "product-link"}>
+                    Vozol Rave 20000 puffs
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/Vozol Gear Shisha 25000 puffs" className={({ isActive }) => isActive ? "product-link active" : "product-link"}>
+                    Vozol Gear Shisha 25000 puffs
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/Vozol Star 20000 puffs" className={({ isActive }) => isActive ? "product-link active" : "product-link"}>
+                    Vozol Star 20000 puffs
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/Vozol Gear 20000 puffs" className={({ isActive }) => isActive ? "product-link active" : "product-link"}>
+                    Vozol Gear 20000 puffs
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/Vtouch Smart Vape 30000 puffs" className={({ isActive }) => isActive ? "product-link active" : "product-link"}>
+                    Vtouch Smart Vape 30000 puffs
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/Vozol Gear 50000 puffs" className={({ isActive }) => isActive ? "product-link active" : "product-link"}>
+                    Vozol Gear 50000 puffs
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/Vozol vista 40000 puffs" className={({ isActive }) => isActive ? "product-link active" : "product-link"}>
+                    Vozol vista 40000 puffs
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/Cokii Zero Necotine 16000 puffs" className={({ isActive }) => isActive ? "product-link active" : "product-link"}>
+                    Cokii Zero Necotine 16000 puffs
+                  </NavLink>
+                </li>
+                
               </ul>
             </div>
-            <div className="about-image">
-              <img src={AboutImg2} alt="" />
-            </div> */}
           </div>
         </div>
 
