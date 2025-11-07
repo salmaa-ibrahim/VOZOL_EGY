@@ -7,11 +7,11 @@ import "./Header.css";
 // import logo from "../../../assets/logo.svg";
 import logo2 from "../../../public/assets/Icons/vozolIcon.jpeg";
 import logo from "../../../public/assets/Icons/VOZOL LOGO.svg";
-import instagramIcon from "../../../assets/social media icons/instagram_icon.svg";
-import facebookIcon from "../../../assets/social media icons/facebook_icon.svg";
-import whatsappIcon from "../../../assets/social media icons/whatsapp_icon.svg";
-import tiktokIcon from "../../../assets/social media icons/tiktok_icon.svg";
-import cartIcon from "../../../assets/cart/cart_icon.svg";
+import instagramIcon from "../../../public/assets/social media icons/instagram_icon.svg";
+import facebookIcon from "../../../public/assets/social media icons/facebook_icon.svg";
+import whatsappIcon from "../../../public/assets/social media icons/whatsapp_icon.svg";
+import tiktokIcon from "../../../public/assets/social media icons/tiktok_icon.svg";
+import cartIcon from "../../../public/assets/cart/cart_icon.svg";
 import CartSidebar from "../CartSidebar/CartSidebar";
 export default function Header() {
   const [isCartOpen, setIsCartOpen] = useState(false);

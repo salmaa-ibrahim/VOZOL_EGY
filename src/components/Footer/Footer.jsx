@@ -1,10 +1,10 @@
 // src/components/Footer/Footer.jsx
 import React from "react";
 import "./Footer.css";
-import facebookIcon from "../../../assets/social media icons/facebook_icon.svg";
-import instagramIcon from "../../../assets/social media icons/instagram_icon.svg";
-import tiktokIcon from "../../../assets/social media icons/tiktok_icon.svg";
-import whatsappIcon from "../../../assets/social media icons/whatsapp_icon.svg";
+import facebookIcon from "../../../public/assets/social media icons/facebook_icon.svg";
+import instagramIcon from "../../../public/assets/social media icons/instagram_icon.svg";
+import tiktokIcon from "../../../public/assets/social media icons/tiktok_icon.svg";
+import whatsappIcon from "../../../public/assets/social media icons/whatsapp_icon.svg";
 
 const Footer = () => {
   return (

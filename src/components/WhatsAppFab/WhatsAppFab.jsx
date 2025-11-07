@@ -1,6 +1,6 @@
 import React from "react";
 import "./WhatsAppFab.css";
-import whatsappIcon from "../../../assets/social media icons/whatsapp_icon.svg";
+import  whatsappIcon from "../../../public/assets/social media icons/whatsapp_icon.svg"
 
 export default function WhatsAppFab() {
   return (

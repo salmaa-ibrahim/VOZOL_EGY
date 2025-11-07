@@ -20,6 +20,15 @@
   font-size: 25px;
   font-weight: 500;
 }
+
+.In-Stock {
+  color: green;
+  font-size: 12px;
+}
+.Out-of-Stock {
+  color: red;
+  font-size: 12px;
+}
 .image-container {
   width: 100%;
   height: auto;
