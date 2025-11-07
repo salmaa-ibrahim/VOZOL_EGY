@@ -54,7 +54,7 @@
 .brand-products {
   display: grid;
   gap: 12px;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
   /* grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); */
   padding: 0 20px;
 }
@@ -90,7 +90,7 @@
   }
   
   .brand-products {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns:auto auto auto ;
     gap: 20px;
     padding: 0 10px;
   }

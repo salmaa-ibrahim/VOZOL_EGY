@@ -115,7 +115,7 @@ const SearchBar = () => {
                 <div className="result-info">
                   <h4>{product.name || 'اسم غير متوفر'}</h4>
                   <p className="result-flavor">{product.flavor || 'نكهة غير متوفرة'}</p>
-                  <p className="result-price">${product.price || 'غير متوفر'}</p>
+                  <p className="result-price">EGP{product.price || 'غير متوفر'}</p>
                 </div>
               </div>
             ))

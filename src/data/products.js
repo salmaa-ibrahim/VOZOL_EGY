@@ -1,47 +1,81 @@
-import star_40k_1 from"/assets/products/Vozol Star 40000 puffs/1.jpg";
-import star_40k_2 from"/assets/products/Vozol Star 40000 puffs/2.jpg";
-import star_40k_3 from"/assets/products/Vozol Star 40000 puffs/3.jpg";
-import star_40k_4 from"/assets/products/Vozol Star 40000 puffs/4.jpg";
-import star_40k_5 from"/assets/products/Vozol Star 40000 puffs/5.jpg";
-import star_40k_6 from"/assets/products/Vozol Star 40000 puffs/6.jpg";
-import star_40k_7 from"/assets/products/Vozol Star 40000 puffs/7.jpg";
-import star_40k_8 from"/assets/products/Vozol Star 40000 puffs/8.jpg";
-import star_40k_9 from"/assets/products/Vozol Star 40000 puffs/9.jpg";
-import star_40k_10 from"/assets/products/Vozol Star 40000 puffs/10.jpg";
-import star_40k_11 from"/assets/products/Vozol Star 40000 puffs/11.jpg";
-import star_40k_12 from"/assets/products/Vozol Star 40000 puffs/12.jpg";
-import star_40k_13 from"/assets/products/Vozol Star 40000 puffs/13.jpg";
-import star_40k_14 from"/assets/products/Vozol Star 40000 puffs/14.jpg";
-import star_40k_15 from"/assets/products/Vozol Star 40000 puffs/15.jpg";
-import star_40k_16 from"/assets/products/Vozol Star 40000 puffs/16.jpg";
-import star_40k_17 from"/assets/products/Vozol Star 40000 puffs/17.jpg";
-import star_40k_18 from"/assets/products/Vozol Star 40000 puffs/18.jpg";
-import star_40k_19 from"/assets/products/Vozol Star 40000 puffs/19.jpg";
-import star_40k_20 from"/assets/products/Vozol Star 40000 puffs/20.jpg";
-import star_40k_21 from"/assets/products/Vozol Star 40000 puffs/21.jpg";
-import star_40k_22 from"/assets/products/Vozol Star 40000 puffs/22.jpg";
-import star_40k_23 from"/assets/products/Vozol Star 40000 puffs/23.jpg";
-import star_40k_24 from"/assets/products/Vozol Star 40000 puffs/24.jpg";
+import star_40k_1 from "/assets/products/Vozol Star 40000 puffs/1.jpg";
+import star_40k_2 from "/assets/products/Vozol Star 40000 puffs/2.jpg";
+import star_40k_3 from "/assets/products/Vozol Star 40000 puffs/3.jpg";
+import star_40k_4 from "/assets/products/Vozol Star 40000 puffs/4.jpg";
+import star_40k_5 from "/assets/products/Vozol Star 40000 puffs/5.jpg";
+import star_40k_6 from "/assets/products/Vozol Star 40000 puffs/6.jpg";
+import star_40k_7 from "/assets/products/Vozol Star 40000 puffs/7.jpg";
+import star_40k_8 from "/assets/products/Vozol Star 40000 puffs/8.jpg";
+import star_40k_9 from "/assets/products/Vozol Star 40000 puffs/9.jpg";
+import star_40k_10 from "/assets/products/Vozol Star 40000 puffs/10.jpg";
+import star_40k_11 from "/assets/products/Vozol Star 40000 puffs/11.jpg";
+import star_40k_12 from "/assets/products/Vozol Star 40000 puffs/12.jpg";
+import star_40k_13 from "/assets/products/Vozol Star 40000 puffs/13.jpg";
+import star_40k_14 from "/assets/products/Vozol Star 40000 puffs/14.jpg";
+import star_40k_15 from "/assets/products/Vozol Star 40000 puffs/15.jpg";
+import star_40k_16 from "/assets/products/Vozol Star 40000 puffs/16.jpg";
+import star_40k_17 from "/assets/products/Vozol Star 40000 puffs/17.jpg";
+import star_40k_18 from "/assets/products/Vozol Star 40000 puffs/18.jpg";
+import star_40k_19 from "/assets/products/Vozol Star 40000 puffs/19.jpg";
+import star_40k_20 from "/assets/products/Vozol Star 40000 puffs/20.jpg";
+import star_40k_21 from "/assets/products/Vozol Star 40000 puffs/21.jpg";
+import star_40k_22 from "/assets/products/Vozol Star 40000 puffs/22.jpg";
+import star_40k_23 from "/assets/products/Vozol Star 40000 puffs/23.jpg";
+import star_40k_24 from "/assets/products/Vozol Star 40000 puffs/24.jpg";
 
-import rave_40k_1 from "/assets/products/Vozol Rave 40000 puffs/1.jpg"
-import rave_40k_2 from "/assets/products/Vozol Rave 40000 puffs/2.jpg"
-import rave_40k_3 from "/assets/products/Vozol Rave 40000 puffs/3.jpg"
-import rave_40k_4 from "/assets/products/Vozol Rave 40000 puffs/4.jpg"
-import rave_40k_5 from "/assets/products/Vozol Rave 40000 puffs/5.jpg"
-import rave_40k_6 from "/assets/products/Vozol Rave 40000 puffs/6.jpg"
-import rave_40k_7 from "/assets/products/Vozol Rave 40000 puffs/7.jpg"
-import rave_40k_8 from "/assets/products/Vozol Rave 40000 puffs/8.jpg"
-import rave_40k_9 from "/assets/products/Vozol Rave 40000 puffs/9.jpg"
-import rave_40k_10 from "/assets/products/Vozol Rave 40000 puffs/10.jpg"
-import rave_40k_11 from "/assets/products/Vozol Rave 40000 puffs/11.jpg"
-import rave_40k_12 from "/assets/products/Vozol Rave 40000 puffs/12.jpg"
-import rave_40k_13 from "/assets/products/Vozol Rave 40000 puffs/13.jpg"
-import rave_40k_14 from "/assets/products/Vozol Rave 40000 puffs/14.jpg"
-import rave_40k_15 from "/assets/products/Vozol Rave 40000 puffs/15.jpg"
-import rave_40k_16 from "/assets/products/Vozol Rave 40000 puffs/16.jpg"
-import rave_40k_17 from "/assets/products/Vozol Rave 40000 puffs/17.jpg"
-import rave_40k_18 from "/assets/products/Vozol Rave 40000 puffs/18.jpg"
-import rave_40k_19 from "/assets/products/Vozol Rave 40000 puffs/19.jpg"
+import rave_40k_1 from "/assets/products/Vozol Rave 40000 puffs/1.jpg";
+import rave_40k_2 from "/assets/products/Vozol Rave 40000 puffs/2.jpg";
+import rave_40k_3 from "/assets/products/Vozol Rave 40000 puffs/3.jpg";
+import rave_40k_4 from "/assets/products/Vozol Rave 40000 puffs/4.jpg";
+import rave_40k_5 from "/assets/products/Vozol Rave 40000 puffs/5.jpg";
+import rave_40k_6 from "/assets/products/Vozol Rave 40000 puffs/6.jpg";
+import rave_40k_7 from "/assets/products/Vozol Rave 40000 puffs/7.jpg";
+import rave_40k_8 from "/assets/products/Vozol Rave 40000 puffs/8.jpg";
+import rave_40k_9 from "/assets/products/Vozol Rave 40000 puffs/9.jpg";
+import rave_40k_10 from "/assets/products/Vozol Rave 40000 puffs/10.jpg";
+import rave_40k_11 from "/assets/products/Vozol Rave 40000 puffs/11.jpg";
+import rave_40k_12 from "/assets/products/Vozol Rave 40000 puffs/12.jpg";
+import rave_40k_13 from "/assets/products/Vozol Rave 40000 puffs/13.jpg";
+import rave_40k_14 from "/assets/products/Vozol Rave 40000 puffs/14.jpg";
+import rave_40k_15 from "/assets/products/Vozol Rave 40000 puffs/15.jpg";
+import rave_40k_16 from "/assets/products/Vozol Rave 40000 puffs/16.jpg";
+import rave_40k_17 from "/assets/products/Vozol Rave 40000 puffs/17.jpg";
+import rave_40k_18 from "/assets/products/Vozol Rave 40000 puffs/18.jpg";
+import rave_40k_19 from "/assets/products/Vozol Rave 40000 puffs/19.jpg";
+
+import shisha_25k_1 from "/assets/products/Vozol Gear Shisha 25000 puffs/1.jpg";
+import shisha_25k_2 from "/assets/products/Vozol Gear Shisha 25000 puffs/2.jpg";
+import shisha_25k_3 from "/assets/products/Vozol Gear Shisha 25000 puffs/3.jpg";
+import shisha_25k_4 from "/assets/products/Vozol Gear Shisha 25000 puffs/4.jpg";
+import shisha_25k_5 from "/assets/products/Vozol Gear Shisha 25000 puffs/5.jpg";
+import shisha_25k_6 from "/assets/products/Vozol Gear Shisha 25000 puffs/6.jpg";
+import shisha_25k_7 from "/assets/products/Vozol Gear Shisha 25000 puffs/7.jpg";
+import shisha_25k_8 from "/assets/products/Vozol Gear Shisha 25000 puffs/8.jpg";
+import shisha_25k_9 from "/assets/products/Vozol Gear Shisha 25000 puffs/9.jpg";
+import shisha_25k_10 from "/assets/products/Vozol Gear Shisha 25000 puffs/10.jpg";
+import shisha_25k_11 from "/assets/products/Vozol Gear Shisha 25000 puffs/11.jpg";
+import shisha_25k_12 from "/assets/products/Vozol Gear Shisha 25000 puffs/12.jpg";
+import shisha_25k_13 from "/assets/products/Vozol Gear Shisha 25000 puffs/13.jpg";
+import shisha_25k_14 from "/assets/products/Vozol Gear Shisha 25000 puffs/14.jpg";
+import shisha_25k_15 from "/assets/products/Vozol Gear Shisha 25000 puffs/15.jpg";
+import shisha_25k_16 from "/assets/products/Vozol Gear Shisha 25000 puffs/16.jpg";
+import shisha_25k_17 from "/assets/products/Vozol Gear Shisha 25000 puffs/17.jpg";
+import shisha_25k_18 from "/assets/products/Vozol Gear Shisha 25000 puffs/18.jpg";
+import shisha_25k_19 from "/assets/products/Vozol Gear Shisha 25000 puffs/19.jpg";
+import shisha_25k_20 from "/assets/products/Vozol Gear Shisha 25000 puffs/20.jpg";
+
+import star_20k_1 from "/assets/products/Vozol Star 20000 puffs/1.jpg";
+import star_20k_2 from "/assets/products/Vozol Star 20000 puffs/2.jpg";
+import star_20k_3 from "/assets/products/Vozol Star 20000 puffs/3.jpg";
+import star_20k_4 from "/assets/products/Vozol Star 20000 puffs/4.jpg";
+import star_20k_5 from "/assets/products/Vozol Star 20000 puffs/5.jpg";
+import star_20k_6 from "/assets/products/Vozol Star 20000 puffs/6.jpg";
+import star_20k_7 from "/assets/products/Vozol Star 20000 puffs/7.jpg";
+import star_20k_8 from "/assets/products/Vozol Star 20000 puffs/8.jpg";
+import star_20k_9 from "/assets/products/Vozol Star 20000 puffs/9.jpg";
+import star_20k_10 from "/assets/products/Vozol Star 20000 puffs/10.jpg";
+import star_20k_11 from "/assets/products/Vozol Star 20000 puffs/11.jpg";
+import star_20k_12 from "/assets/products/Vozol Star 20000 puffs/12.jpg";
 const products = {
   banners: [
     { id: 1, title: "Banner 1", img: "/assets/banar images/banar4.webp" },
@@ -50,7 +84,7 @@ const products = {
     { id: 4, title: "Banner 4", img: "/assets/banar images/banar3.webp" },
   ],
   products: [
-                                           //-------------Vozol Star 40000 puffs-------------------
+    //-------------Vozol Star 40000 puffs-------------------
     {
       id: 1,
       name: "Vozol Star 40000 puffs",
@@ -435,7 +469,7 @@ const products = {
       // video: "../../public/assets/videos/video1.mp4",
       // deviceType: "Pod",
     },
-                                //-------------Vozol Rave 40000 puffs-------------------
+    //-------------Vozol Rave 40000 puffs-------------------
     {
       id: 25,
       name: "Vozol Rave 40000 puffs",
@@ -452,7 +486,7 @@ const products = {
       // video: "../../public/assets/videos/video1.mp4",
       // deviceType: "Pod",
     },
-     {
+    {
       id: 26,
       name: "Vozol Rave 40000 puffs",
       flavor: "strawberry watermelon",
@@ -481,7 +515,8 @@ const products = {
       // flavors: "8",
       // video: "../../public/assets/videos/video1.mp4",
       // deviceType: "Pod",
-    },{
+    },
+    {
       id: 28,
       name: "Vozol Rave 40000 puffs",
       flavor: "blueberry ice",
@@ -495,7 +530,8 @@ const products = {
       // flavors: "8",
       // video: "../../public/assets/videos/video1.mp4",
       // deviceType: "Pod",
-    },{
+    },
+    {
       id: 29,
       name: "Vozol Rave 40000 puffs",
       flavor: "mango ice",
@@ -509,7 +545,8 @@ const products = {
       // flavors: "8",
       // video: "../../public/assets/videos/video1.mp4",
       // deviceType: "Pod",
-    },{
+    },
+    {
       id: 30,
       name: "Vozol Rave 40000 puffs",
       flavor: "strawberry ice",
@@ -523,7 +560,8 @@ const products = {
       // flavors: "8",
       // video: "../../public/assets/videos/video1.mp4",
       // deviceType: "Pod",
-    },{
+    },
+    {
       id: 31,
       name: "Vozol Rave 40000 puffs",
       flavor: "love 777",
@@ -537,7 +575,8 @@ const products = {
       // flavors: "8",
       // video: "../../public/assets/videos/video1.mp4",
       // deviceType: "Pod",
-    },{
+    },
+    {
       id: 32,
       name: "Vozol Rave 40000 puffs",
       flavor: "blueberry watermelon",
@@ -551,7 +590,8 @@ const products = {
       // flavors: "8",
       // video: "../../public/assets/videos/video1.mp4",
       // deviceType: "Pod",
-    },{
+    },
+    {
       id: 33,
       name: "Vozol Rave 40000 puffs",
       flavor: "blue razz ice",
@@ -565,7 +605,8 @@ const products = {
       // flavors: "8",
       // video: "../../public/assets/videos/video1.mp4",
       // deviceType: "Pod",
-    },{
+    },
+    {
       id: 34,
       name: "Vozol Rave 40000 puffs",
       flavor: "cherry strawberry",
@@ -579,7 +620,8 @@ const products = {
       // flavors: "8",
       // video: "../../public/assets/videos/video1.mp4",
       // deviceType: "Pod",
-    },{
+    },
+    {
       id: 35,
       name: "Vozol Rave 40000 puffs",
       flavor: "watermelon razz rancher",
@@ -593,7 +635,8 @@ const products = {
       // flavors: "8",
       // video: "../../public/assets/videos/video1.mp4",
       // deviceType: "Pod",
-    },{
+    },
+    {
       id: 36,
       name: "Vozol Rave 40000 puffs",
       flavor: "strawberry mango",
@@ -607,7 +650,8 @@ const products = {
       // flavors: "8",
       // video: "../../public/assets/videos/video1.mp4",
       // deviceType: "Pod",
-    },{
+    },
+    {
       id: 37,
       name: "Vozol Rave 40000 puffs",
       flavor: "strawmelon peach",
@@ -621,7 +665,8 @@ const products = {
       // flavors: "8",
       // video: "../../public/assets/videos/video1.mp4",
       // deviceType: "Pod",
-    },{
+    },
+    {
       id: 38,
       name: "Vozol Rave 40000 puffs",
       flavor: "watermelon bubblegum",
@@ -635,7 +680,8 @@ const products = {
       // flavors: "8",
       // video: "../../public/assets/videos/video1.mp4",
       // deviceType: "Pod",
-    },{
+    },
+    {
       id: 39,
       name: "Vozol Rave 40000 puffs",
       flavor: "mango peach",
@@ -649,7 +695,8 @@ const products = {
       // flavors: "8",
       // video: "../../public/assets/videos/video1.mp4",
       // deviceType: "Pod",
-    },{
+    },
+    {
       id: 40,
       name: "Vozol Rave 40000 puffs",
       flavor: "peach ice",
@@ -663,7 +710,8 @@ const products = {
       // flavors: "8",
       // video: "../../public/assets/videos/video1.mp4",
       // deviceType: "Pod",
-    },{
+    },
+    {
       id: 41,
       name: "Vozol Rave 40000 puffs",
       flavor: "peach raspberry lemonade",
@@ -677,7 +725,8 @@ const products = {
       // flavors: "8",
       // video: "../../public/assets/videos/video1.mp4",
       // deviceType: "Pod",
-    },{
+    },
+    {
       id: 42,
       name: "Vozol Rave 40000 puffs",
       flavor: "grape ice",
@@ -691,7 +740,8 @@ const products = {
       // flavors: "8",
       // video: "../../public/assets/videos/video1.mp4",
       // deviceType: "Pod",
-    },{
+    },
+    {
       id: 43,
       name: "Vozol Rave 40000 puffs",
       flavor: "strawberry kiwi",
@@ -706,6 +756,524 @@ const products = {
       // video: "../../public/assets/videos/video1.mp4",
       // deviceType: "Pod",
     },
+
+    //------------- Shisha 25000 puffs-------------------
+    {
+      id: 44,
+      name: "Vozol Gear Shisha 25000 puffs",
+      flavor: "none",
+      price: 880,
+      img: shisha_25k_1,
+      brand: "Vozol Gear Shisha 25000 puffs",
+      BrandImg: "/assets/banar images/shisha 25k.webp",
+      description: "none",
+      puffs: "25000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+    {
+      id: 45,
+      name: "Vozol Gear Shisha 25000 puffs",
+      flavor: "none",
+      price: 880,
+      img: shisha_25k_2,
+      brand: "Vozol Gear Shisha 25000 puffs",
+      description: "none",
+      puffs: "25000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+
+    {
+      id: 46,
+      name: "Vozol Gear Shisha 25000 puffs",
+      flavor: "none",
+      price: 880,
+      img: shisha_25k_2,
+      brand: "Vozol Gear Shisha 25000 puffs",
+      description: "none",
+      puffs: "25000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+    {
+      id: 47,
+      name: "Vozol Gear Shisha 25000 puffs",
+      flavor: "none",
+      price: 880,
+      img: shisha_25k_3,
+      brand: "Vozol Gear Shisha 25000 puffs",
+      description: "none",
+      puffs: "25000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+    {
+      id: 48,
+      name: "Vozol Gear Shisha 25000 puffs",
+      flavor: "none",
+      price: 880,
+      img: shisha_25k_4,
+      brand: "Vozol Gear Shisha 25000 puffs",
+      description: "none",
+      puffs: "25000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+    {
+      id: 49,
+      name: "Vozol Gear Shisha 25000 puffs",
+      flavor: "none",
+      price: 880,
+      img: shisha_25k_5,
+      brand: "Vozol Gear Shisha 25000 puffs",
+      description: "none",
+      puffs: "25000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+    {
+      id: 50,
+      name: "Vozol Gear Shisha 25000 puffs",
+      flavor: "none",
+      price: 880,
+      img: shisha_25k_6,
+      brand: "Vozol Gear Shisha 25000 puffs",
+      description: "none",
+      puffs: "25000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+    {
+      id: 51,
+      name: "Vozol Gear Shisha 25000 puffs",
+      flavor: "none",
+      price: 880,
+      img: shisha_25k_7,
+      brand: "Vozol Gear Shisha 25000 puffs",
+      description: "none",
+      puffs: "25000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+    {
+      id: 52,
+      name: "Vozol Gear Shisha 25000 puffs",
+      flavor: "none",
+      price: 880,
+      img: shisha_25k_8,
+      brand: "Vozol Gear Shisha 25000 puffs",
+      description: "none",
+      puffs: "25000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+    {
+      id: 53,
+      name: "Vozol Gear Shisha 25000 puffs",
+      flavor: "none",
+      price: 880,
+      img: shisha_25k_9,
+      brand: "Vozol Gear Shisha 25000 puffs",
+      description: "none",
+      puffs: "25000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+    {
+      id: 54,
+      name: "Vozol Gear Shisha 25000 puffs",
+      flavor: "none",
+      price: 880,
+      img: shisha_25k_10,
+      brand: "Vozol Gear Shisha 25000 puffs",
+      description: "none",
+      puffs: "25000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+    {
+      id: 55,
+      name: "Vozol Gear Shisha 25000 puffs",
+      flavor: "none",
+      price: 880,
+      img: shisha_25k_11,
+      brand: "Vozol Gear Shisha 25000 puffs",
+      description: "none",
+      puffs: "25000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+    {
+      id: 56,
+      name: "Vozol Gear Shisha 25000 puffs",
+      flavor: "none",
+      price: 880,
+      img: shisha_25k_12,
+      brand: "Vozol Gear Shisha 25000 puffs",
+      description: "none",
+      puffs: "25000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+    {
+      id: 57,
+      name: "Vozol Gear Shisha 25000 puffs",
+      flavor: "none",
+      price: 880,
+      img: shisha_25k_13,
+      brand: "Vozol Gear Shisha 25000 puffs",
+      description: "none",
+      puffs: "25000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+    {
+      id: 58,
+      name: "Vozol Gear Shisha 25000 puffs",
+      flavor: "none",
+      price: 880,
+      img: shisha_25k_14,
+      brand: "Vozol Gear Shisha 25000 puffs",
+      description: "none",
+      puffs: "25000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+    {
+      id: 59,
+      name: "Vozol Gear Shisha 25000 puffs",
+      flavor: "none",
+      price: 880,
+      img: shisha_25k_15,
+      brand: "Vozol Gear Shisha 25000 puffs",
+      description: "none",
+      puffs: "25000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+    {
+      id: 60,
+      name: "Vozol Gear Shisha 25000 puffs",
+      flavor: "none",
+      price: 880,
+      img: shisha_25k_16,
+      brand: "Vozol Gear Shisha 25000 puffs",
+      description: "none",
+      puffs: "25000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+    {
+      id: 61,
+      name: "Vozol Gear Shisha 25000 puffs",
+      flavor: "none",
+      price: 880,
+      img: shisha_25k_17,
+      brand: "Vozol Gear Shisha 25000 puffs",
+      description: "none",
+      puffs: "25000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+    {
+      id: 62,
+      name: "Vozol Gear Shisha 25000 puffs",
+      flavor: "none",
+      price: 880,
+      img: shisha_25k_18,
+      brand: "Vozol Gear Shisha 25000 puffs",
+      description: "none",
+      puffs: "25000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+    {
+      id: 63,
+      name: "Vozol Gear Shisha 25000 puffs",
+      flavor: "none",
+      price: 880,
+      img: shisha_25k_19,
+      brand: "Vozol Gear Shisha 25000 puffs",
+      description: "none",
+      puffs: "25000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+    {
+      id: 64,
+      name: "Vozol Gear Shisha 25000 puffs",
+      flavor: "none",
+      price: 880,
+      img: shisha_25k_20,
+      brand: "Vozol Gear Shisha 25000 puffs",
+      description: "none",
+      puffs: "25000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+
+    //-------------Vozol Star 20000 puffs-------------------
+    {
+      id: 65,
+      name: "Vozol Star 20000 puffs",
+      flavor: "Sour Apple Ice",
+      price: 780,
+      img: star_20k_1,
+      brand: "Vozol Star 20000 puffs",
+      BrandImg: "/assets/banar images/star 20k.webp",
+      description: "none",
+      puffs: "20000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+    {
+      id: 66,
+      name: "Vozol Star 20000 puffs",
+      flavor: "Sour Apple Ice",
+      price: 780,
+      img: star_20k_2,
+      brand: "Vozol Star 20000 puffs",
+      description: "none",
+      puffs: "20000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+    {
+      id: 67,
+      name: "Vozol Star 20000 puffs",
+      flavor: "Sour Apple Ice",
+      price: 780,
+      img: star_20k_2,
+      brand: "Vozol Star 20000 puffs",
+      description: "none",
+      puffs: "20000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+       {
+      id: 68,
+      name: "Vozol Star 20000 puffs",
+      flavor: "Sour Apple Ice",
+      price: 780,
+      img: star_20k_3,
+      brand: "Vozol Star 20000 puffs",
+      description: "none",
+      puffs: "20000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+       {
+      id: 69,
+      name: "Vozol Star 20000 puffs",
+      flavor: "Sour Apple Ice",
+      price: 780,
+      img: star_20k_4,
+      brand: "Vozol Star 20000 puffs",
+      description: "none",
+      puffs: "20000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+       {
+      id: 70,
+      name: "Vozol Star 20000 puffs",
+      flavor: "Sour Apple Ice",
+      price: 780,
+      img: star_20k_5,
+      brand: "Vozol Star 20000 puffs",
+      description: "none",
+      puffs: "20000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+     {
+      id: 71,
+      name: "Vozol Star 20000 puffs",
+      flavor: "Sour Apple Ice",
+      price: 780,
+      img: star_20k_6,
+      brand: "Vozol Star 20000 puffs",
+      description: "none",
+      puffs: "20000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+     {
+      id: 72,
+      name: "Vozol Star 20000 puffs",
+      flavor: "Sour Apple Ice",
+      price: 780,
+      img: star_20k_7,
+      brand: "Vozol Star 20000 puffs",
+      description: "none",
+      puffs: "20000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+     {
+      id: 73,
+      name: "Vozol Star 20000 puffs",
+      flavor: "Sour Apple Ice",
+      price: 780,
+      img: star_20k_8,
+      brand: "Vozol Star 20000 puffs",
+      description: "none",
+      puffs: "20000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+     {
+      id: 74,
+      name: "Vozol Star 20000 puffs",
+      flavor: "Sour Apple Ice",
+      price: 780,
+      img: star_20k_9,
+      brand: "Vozol Star 20000 puffs",
+      description: "none",
+      puffs: "20000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+     {
+      id: 75,
+      name: "Vozol Star 20000 puffs",
+      flavor: "Sour Apple Ice",
+      price: 780,
+      img: star_20k_10,
+      brand: "Vozol Star 20000 puffs",
+      description: "none",
+      puffs: "20000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+     {
+      id: 76,
+      name: "Vozol Star 20000 puffs",
+      flavor: "Sour Apple Ice",
+      price: 780,
+      img: star_20k_11,
+      brand: "Vozol Star 20000 puffs",
+      description: "none",
+      puffs: "20000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+      {
+      id: 77,
+      name: "Vozol Star 20000 puffs",
+      flavor: "Sour Apple Ice",
+      price: 780,
+      img: star_20k_12,
+      brand: "Vozol Star 20000 puffs",
+      description: "none",
+      puffs: "20000",
+      inStock: true,
+      // technology: "Nicotine Salt",
+      // flavors: "8",
+      // video: "../../public/assets/videos/video1.mp4",
+      // deviceType: "Pod",
+    },
+
   ],
 };
 
