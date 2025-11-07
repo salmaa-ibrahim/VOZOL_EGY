@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="policies-simple">
           <div className="policy-item">
             <span>سياسة الاستبدال والاسترجاع</span>
-            <p>يمكنك إرجاع المنتجات خلال 30 يومًا من الاستلام.</p>
+            <p>يمكنك إستبدال المنتجات خلال 3 ايام من الاستلام في حالة وجود عيب بالمنتج .</p>
           </div>
           <div className="policy-item">
             <span>سياسة الشحن والتوصيل</span>
