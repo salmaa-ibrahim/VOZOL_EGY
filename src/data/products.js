@@ -38,7 +38,7 @@ const products = {
       price: 900,
       img: star_40k_1,
       brand: "Vozol Star 40000 puffs",
-      BrandImg: "../../public/assets/banar images/star 40000.webp",
+      BrandImg: "/assets/banar images/star 40000.webp",
       description: "none",
       puffs: "40000",
       inStock: true,

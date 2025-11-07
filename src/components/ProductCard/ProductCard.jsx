@@ -1,11 +1,12 @@
 
-import React, { useState } from "react";
+import React from "react";
+// import { useState } from "react";
 import { useCart } from "../../contexts/CartContext";
 import "./ProductCard.css";
 import { useNavigate , Link } from "react-router-dom";
 export default function ProductCard({ product }) {
   const { addItem } = useCart();
-  const [flavor, setFlavor] = useState(product.flavor || "");
+  // const [flavor, setFlavor] = useState(product.flavor || "");
   const navigate = useNavigate();
   const handleBuyNow = () => {
     addItem(product);
@@ -26,7 +27,7 @@ export default function ProductCard({ product }) {
       <p>{product.name} <span className={product.inStock ? "In-Stock" : "Out-of-Stock"}>{product.inStock ? "In Stock" : "Out of Stock"}</span>
       </p>
       <div className="meta">{product.flavor}</div>
-      <div className="description">{product.description}</div>
+      {/* <div className="description">{product.description}</div> */}
       <div className="price">EGP {product.price}</div>
       <div className="actionsBtn">
         <button className="btn" onClick={handleAddToCart}>
