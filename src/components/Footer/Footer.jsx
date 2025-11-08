@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="policies-simple">
           <div className="policy-item">
             <span>سياسة الاستبدال والاسترجاع</span>
-            <p>يمكنك إرجاع المنتجات خلال 30 يومًا من الاستلام.</p>
+            <p>يمكنك إستبدال المنتجات خلال 3 ايام من الاستلام في حالة وجود عيب بالمنتج .</p>
           </div>
           <div className="policy-item">
             <span>سياسة الشحن والتوصيل</span>
@@ -38,7 +38,7 @@ const Footer = () => {
             </div>
             <div className="contact-simple">
               <p>📧 info@vozolegy.com</p>
-              <p>📞 +20 123 456 789</p>
+              <p>📞 +20 150 533 7422   </p>
             </div>
           </div>
 
@@ -77,7 +77,7 @@ const Footer = () => {
               </a>
               <a
                 className="socialFooter"
-                href="https://wa.me/201141341192?text=مرحباً، أريد الاستفسار عن المنتجات"
+                href="https://wa.me/201505337422?text=مرحباً، أريد الاستفسار عن المنتجات"
                 target="_blank"
               >
                 <img src={whatsappIcon} alt="" />
