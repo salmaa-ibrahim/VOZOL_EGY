@@ -391,9 +391,19 @@
   }
 
   .related-list {
+    width: 100%;
     display: grid;
+    flex-wrap: none;
     grid-template-columns: auto auto;
 
+  }
+
+  .related-item {
+    width: 100%;
+  }
+  .related-item img {
+    width: 100%;
+    height: auto;
   }
 }
 
