@@ -101,10 +101,10 @@ import vtouch_30k_11 from "/assets/products/Vtouch Smart Vape 30000 puffs/11.jpg
 
 const products = {
   banners: [
-    { id: 1, title: "Banner 1", img: "../../public/assets/banar images/rave 40000.webp" },
-    { id: 2, title: "Banner 2", img: "../../public/assets/banar images/shisha 25k.webp" },
-    { id: 3, title: "Banner 3", img: "../../public/assets/banar images/Vtouch Smart Vape 30000 puffs.jpeg" },
-    { id: 4, title: "Banner 4", img: "../../public/assets/banar images/star 40000.webp" },
+    { id: 1, title: "Banner 1", img: "/assets/banar images/rave 40000.webp" },
+    { id: 2, title: "Banner 2", img: "/assets/banar images/shisha 25k.webp" },
+    { id: 3, title: "Banner 3", img: "/assets/banar images/Vtouch Smart Vape 30000 puffs.jpeg" },
+    { id: 4, title: "Banner 4", img: "/assets/banar images/star 40000.webp" },
   ],
   products: [
     //-------------Vozol Star 40000 puffs-------------------
