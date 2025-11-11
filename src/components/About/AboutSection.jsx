@@ -126,7 +126,7 @@ const AboutSection = () => {
                     isActive ? "product-link active" : "product-link"
                   }
                 >
-                 ★ Vtouch Smart Vape 30000 puffs
+                 ★ Vtouch Smart Vape 30000
                 </NavLink>
               </li>
               <li>
@@ -156,7 +156,7 @@ const AboutSection = () => {
                     isActive ? "product-link active" : "product-link"
                   }
                 >
-                 ★ Cokii Zero Necotine 16000 puffs
+                 ★ Cokii Zero Necotine 16000 
                 </NavLink>
               </li>
             </ul>
