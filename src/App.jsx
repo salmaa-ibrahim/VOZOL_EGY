@@ -169,6 +169,34 @@ export default function App() {
           />
 
           <Route
+            path="/Vozol Rave 40000 puffs"
+            element={
+              <main className="container">
+                <ProductsGrid
+                  products={data.products.filter(
+                    (product) => product.brand === "Vozol Rave 40000 puffs"
+                  )}
+                  brand="Vozol Rave 40000 puffs"
+                />
+              </main>
+            }
+          />
+
+          <Route
+            path="/Coki Zero Necotine 16000 puffs"
+            element={
+              <main className="container">
+                <ProductsGrid
+                  products={data.products.filter(
+                    (product) => product.brand === "Coki Zero Necotine 16000 puffs"
+                  )}
+                  brand="Coki Zero Necotine 16000 puffs"
+                />
+              </main>
+            }
+          />
+
+          <Route
             path="/Vozol Gear 20000 puffs"
             element={
               <main className="container">

@@ -76,17 +76,17 @@ const AboutSection = () => {
                     isActive ? "product-link active" : "product-link"
                   }
                 >
-                  Vozol Star 40000 puffs
+                  ★ Vozol Star 40000 puffs
                 </NavLink>
               </li>
               <li>
                 <NavLink
-                  to="/Vozol Rave 20000 puffs"
+                  to="/Vozol Rave 40000 puffs"
                   className={({ isActive }) =>
                     isActive ? "product-link active" : "product-link"
                   }
                 >
-                  Vozol Rave 20000 puffs
+                 ★ Vozol Rave 20000 puffs
                 </NavLink>
               </li>
               <li>
@@ -96,7 +96,7 @@ const AboutSection = () => {
                     isActive ? "product-link active" : "product-link"
                   }
                 >
-                  Vozol Gear Shisha 25000 puffs
+                 ★ Vozol Gear Shisha 25000 puffs
                 </NavLink>
               </li>
               <li>
@@ -106,7 +106,7 @@ const AboutSection = () => {
                     isActive ? "product-link active" : "product-link"
                   }
                 >
-                  Vozol Star 20000 puffs
+                 ★ Vozol Star 20000 puffs
                 </NavLink>
               </li>
               <li>
@@ -116,7 +116,7 @@ const AboutSection = () => {
                     isActive ? "product-link active" : "product-link"
                   }
                 >
-                  Vozol Gear 20000 puffs
+                 ★ Vozol Gear 20000 puffs
                 </NavLink>
               </li>
               <li>
@@ -126,7 +126,7 @@ const AboutSection = () => {
                     isActive ? "product-link active" : "product-link"
                   }
                 >
-                  Vtouch Smart Vape 30000 puffs
+                 ★ Vtouch Smart Vape 30000 puffs
                 </NavLink>
               </li>
               <li>
@@ -136,7 +136,7 @@ const AboutSection = () => {
                     isActive ? "product-link active" : "product-link"
                   }
                 >
-                  Vozol Gear 50000 puffs
+                  ★ Vozol Gear 50000 puffs
                 </NavLink>
               </li>
               <li>
@@ -146,17 +146,17 @@ const AboutSection = () => {
                     isActive ? "product-link active" : "product-link"
                   }
                 >
-                  Vozol vista 40000 puffs
+                 ★ Vozol vista 40000 puffs
                 </NavLink>
               </li>
               <li>
                 <NavLink
-                  to="/Cokii Zero Necotine 16000 puffs"
+                  to="/Coki Zero Necotine 16000 puffs"
                   className={({ isActive }) =>
                     isActive ? "product-link active" : "product-link"
                   }
                 >
-                  Cokii Zero Necotine 16000 puffs
+                 ★ Cokii Zero Necotine 16000 puffs
                 </NavLink>
               </li>
             </ul>
