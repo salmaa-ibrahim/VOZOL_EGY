@@ -111,6 +111,16 @@ const AboutSection = () => {
               </li>
               <li>
                 <NavLink
+                  to="/Vtouch Smart Vape 30000 puffs"
+                  className={({ isActive }) =>
+                    isActive ? "product-link active" : "product-link"
+                  }
+                >
+                  ★ Vtouch Smart Vape 30000
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
                   to="/Vozol Gear Shisha 25000 puffs"
                   className={({ isActive }) =>
                     isActive ? "product-link active" : "product-link"
@@ -137,16 +147,6 @@ const AboutSection = () => {
                   }
                 >
                   ★ Vozol Gear 20000 puffs
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/Vtouch Smart Vape 30000 puffs"
-                  className={({ isActive }) =>
-                    isActive ? "product-link active" : "product-link"
-                  }
-                >
-                  ★ Vtouch Smart Vape 30000
                 </NavLink>
               </li>
 
