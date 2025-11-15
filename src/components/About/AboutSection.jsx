@@ -49,14 +49,14 @@ const AboutSection = () => {
                 warranty
               </p>
             </div>
-            <div className="feature">
+            {/* <div className="feature">
               <div className="feature-icon">🛡️</div>
               <h4>Technical Support</h4>
               <p>
                 Technical support team available to help you choose the right
                 product
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -69,6 +69,26 @@ const AboutSection = () => {
             </p>
 
             <ul className="products-list">
+              <li>
+                <NavLink
+                  to="/Vozol Gear 50000 puffs"
+                  className={({ isActive }) =>
+                    isActive ? "product-link active" : "product-link"
+                  }
+                >
+                  ★ Vozol Gear 50000 puffs
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/Coki Zero Necotine 16000 puffs"
+                  className={({ isActive }) =>
+                    isActive ? "product-link active" : "product-link"
+                  }
+                >
+                  ★ Cokii Zero Necotine 16000
+                </NavLink>
+              </li>
               <li>
                 <NavLink
                   to="/Vozol Star 40000 puffs"
@@ -86,7 +106,7 @@ const AboutSection = () => {
                     isActive ? "product-link active" : "product-link"
                   }
                 >
-                 ★ Vozol Rave 20000 puffs
+                  ★ Vozol Rave 40000 puffs
                 </NavLink>
               </li>
               <li>
@@ -96,7 +116,7 @@ const AboutSection = () => {
                     isActive ? "product-link active" : "product-link"
                   }
                 >
-                 ★ Vozol Gear Shisha 25000 puffs
+                  ★ Vozol Gear Shisha 25000 puffs
                 </NavLink>
               </li>
               <li>
@@ -106,7 +126,7 @@ const AboutSection = () => {
                     isActive ? "product-link active" : "product-link"
                   }
                 >
-                 ★ Vozol Star 20000 puffs
+                  ★ Vozol Star 20000 puffs
                 </NavLink>
               </li>
               <li>
@@ -116,7 +136,7 @@ const AboutSection = () => {
                     isActive ? "product-link active" : "product-link"
                   }
                 >
-                 ★ Vozol Gear 20000 puffs
+                  ★ Vozol Gear 20000 puffs
                 </NavLink>
               </li>
               <li>
@@ -126,37 +146,18 @@ const AboutSection = () => {
                     isActive ? "product-link active" : "product-link"
                   }
                 >
-                 ★ Vtouch Smart Vape 30000
+                  ★ Vtouch Smart Vape 30000
                 </NavLink>
               </li>
+
               <li>
                 <NavLink
-                  to="/Vozol Gear 50000 puffs"
+                  to="/Vozol Vista 40000 puffs"
                   className={({ isActive }) =>
                     isActive ? "product-link active" : "product-link"
                   }
                 >
-                  ★ Vozol Gear 50000 puffs
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/Vozol vista 40000 puffs"
-                  className={({ isActive }) =>
-                    isActive ? "product-link active" : "product-link"
-                  }
-                >
-                 ★ Vozol vista 40000 puffs
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/Coki Zero Necotine 16000 puffs"
-                  className={({ isActive }) =>
-                    isActive ? "product-link active" : "product-link"
-                  }
-                >
-                 ★ Cokii Zero Necotine 16000 
+                  ★ Vozol vista 40000 puffs
                 </NavLink>
               </li>
             </ul>

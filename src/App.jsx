@@ -15,6 +15,7 @@ import ProductDetails from "./components/ProductDetails/ProductDetails";
 import Checkout from "./pages/Checkout/Checkout";
 import Footer from "./components/Footer/Footer";
 import WhatsAppFab from "./components/WhatsAppFab/WhatsAppFab";
+import ScrollToTop from "./components/ScrollToTop";
 import { CartProvider } from "./contexts/CartContext";
 import data from "./data/products";
 import "./styles/layout.css";
@@ -59,6 +60,7 @@ export default function App() {
   };
   return (
     <CartProvider>
+       <ScrollToTop />
       <div className="App">
         {showAgeGate && <AgeGate onAccept={handleAgeAccepted} />}
         {showAd && <AdPopup onClose={() => setShowAd(false)} />}
@@ -89,7 +91,7 @@ export default function App() {
 
                 {/* <PromoBanner text="Vozolag - Premium flavors. Modern design. Fast shipping." />
                 <PromoBanner text="FREE SHIPPING" /> */}
-                <TopProducts items={data.products.slice(0, 5)} />
+                <TopProducts items={data.TopProducts.slice(0, 5)} />
                 <ProductsGrid products={data.products} />
 
                 {/* إضافة قسم About هنا */}
@@ -239,14 +241,14 @@ export default function App() {
           />
 
           <Route
-            path="/Vozol vista 40000 puffs"
+            path="/Vozol Vista 40000 puffs"
             element={
               <main className="container">
                 <ProductsGrid
                   products={data.products.filter(
-                    (product) => product.brand === "Vozol vista 40000 puffs"
+                    (product) => product.brand === "Vozol Vista 40000 puffs"
                   )}
-                  brand="Vozol vista 40000 puffs"
+                  brand="Vozol Vista 40000 puffs"
                 />
               </main>
             }
