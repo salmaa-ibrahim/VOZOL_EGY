@@ -118,6 +118,13 @@
   width: 100%;
 }
 
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+gap: 15px;
+}
 .products-list {
   list-style: none;
   padding: 0 10px;
@@ -210,6 +217,14 @@
 }
 
 @media screen and (max-width: 480px) {
+ 
+  .new a{
+    text-decoration: none;
+  }
+  
+  .features-grid {
+    grid-template-columns: auto ;
+  }
   .about-header {
     margin-bottom: 10px;
   }

@@ -7,6 +7,9 @@ import AboutImg from "../../../public/assets/AboutImages/aboutImg2.webp";
 // import video2 from "../../../public/assets/videos/video2.mp4";
 import AboutImg3 from "../../../public/assets/AboutImages/Screenshot 2025-11-06 123341.png";
 import AboutImg2 from "../../../public/assets/AboutImages/aboutImg2.webp";
+import instagramIcon from "../../../public/assets/social media icons/instagram_icon.svg";
+import whatsappIcon from "../../../public/assets/social media icons/whatsapp_icon.svg";
+import PhoneCall from "../../../public/assets/Icons/Phone call.png"
 const AboutSection = () => {
   return (
     <section className="about-section" id="about">
@@ -22,11 +25,11 @@ const AboutSection = () => {
           <h3>Why Choose VOZOLEGY?</h3>
           <div className="features-grid">
             <div className="feature">
-              <div className="feature-icon">💳</div>
-              <h4>Secure Payment</h4>
-              <p>
+              {/* <div className="feature-icon">💳</div>
+              <h4>Secure Payment</h4> */}
+              {/* <p>
                 Secure and multiple payment systems suitable for all customers
-              </p>
+              </p> */}
               <div className="payment">
                 <img
                   src="../../../assets/social media icons/OIP.webp"
@@ -37,17 +40,46 @@ const AboutSection = () => {
             <div className="feature">
               <div className="feature-icon">🚚</div>
               <h4>Free & Fast Shipping</h4>
-              <p>
-                Delivery to all Egyptian governorates within 2-3 working days
-              </p>
+              {/* <p>
+                Delivery to all Egypt within 2-3 working days
+              </p> */}
             </div>
             <div className="feature">
               <div className="feature-icon">✅</div>
               <h4>Original Products</h4>
-              <p>
+              {/* <p>
                 All our products are original and high quality with manufacturer
                 warranty
-              </p>
+              </p> */}
+            </div>
+            <div className="feature new">
+              <div className="info">
+                <a
+                  className="socialFooter"
+                  href="https://wa.me/201505337422?text=مرحباً، أريد الاستفسار عن المنتجات"
+                  target="_blank"
+                >
+                  <img src={whatsappIcon} alt="" />
+                  <p>WhatsApp</p>
+                </a>
+                <a
+                  className="socialFooter"
+                  href="https://wa.me/201505337422?text=مرحباً، أريد الاستفسار عن المنتجات"
+                  target="_blank"
+                >
+                  <img src={PhoneCall} alt="" />
+                  <p>Phone Call</p>
+                </a>
+                <a
+                  className="socialFooter"
+                  href="https://www.instagram.com/vozol_egy?igsh=cWc5ZnU4aTJlN25v"
+                  target="_blank"
+                >
+                  <img src={instagramIcon} alt="" />
+                  <p>vozol_egy</p>
+                </a>
+                
+              </div>
             </div>
             {/* <div className="feature">
               <div className="feature-icon">🛡️</div>
