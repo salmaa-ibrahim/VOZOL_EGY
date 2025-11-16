@@ -161,7 +161,7 @@ const products = {
       name: "Vozol Gear 50000 puffs",
       flavor: "vct",
       price: 999,
-      img: gear_50k_11,
+      img: gear_50k_22,
       brand: "Vozol Gear 50000 puffs",
       description: "none",
       puffs: "50000",
