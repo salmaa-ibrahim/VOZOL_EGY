@@ -9,7 +9,9 @@ import AboutImg3 from "../../../public/assets/AboutImages/Screenshot 2025-11-06 
 import AboutImg2 from "../../../public/assets/AboutImages/aboutImg2.webp";
 import instagramIcon from "../../../public/assets/social media icons/instagram_icon.svg";
 import whatsappIcon from "../../../public/assets/social media icons/whatsapp_icon.svg";
-import PhoneCall from "../../../public/assets/Icons/Phone call.png"
+import facebookIcon from "../../../public/assets/social media icons/facebook_icon.svg";
+import PhoneCall from "../../../public/assets/social media icons/phone-call.svg";
+import About from "../../../public/assets/AboutImages/about option.jpeg";
 const AboutSection = () => {
   return (
     <section className="about-section" id="about">
@@ -25,37 +27,13 @@ const AboutSection = () => {
           <h3>Why Choose VOZOLEGY?</h3>
           <div className="features-grid">
             <div className="feature">
-              {/* <div className="feature-icon">💳</div>
-              <h4>Secure Payment</h4> */}
-              {/* <p>
-                Secure and multiple payment systems suitable for all customers
-              </p> */}
-              <div className="payment">
-                <img
-                  src="../../../assets/social media icons/OIP.webp"
-                  alt="Visa"
-                />
-              </div>
+              <img className="payment" src={About} alt="" />
             </div>
-            <div className="feature">
-              <div className="feature-icon">🚚</div>
-              <h4>Free & Fast Shipping</h4>
-              {/* <p>
-                Delivery to all Egypt within 2-3 working days
-              </p> */}
-            </div>
-            <div className="feature">
-              <div className="feature-icon">✅</div>
-              <h4>Original Products</h4>
-              {/* <p>
-                All our products are original and high quality with manufacturer
-                warranty
-              </p> */}
-            </div>
+
             <div className="feature new">
               <div className="info">
                 <a
-                  className="socialFooter"
+                  className=" contact"
                   href="https://wa.me/201505337422?text=مرحباً، أريد الاستفسار عن المنتجات"
                   target="_blank"
                 >
@@ -63,22 +41,29 @@ const AboutSection = () => {
                   <p>WhatsApp</p>
                 </a>
                 <a
-                  className="socialFooter"
-                  href="https://wa.me/201505337422?text=مرحباً، أريد الاستفسار عن المنتجات"
+                  className=" contact"
+                  href="tel:201505337422"
                   target="_blank"
                 >
                   <img src={PhoneCall} alt="" />
                   <p>Phone Call</p>
                 </a>
                 <a
-                  className="socialFooter"
+                  className=" contact"
                   href="https://www.instagram.com/vozol_egy?igsh=cWc5ZnU4aTJlN25v"
                   target="_blank"
                 >
                   <img src={instagramIcon} alt="" />
                   <p>vozol_egy</p>
                 </a>
-                
+                <a
+                  className="contact"
+                  href="https://www.facebook.com/share/17G6ZiBo2m/?mibextid=wwXIfr"
+                  target="_blank"
+                >
+                  <img src={facebookIcon} alt="" />
+                  <p>Vozol Egy</p>
+                </a>
               </div>
             </div>
             {/* <div className="feature">
