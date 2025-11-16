@@ -131,3 +131,28 @@
   }
   
 }
+
+
+
+
+
+.brand-products-swiper {
+  padding: 10px 5px 30px 5px;
+}
+
+.brand-products-swiper .swiper-slide {
+  height: auto; /* عشان كل الكروت يكونوا نفس الطول */
+}
+
+.swiper-button-next{
+  background-color: rgb(208, 211, 212);
+  border-radius: 20px;
+  padding: 10px;
+  color: black;
+}
+.swiper-button-prev{
+  background-color: rgb(208, 211, 212);
+  border-radius: 20px;
+  padding: 10px;
+  color: black;
+}
