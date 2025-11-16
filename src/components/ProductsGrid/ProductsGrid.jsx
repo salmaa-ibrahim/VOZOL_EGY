@@ -90,8 +90,8 @@ const ProductsGrid = ({ products }) => {
             slidesPerView={2}
             breakpoints={{
               // عندما تكون الشاشة >= 768px
-              420: {
-                slidesPerView: 1,
+              768: {
+                slidesPerView: 3,
                 spaceBetween: 20,
               },
               // عندما تكون الشاشة >= 1024px
