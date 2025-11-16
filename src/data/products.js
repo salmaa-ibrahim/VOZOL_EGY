@@ -99,32 +99,32 @@ import vtouch_30k_9 from "/assets/products/Vtouch Smart Vape 30000 puffs/9.jpg";
 import vtouch_30k_10 from "/assets/products/Vtouch Smart Vape 30000 puffs/10.jpg";
 import vtouch_30k_11 from "/assets/products/Vtouch Smart Vape 30000 puffs/11.jpg";
 
-import gear_50k_1 from "/assets/products/Vozol Gear 50000 puffs/1 (1).jpg";
-import gear_50k_2 from "/assets/products/Vozol Gear 50000 puffs/1 (2).jpg";
-import gear_50k_3 from "/assets/products/Vozol Gear 50000 puffs/1 (3).jpg";
-import gear_50k_4 from "/assets/products/Vozol Gear 50000 puffs/1 (4).jpg";
-import gear_50k_5 from "/assets/products/Vozol Gear 50000 puffs/1 (5).jpg";
-import gear_50k_6 from "/assets/products/Vozol Gear 50000 puffs/1 (6).jpg";
-import gear_50k_7 from "/assets/products/Vozol Gear 50000 puffs/1 (7).jpg";
-import gear_50k_8 from "/assets/products/Vozol Gear 50000 puffs/1 (8).jpg";
-import gear_50k_9 from "/assets/products/Vozol Gear 50000 puffs/1 (9).jpg";
-import gear_50k_10 from "/assets/products/Vozol Gear 50000 puffs/1 (10).jpg";
-import gear_50k_11 from "/assets/products/Vozol Gear 50000 puffs/1 (11).jpg";
-import gear_50k_12 from "/assets/products/Vozol Gear 50000 puffs/1 (12).jpg";
-import gear_50k_13 from "/assets/products/Vozol Gear 50000 puffs/1 (13).jpg";
-import gear_50k_14 from "/assets/products/Vozol Gear 50000 puffs/1 (14).jpg";
-import gear_50k_15 from "/assets/products/Vozol Gear 50000 puffs/1 (15).jpg";
-import gear_50k_16 from "/assets/products/Vozol Gear 50000 puffs/1 (16).jpg";
-import gear_50k_17 from "/assets/products/Vozol Gear 50000 puffs/1 (17).jpg";
-import gear_50k_18 from "/assets/products/Vozol Gear 50000 puffs/1 (18).jpg";
-import gear_50k_19 from "/assets/products/Vozol Gear 50000 puffs/1 (19).jpg";
-import gear_50k_20 from "/assets/products/Vozol Gear 50000 puffs/1 (20).jpg";
-import gear_50k_21 from "/assets/products/Vozol Gear 50000 puffs/1 (21).jpg";
-import gear_50k_22 from "/assets/products/Vozol Gear 50000 puffs/1 (22).jpg";
-import gear_50k_23 from "/assets/products/Vozol Gear 50000 puffs/1 (23).jpg";
-import gear_50k_24 from "/assets/products/Vozol Gear 50000 puffs/1 (24).jpg";
-import gear_50k_25 from "/assets/products/Vozol Gear 50000 puffs/1 (25).jpg";
-import gear_50k_26 from "/assets/products/Vozol Gear 50000 puffs/1 (26).jpg";
+import gear_50k_1 from "../../public/assets/products/Vozol Gear 50000 puffs/2 (1).webp";
+import gear_50k_2 from "/assets/products/Vozol Gear 50000 puffs/2 (2).webp";
+import gear_50k_3 from "/assets/products/Vozol Gear 50000 puffs/2 (3).webp";
+import gear_50k_4 from "/assets/products/Vozol Gear 50000 puffs/2 (4).webp";
+import gear_50k_5 from "/assets/products/Vozol Gear 50000 puffs/2 (5).webp";
+import gear_50k_6 from "/assets/products/Vozol Gear 50000 puffs/2 (6).webp";
+import gear_50k_7 from "/assets/products/Vozol Gear 50000 puffs/2 (7).webp";
+import gear_50k_8 from "/assets/products/Vozol Gear 50000 puffs/2 (8).webp";
+import gear_50k_9 from "/assets/products/Vozol Gear 50000 puffs/2 (9).webp";
+import gear_50k_10 from "/assets/products/Vozol Gear 50000 puffs/2 (10).webp";
+import gear_50k_11 from "/assets/products/Vozol Gear 50000 puffs/2 (11).webp";
+import gear_50k_12 from "/assets/products/Vozol Gear 50000 puffs/2 (12).webp";
+import gear_50k_13 from "/assets/products/Vozol Gear 50000 puffs/2 (13).webp";
+import gear_50k_14 from "/assets/products/Vozol Gear 50000 puffs/2 (14).webp";
+import gear_50k_15 from "/assets/products/Vozol Gear 50000 puffs/2 (15).webp";
+import gear_50k_16 from "/assets/products/Vozol Gear 50000 puffs/2 (16).webp";
+import gear_50k_17 from "/assets/products/Vozol Gear 50000 puffs/2 (17).webp";
+import gear_50k_18 from "/assets/products/Vozol Gear 50000 puffs/2 (18).webp";
+import gear_50k_19 from "/assets/products/Vozol Gear 50000 puffs/2 (19).webp";
+import gear_50k_20 from "/assets/products/Vozol Gear 50000 puffs/2 (20).webp";
+import gear_50k_21 from "/assets/products/Vozol Gear 50000 puffs/2 (21).webp";
+import gear_50k_22 from "/assets/products/Vozol Gear 50000 puffs/2 (22).webp";
+import gear_50k_23 from "/assets/products/Vozol Gear 50000 puffs/2 (23).webp";
+// import gear_50k_24 from "/assets/products/Vozol Gear 50000 puffs/2 (24).webp";
+// import gear_50k_25 from "/assets/products/Vozol Gear 50000 puffs/2 (25).webp";
+// import gear_50k_26 from "/assets/products/Vozol Gear 50000 puffs/2 (26).webp";
 
 import vista_40k_1 from "/assets/products/Vozol vista 40000 puffs/11.webp";
 import vista_40k_2 from "/assets/products/Vozol vista 40000 puffs/12.webp";
@@ -143,16 +143,17 @@ import coki_5 from "/assets/products/Coki Zero Necotine/5.jpg";
 
 const products = {
   banners: [
-    { id: 1, title: "Banner 1", img: "/assets/banar images/rave 40000.webp" },
-    { id: 2, title: "Banner 2", img: "/assets/banar images/shisha 25k.webp" },
-    {
-      id: 3,
-      title: "Banner 3",
-      img: "/assets/banar images/Vtouch Smart Vape 30000 puffs.jpeg",
-    },
-    { id: 4, title: "Banner 4", img: "/assets/banar images/star 40000.webp" },
-  ],
+    { id: 1, title: "Banner 1", img: "../../public/assets/banar images/vozol gear 50000.jpeg" },
+    { id: 2, title: "Banner 1", img: "../../public/assets/banar images/coki-16000puffs.jpeg" },
+    { id: 3, title: "Banner 2", img: "/assets/banar images/shisha 25k.webp" },
+    { id: 4, title: "Banner 3", img: "/assets/banar images/Vtouch Smart Vape 30000 puffs.jpeg"},
+    { id: 5, title: "Banner 4", img: "/assets/banar images/star 40000.webp" },
+    { id: 6, title: "Banner 1", img: "../../public/assets/banar images/rave 40000.webp" },
+    { id: 7, title: "Banner 1", img: "../../public/assets/banar images/star 20k.webp" },
+    { id: 8, title: "Banner 1", img: "../../public/assets/banar images/vista_40k.webp" },
+    { id: 9, title: "Banner 1", img: "../../public/assets/banar images/Vozol Gear 20000 puffs.webp" }
 
+  ],
 
   TopProducts: [
     {
@@ -166,7 +167,7 @@ const products = {
       puffs: "50000",
       inStock: true,
     },
-   {
+    {
       id: 134,
       name: "Coki Zero Necotine 16000 puffs",
       flavor: "Watermelon ice",
@@ -178,7 +179,7 @@ const products = {
       puffs: "16000",
       inStock: true,
     },
-     {
+    {
       id: 118,
       name: "Vtouch Smart Vape 30000 puffs",
       flavor: "peachy peach",
@@ -200,7 +201,7 @@ const products = {
       puffs: "25000",
       inStock: true,
     },
-   {
+    {
       id: 31,
       name: "Vozol Star 40000 puffs",
       flavor: "cherry cola",
@@ -211,7 +212,7 @@ const products = {
       description: "none",
       puffs: "40000",
       inStock: true,
-    }
+    },
   ],
   products: [
     //-------------Vozol Gear 50000 puffs-------------------
@@ -233,17 +234,6 @@ const products = {
       flavor: "strawberry raspberry cherry ",
       price: 999,
       img: gear_50k_2,
-      brand: "Vozol Gear 50000 puffs",
-      description: "none",
-      puffs: "50000",
-      inStock: true,
-    },
-    {
-      id: 3,
-      name: "Vozol Gear 50000 puffs",
-      flavor: "suber mint",
-      price: 999,
-      img: gear_50k_3,
       brand: "Vozol Gear 50000 puffs",
       description: "none",
       puffs: "50000",
@@ -294,17 +284,6 @@ const products = {
       inStock: true,
     },
     {
-      id: 8,
-      name: "Vozol Gear 50000 puffs",
-      flavor: "peach pop bliss",
-      price: 999,
-      img: gear_50k_8,
-      brand: "Vozol Gear 50000 puffs",
-      description: "none",
-      puffs: "50000",
-      inStock: true,
-    },
-    {
       id: 9,
       name: "Vozol Gear 50000 puffs",
       flavor: "two apples",
@@ -338,11 +317,33 @@ const products = {
       inStock: true,
     },
     {
+      id: 8,
+      name: "Vozol Gear 50000 puffs",
+      flavor: "peach pop bliss",
+      price: 999,
+      img: gear_50k_8,
+      brand: "Vozol Gear 50000 puffs",
+      description: "none",
+      puffs: "50000",
+      inStock: true,
+    },
+    {
       id: 12,
       name: "Vozol Gear 50000 puffs",
       flavor: "blueberry ice",
       price: 999,
       img: gear_50k_12,
+      brand: "Vozol Gear 50000 puffs",
+      description: "none",
+      puffs: "50000",
+      inStock: true,
+    },
+    {
+      id: 3,
+      name: "Vozol Gear 50000 puffs",
+      flavor: "suber mint",
+      price: 999,
+      img: gear_50k_3,
       brand: "Vozol Gear 50000 puffs",
       description: "none",
       puffs: "50000",
@@ -469,40 +470,40 @@ const products = {
       puffs: "50000",
       inStock: true,
     },
-    {
-      id: 24,
-      name: "Vozol Gear 50000 puffs",
-      flavor: "mango Ice",
-      price: 999,
-      img: gear_50k_24,
-      brand: "Vozol Gear 50000 puffs",
-      description: "none",
-      puffs: "50000",
-      inStock: true,
-    },
-    {
-      id: 25,
-      top: 1,
-      name: "Vozol Gear 50000 puffs",
-      flavor: "Sour Apple Ice",
-      price: 999,
-      img: gear_50k_25,
-      brand: "Vozol Gear 50000 puffs",
-      description: "none",
-      puffs: "50000",
-      inStock: true,
-    },
-    {
-      id: 26,
-      name: "Vozol Gear 50000 puffs",
-      flavor: "Sour Apple Ice",
-      price: 999,
-      img: gear_50k_26,
-      brand: "Vozol Gear 50000 puffs",
-      description: "none",
-      puffs: "50000",
-      inStock: true,
-    },
+    // {
+    //   id: 24,
+    //   name: "Vozol Gear 50000 puffs",
+    //   flavor: "mango Ice",
+    //   price: 999,
+    //   img: gear_50k_24,
+    //   brand: "Vozol Gear 50000 puffs",
+    //   description: "none",
+    //   puffs: "50000",
+    //   inStock: true,
+    // },
+    // {
+    //   id: 25,
+    //   top: 1,
+    //   name: "Vozol Gear 50000 puffs",
+    //   flavor: "Sour Apple Ice",
+    //   price: 999,
+    //   img: gear_50k_25,
+    //   brand: "Vozol Gear 50000 puffs",
+    //   description: "none",
+    //   puffs: "50000",
+    //   inStock: true,
+    // },
+    // {
+    //   id: 26,
+    //   name: "Vozol Gear 50000 puffs",
+    //   flavor: "Sour Apple Ice",
+    //   price: 999,
+    //   img: gear_50k_26,
+    //   brand: "Vozol Gear 50000 puffs",
+    //   description: "none",
+    //   puffs: "50000",
+    //   inStock: true,
+    // },
 
     //-------------Coki Zero Necotine 16000 puffs-------------------
     {
