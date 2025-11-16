@@ -5,7 +5,7 @@ export default function AgeGate({ onAccept }){
   return (
     <div className="agegate-backdrop">
       <div className="agegate-card">
-        <h2>Welcome to Vozoleg</h2>
+        <h2>Welcome to VOZOL-EGY</h2>
         <p>Are you 18 years or older?</p>
         <div className="agegate-actions">
           <button className="btn-primary" onClick={onAccept}>Yes, enter</button>
