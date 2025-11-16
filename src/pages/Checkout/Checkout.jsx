@@ -952,7 +952,6 @@ ${result.error}
                 name="email"
                 value={formData.email}
                 onChange={handleInputChange}
-                required
                 placeholder="example@gmail.com"
               />
             </div>
