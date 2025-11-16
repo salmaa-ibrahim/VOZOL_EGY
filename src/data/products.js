@@ -213,6 +213,17 @@ const products = {
       puffs: "40000",
       inStock: true,
     },
+    {
+      id: 127,
+      name: "Vozol Vista 40000 puffs",
+      flavor: "strawberry kiwi",
+      price: 880,
+      img: vista_40k_6,
+      brand: "Vozol Vista 40000 puffs",
+      description: "none",
+      puffs: "40000",
+      inStock: true,
+    }
   ],
   products: [
     //-------------Vozol Gear 50000 puffs-------------------

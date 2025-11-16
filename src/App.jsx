@@ -91,7 +91,7 @@ export default function App() {
 
                 {/* <PromoBanner text="Vozolag - Premium flavors. Modern design. Fast shipping." />
                 <PromoBanner text="FREE SHIPPING" /> */}
-                <TopProducts items={data.TopProducts.slice(0, 5)} />
+                <TopProducts items={data.TopProducts.slice(0, 6)} />
                 <ProductsGrid products={data.products} />
 
                 {/* إضافة قسم About هنا */}
