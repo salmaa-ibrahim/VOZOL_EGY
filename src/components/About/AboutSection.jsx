@@ -40,11 +40,7 @@ const AboutSection = () => {
                   <img src={whatsappIcon} alt="" />
                   <p>WhatsApp</p>
                 </a>
-                <a
-                  className=" contact"
-                  href="tel:201505337422"
-                  target="_blank"
-                >
+                <a className=" contact" href="tel:201505337422" target="_blank">
                   <img src={PhoneCall} alt="" />
                   <p>Phone Call</p>
                 </a>
@@ -118,6 +114,16 @@ const AboutSection = () => {
               </li>
               <li>
                 <NavLink
+                  to="/Vozol Vista 40000 puffs"
+                  className={({ isActive }) =>
+                    isActive ? "product-link active" : "product-link"
+                  }
+                >
+                  ★ Vozol vista 40000 puffs
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
                   to="/Vozol Rave 40000 puffs"
                   className={({ isActive }) =>
                     isActive ? "product-link active" : "product-link"
@@ -164,17 +170,6 @@ const AboutSection = () => {
                   }
                 >
                   ★ Vozol Gear 20000 puffs
-                </NavLink>
-              </li>
-
-              <li>
-                <NavLink
-                  to="/Vozol Vista 40000 puffs"
-                  className={({ isActive }) =>
-                    isActive ? "product-link active" : "product-link"
-                  }
-                >
-                  ★ Vozol vista 40000 puffs
                 </NavLink>
               </li>
             </ul>
