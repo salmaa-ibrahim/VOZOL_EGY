@@ -36,6 +36,7 @@
   transition: border-color 0.3s ease;
   /* direction: rtl; */
   padding-right: 40px;
+  background-color: #e9e8e6;
 }
 
 .search-input:focus {
