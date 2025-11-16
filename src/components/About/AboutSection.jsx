@@ -11,7 +11,7 @@ import instagramIcon from "../../../public/assets/social media icons/instagram_i
 import whatsappIcon from "../../../public/assets/social media icons/whatsapp_icon.svg";
 import facebookIcon from "../../../public/assets/social media icons/facebook_icon.svg";
 import PhoneCall from "../../../public/assets/social media icons/phone-call.svg";
-import About from "../../../public/assets/AboutImages/Option3.jpeg";
+import About from "../../../public/assets/AboutImages/Option.jpeg";
 const AboutSection = () => {
   return (
     <section className="about-section" id="about">
