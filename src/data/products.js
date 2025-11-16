@@ -103,9 +103,9 @@ import gear_50k_1 from "../../public/assets/products/Vozol Gear 50000 puffs/2 (1
 import gear_50k_2 from "/assets/products/Vozol Gear 50000 puffs/2 (2).webp";
 import gear_50k_3 from "/assets/products/Vozol Gear 50000 puffs/2 (3).webp";
 import gear_50k_4 from "/assets/products/Vozol Gear 50000 puffs/2 (4).webp";
-import gear_50k_5 from "/assets/products/Vozol Gear 50000 puffs/2 (5).webp";
+// import gear_50k_5 from "/assets/products/Vozol Gear 50000 puffs/2 (5).webp";
 import gear_50k_6 from "/assets/products/Vozol Gear 50000 puffs/2 (6).webp";
-import gear_50k_7 from "/assets/products/Vozol Gear 50000 puffs/2 (7).webp";
+// import gear_50k_7 from "/assets/products/Vozol Gear 50000 puffs/2 (7).webp";
 import gear_50k_8 from "/assets/products/Vozol Gear 50000 puffs/2 (8).webp";
 import gear_50k_9 from "/assets/products/Vozol Gear 50000 puffs/2 (9).webp";
 import gear_50k_10 from "/assets/products/Vozol Gear 50000 puffs/2 (10).webp";
@@ -143,15 +143,15 @@ import coki_5 from "/assets/products/Coki Zero Necotine/5.jpg";
 
 const products = {
   banners: [
-    { id: 1, title: "Banner 1", img: "../../public/assets/banar images/vozol gear 50000.jpeg" },
-    { id: 2, title: "Banner 1", img: "../../public/assets/banar images/coki-16000puffs.jpeg" },
+    { id: 1, title: "Banner 1", img: "/assets/banar images/vozol gear 50000.jpeg" },
+    { id: 2, title: "Banner 1", img: "/assets/banar images/coki-16000puffs.jpeg" },
     { id: 3, title: "Banner 2", img: "/assets/banar images/shisha 25k.webp" },
     { id: 4, title: "Banner 3", img: "/assets/banar images/Vtouch Smart Vape 30000 puffs.jpeg"},
     { id: 5, title: "Banner 4", img: "/assets/banar images/star 40000.webp" },
-    { id: 6, title: "Banner 1", img: "../../public/assets/banar images/rave 40000.webp" },
-    { id: 7, title: "Banner 1", img: "../../public/assets/banar images/star 20k.webp" },
-    { id: 8, title: "Banner 1", img: "../../public/assets/banar images/vista_40k.webp" },
-    { id: 9, title: "Banner 1", img: "../../public/assets/banar images/Vozol Gear 20000 puffs.webp" }
+    { id: 6, title: "Banner 1", img: "/assets/banar images/rave 40000.webp" },
+    { id: 7, title: "Banner 1", img: "/assets/banar images/star 20k.webp" },
+    { id: 8, title: "Banner 1", img: "/assets/banar images/vista_40k.webp" },
+    { id: 9, title: "Banner 1", img: "/assets/banar images/Vozol Gear 20000 puffs.webp" }
 
   ],
 
@@ -219,7 +219,7 @@ const products = {
     {
       id: 1,
       name: "Vozol Gear 50000 puffs",
-      flavor: "watermelon ice",
+      flavor: "Mixed Berries",
       price: 999,
       img: gear_50k_1,
       brand: "Vozol Gear 50000 puffs",
@@ -231,7 +231,7 @@ const products = {
     {
       id: 2,
       name: "Vozol Gear 50000 puffs",
-      flavor: "strawberry raspberry cherry ",
+      flavor: "Love 777 ",
       price: 999,
       img: gear_50k_2,
       brand: "Vozol Gear 50000 puffs",
@@ -242,7 +242,7 @@ const products = {
     {
       id: 4,
       name: "Vozol Gear 50000 puffs",
-      flavor: "love 777",
+      flavor: "Strawberry Banana",
       price: 999,
       img: gear_50k_4,
       brand: "Vozol Gear 50000 puffs",
@@ -250,21 +250,11 @@ const products = {
       puffs: "50000",
       inStock: true,
     },
-    {
-      id: 5,
-      name: "Vozol Gear 50000 puffs",
-      flavor: "guava melon ice",
-      price: 999,
-      img: gear_50k_5,
-      brand: "Vozol Gear 50000 puffs",
-      description: "none",
-      puffs: "50000",
-      inStock: true,
-    },
+    
     {
       id: 6,
       name: "Vozol Gear 50000 puffs",
-      flavor: "mango passion tangerine",
+      flavor: "Blurazz Ice",
       price: 999,
       img: gear_50k_6,
       brand: "Vozol Gear 50000 puffs",
@@ -273,20 +263,9 @@ const products = {
       inStock: true,
     },
     {
-      id: 7,
-      name: "Vozol Gear 50000 puffs",
-      flavor: "peach mango watermelon ",
-      price: 999,
-      img: gear_50k_7,
-      brand: "Vozol Gear 50000 puffs",
-      description: "none",
-      puffs: "50000",
-      inStock: true,
-    },
-    {
       id: 9,
       name: "Vozol Gear 50000 puffs",
-      flavor: "two apples",
+      flavor: "Cherry Cola",
       price: 999,
       img: gear_50k_9,
       brand: "Vozol Gear 50000 puffs",
@@ -297,7 +276,7 @@ const products = {
     {
       id: 10,
       name: "Vozol Gear 50000 puffs",
-      flavor: "melon gum ",
+      flavor: "Coconut Melt Magic ",
       price: 999,
       img: gear_50k_10,
       brand: "Vozol Gear 50000 puffs",
@@ -308,7 +287,7 @@ const products = {
     {
       id: 11,
       name: "Vozol Gear 50000 puffs",
-      flavor: "vct",
+      flavor: "Grape Ice",
       price: 999,
       img: gear_50k_11,
       brand: "Vozol Gear 50000 puffs",
@@ -319,7 +298,7 @@ const products = {
     {
       id: 8,
       name: "Vozol Gear 50000 puffs",
-      flavor: "peach pop bliss",
+      flavor: "Stawberry Watermelon",
       price: 999,
       img: gear_50k_8,
       brand: "Vozol Gear 50000 puffs",
@@ -330,7 +309,7 @@ const products = {
     {
       id: 12,
       name: "Vozol Gear 50000 puffs",
-      flavor: "blueberry ice",
+      flavor: "Melon Gum",
       price: 999,
       img: gear_50k_12,
       brand: "Vozol Gear 50000 puffs",
@@ -341,7 +320,7 @@ const products = {
     {
       id: 3,
       name: "Vozol Gear 50000 puffs",
-      flavor: "suber mint",
+      flavor: "Watermelon Ice",
       price: 999,
       img: gear_50k_3,
       brand: "Vozol Gear 50000 puffs",
@@ -352,7 +331,7 @@ const products = {
     {
       id: 13,
       name: "Vozol Gear 50000 puffs",
-      flavor: "strawberry watermelon",
+      flavor: "Peach Ice",
       price: 999,
       img: gear_50k_13,
       brand: "Vozol Gear 50000 puffs",
@@ -363,7 +342,7 @@ const products = {
     {
       id: 14,
       name: "Vozol Gear 50000 puffs",
-      flavor: "coconut melt magic",
+      flavor: "Mixed Berries",
       price: 999,
       img: gear_50k_14,
       brand: "Vozol Gear 50000 puffs",
@@ -374,7 +353,7 @@ const products = {
     {
       id: 15,
       name: "Vozol Gear 50000 puffs",
-      flavor: "cherry cola",
+      flavor: "Peach Mango Watermelon",
       price: 999,
       img: gear_50k_15,
       brand: "Vozol Gear 50000 puffs",
@@ -385,7 +364,7 @@ const products = {
     {
       id: 16,
       name: "Vozol Gear 50000 puffs",
-      flavor: "strawberry banana",
+      flavor: "Pinapple",
       price: 999,
       img: gear_50k_16,
       brand: "Vozol Gear 50000 puffs",
@@ -396,7 +375,7 @@ const products = {
     {
       id: 17,
       name: "Vozol Gear 50000 puffs",
-      flavor: "strawmelon peach",
+      flavor: "Strawberry Kiwi",
       price: 999,
       img: gear_50k_17,
       brand: "Vozol Gear 50000 puffs",
@@ -407,7 +386,7 @@ const products = {
     {
       id: 18,
       name: "Vozol Gear 50000 puffs",
-      flavor: "peach ice",
+      flavor: "Strawberry Rassberry Cherry",
       price: 999,
       img: gear_50k_18,
       brand: "Vozol Gear 50000 puffs",
@@ -418,7 +397,7 @@ const products = {
     {
       id: 19,
       name: "Vozol Gear 50000 puffs",
-      flavor: "cranberry grape juice",
+      flavor: "Watermelon Ice",
       price: 999,
       img: gear_50k_19,
       brand: "Vozol Gear 50000 puffs",
@@ -429,7 +408,7 @@ const products = {
     {
       id: 20,
       name: "Vozol Gear 50000 puffs",
-      flavor: "mixed berries",
+      flavor: "Strawmelon Peach",
       price: 999,
       img: gear_50k_20,
       brand: "Vozol Gear 50000 puffs",
@@ -440,7 +419,7 @@ const products = {
     {
       id: 21,
       name: "Vozol Gear 50000 puffs",
-      flavor: "pinapple squish",
+      flavor: "Super Mint",
       price: 999,
       img: gear_50k_21,
       brand: "Vozol Gear 50000 puffs",
@@ -451,7 +430,7 @@ const products = {
     {
       id: 22,
       name: "Vozol Gear 50000 puffs",
-      flavor: "blue razz ice",
+      flavor: "VCT",
       price: 999,
       img: gear_50k_22,
       brand: "Vozol Gear 50000 puffs",
@@ -462,7 +441,7 @@ const products = {
     {
       id: 23,
       name: "Vozol Gear 50000 puffs",
-      flavor: "strawberry kiwi",
+      flavor: "Watermelon Bubble Gum",
       price: 999,
       img: gear_50k_23,
       brand: "Vozol Gear 50000 puffs",
