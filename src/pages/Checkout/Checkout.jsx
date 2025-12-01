@@ -1103,7 +1103,7 @@ const Checkout = () => {
     try {
       // تنسيق المنتجات بشكل منظم للبريد الإلكتروني
       const formattedItems = orderData.items.map(item => 
-        `• ${item.name} (${item.flavor}) - ${item.quantity} قطعة × ${item.price} جنيه = ${item.price * item.quantity} جنيه`
+        `• ${item.name} (${item.flavor}) <br> - ${item.quantity} <br>  قطعة × ${item.price} <br>  جنيه = ${item.price * item.quantity} جنيه`
       ).join('<br>');
 
       // إعداد بيانات القالب - إرسال للمدير فقط
