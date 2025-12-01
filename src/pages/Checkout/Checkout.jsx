@@ -1104,7 +1104,7 @@ const Checkout = () => {
     // تنسيق المنتجات بنفس شكل Order summary في الصورة
     const formattedItems = orderData.items.map(item => {
       const itemTotal = item.price * item.quantity;
-      return `
+      return (
       <div style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #eee;">
         <div style="margin-bottom: 8px;">
           <span style="font-weight: bold; font-size: 14px;">
@@ -1116,7 +1116,7 @@ const Checkout = () => {
           <span style="font-weight: bold;">LE ${itemTotal.toFixed(2)}</span>
         </div>
       </div>
-      `;
+      );
     }).join('');
 
     // إضافة الخط الفاصل بعد المنتجات
