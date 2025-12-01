@@ -1098,103 +1098,44 @@ const Checkout = () => {
 
   // دالة الإرسال باستخدام EmailJS
   const submitOrder = async (orderData) => {
-  const orderId = `VOZ-${Date.now()}`;
-  
-  try {
-    // تنسيق المنتجات بنفس شكل Order summary في الصورة
-    const formattedItems = orderData.items.map(item => {
-      const itemTotal = item.price * item.quantity;
-      return (
-      <div style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #eee;">
-        <div style="margin-bottom: 8px;">
-          <span style="font-weight: bold; font-size: 14px;">
-            ${item.name} × ${item.quantity}
-          </span>
-        </div>
-        <div style="display: flex; justify-content: space-between; color: #666; font-size: 13px;">
-          <span>${item.flavor}</span>
-          <span style="font-weight: bold;">LE ${itemTotal.toFixed(2)}</span>
-        </div>
-      </div>
-      );
-    }).join('');
-
-    // إضافة الخط الفاصل بعد المنتجات
-    const formattedItemsWithSeparator = `
-      ${formattedItems}
-      <div style="border-top: 1px solid #ddd; margin: 15px 0;"></div>
-    `;
-
-    // إعداد بيانات القالب
-    const templateParams = {
-      order_id: orderId,
-      customer_name: orderData.fullName,
-      customer_email: orderData.email || 'لم يتم التحديد',
-      customer_phone: orderData.phone,
-      customer_whatsapp: orderData.whatsapp || orderData.phone,
-      governorate: orderData.governorate,
-      city: orderData.city,
-      address: orderData.address,
-      items: formattedItemsWithSeparator,
-      subtotal: `LE ${orderData.subtotal.toFixed(2)}`,
-      shipping_cost: `LE ${orderData.shippingCost.toFixed(2)}`,
-      total_amount: `LE ${orderData.total.toFixed(2)} EGP`,
-      order_date: new Date().toLocaleString('ar-EG'),
-      item_count: orderData.items.length.toString()
-    };
-
-    // إرسال البريد
-    const result = await emailjs.send(
-      'service_unhcikk',
-      'template_e3g2zwk',
-      templateParams,
-      'pPsyMMraTScRqoUN2'
-    );
-
-    console.log('✅ Email sent successfully:', result);
-    return { success: true, orderId: orderId };
-
-  } catch (error) {
-    console.error('❌ EmailJS error:', error);
-  // const submitOrder = async (orderData) => {
-  //   const orderId = `VOZ-${Date.now()}`;
+    const orderId = `VOZ-${Date.now()}`;
     
-  //   try {
-  //     // تنسيق المنتجات بشكل منظم للبريد الإلكتروني
-  //     const formattedItems = orderData.items.map(item => 
-  //       `• ${item.name} (${item.flavor}) - ${item.quantity} قطعة × ${item.price} جنيه = ${item.price * item.quantity} جنيه`
-  //     ).join('<br>');
+    try {
+      // تنسيق المنتجات بشكل منظم للبريد الإلكتروني
+      const formattedItems = orderData.items.map(item => 
+        `• ${item.name} (${item.flavor}) - ${item.quantity} قطعة × ${item.price} جنيه = ${item.price * item.quantity} جنيه`
+      ).join('<br>');
 
-  //     // إعداد بيانات القالب - إرسال للمدير فقط
-  //     const templateParams = {
-  //       order_id: orderId,
-  //       customer_name: orderData.fullName,
-  //       customer_phone: orderData.phone,
-  //       customer_whatsapp: orderData.whatsapp || orderData.phone,
-  //       governorate: orderData.governorate,
-  //       city: orderData.city,
-  //       address: orderData.address,
-  //       items: formattedItems, // ✅ الآن سيظهر بشكل منظم
-  //       subtotal: `${orderData.subtotal} جنيه`,
-  //       shipping_cost: `${orderData.shippingCost} جنيه`,
-  //       total_amount: `${orderData.total} جنيه`,
-  //       order_date: new Date().toLocaleString('ar-EG'),
-  //       item_count: orderData.items.length.toString()
-  //     };
+      // إعداد بيانات القالب - إرسال للمدير فقط
+      const templateParams = {
+        order_id: orderId,
+        customer_name: orderData.fullName,
+        customer_phone: orderData.phone,
+        customer_whatsapp: orderData.whatsapp || orderData.phone,
+        governorate: orderData.governorate,
+        city: orderData.city,
+        address: orderData.address,
+        items: formattedItems, // ✅ الآن سيظهر بشكل منظم
+        subtotal: `${orderData.subtotal} جنيه`,
+        shipping_cost: `${orderData.shippingCost} جنيه`,
+        total_amount: `${orderData.total} جنيه`,
+        order_date: new Date().toLocaleString('ar-EG'),
+        item_count: orderData.items.length.toString()
+      };
 
-  //     // إرسال البريد باستخدام EmailJS
-  //     const result = await emailjs.send(
-  //       'service_unhcikk',
-  //       'template_e3g2zwk',
-  //       templateParams,
-  //       'pPsyMMraTScRqoUN2'
-  //     );
+      // إرسال البريد باستخدام EmailJS
+      const result = await emailjs.send(
+        'service_unhcikk',
+        'template_e3g2zwk',
+        templateParams,
+        'pPsyMMraTScRqoUN2'
+      );
 
-  //     console.log('✅ Email sent successfully:', result);
-  //     return { success: true, orderId: orderId };
+      console.log('✅ Email sent successfully:', result);
+      return { success: true, orderId: orderId };
 
-  //   } catch (error) {
-  //     console.error('❌ EmailJS error:', error);
+    } catch (error) {
+      console.error('❌ EmailJS error:', error);
       
       // بديل: حفظ محلي + إشعار واتساب
       try {
