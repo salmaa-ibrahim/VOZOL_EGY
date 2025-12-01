@@ -60,7 +60,7 @@ export default function App() {
   };
   return (
     <CartProvider>
-       <ScrollToTop />
+      <ScrollToTop />
       <div className="App">
         {showAgeGate && <AgeGate onAccept={handleAgeAccepted} />}
         {showAd && <AdPopup onClose={() => setShowAd(false)} />}
@@ -112,7 +112,7 @@ export default function App() {
               </main>
             }
           />
-
+          
           <Route
             path="/Vozol Star 40000 puffs"
             element={
@@ -190,7 +190,8 @@ export default function App() {
               <main className="container">
                 <ProductsGrid
                   products={data.products.filter(
-                    (product) => product.brand === "Coki Zero Necotine 16000 puffs"
+                    (product) =>
+                      product.brand === "Coki Zero Necotine 16000 puffs"
                   )}
                   brand="Coki Zero Necotine 16000 puffs"
                 />
