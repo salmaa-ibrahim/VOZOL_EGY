@@ -1101,21 +1101,29 @@ const Checkout = () => {
   const orderId = `VOZ-${Date.now()}`;
   
   try {
-    // تنسيق المنتجات بشكل منظم للبريد الإلكتروني
-    const formattedItems = orderData.items.map((item, index) => 
-      `
-      <div style="margin-bottom: 15px; padding: 15px; background: white; border-radius: 8px; border: 1px solid #e0e0e0;">
-        <h3 style="color: #4CAF50; margin-top: 0; margin-bottom: 10px;">🎯 المنتج ${index + 1}</h3>
-        <p style="margin: 5px 0;"><strong>🏷️ الاسم:</strong> ${item.name}</p>
-        <p style="margin: 5px 0;"><strong>🎨 النكهة:</strong> ${item.flavor}</p>
-        <p style="margin: 5px 0;"><strong>📦 الكمية:</strong> ${item.quantity} قطعة</p>
-        <p style="margin: 5px 0;"><strong>💰 السعر:</strong> ${item.price} جنيه</p>
-        <p style="margin: 5px 0; font-weight: bold; color: #2196F3;">
-          <strong>🧮 الإجمالي:</strong> ${item.price * item.quantity} جنيه
-        </p>
+    // تنسيق المنتجات بنفس شكل Order summary في الصورة
+    const formattedItems = orderData.items.map(item => {
+      const itemTotal = item.price * item.quantity;
+      return `
+      <div style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #eee;">
+        <div style="margin-bottom: 8px;">
+          <span style="font-weight: bold; font-size: 14px;">
+            ${item.name} × ${item.quantity}
+          </span>
+        </div>
+        <div style="display: flex; justify-content: space-between; color: #666; font-size: 13px;">
+          <span>${item.flavor}</span>
+          <span style="font-weight: bold;">LE ${itemTotal.toFixed(2)}</span>
+        </div>
       </div>
-      `
-    ).join('');
+      `;
+    }).join('');
+
+    // إضافة الخط الفاصل بعد المنتجات
+    const formattedItemsWithSeparator = `
+      ${formattedItems}
+      <div style="border-top: 1px solid #ddd; margin: 15px 0;"></div>
+    `;
 
     // إعداد بيانات القالب
     const templateParams = {
@@ -1127,10 +1135,10 @@ const Checkout = () => {
       governorate: orderData.governorate,
       city: orderData.city,
       address: orderData.address,
-      items: formattedItems,
-      subtotal: `${orderData.subtotal} جنيه`,
-      shipping_cost: `${orderData.shippingCost} جنيه`,
-      total_amount: `${orderData.total} جنيه`,
+      items: formattedItemsWithSeparator,
+      subtotal: `LE ${orderData.subtotal.toFixed(2)}`,
+      shipping_cost: `LE ${orderData.shippingCost.toFixed(2)}`,
+      total_amount: `LE ${orderData.total.toFixed(2)} EGP`,
       order_date: new Date().toLocaleString('ar-EG'),
       item_count: orderData.items.length.toString()
     };
