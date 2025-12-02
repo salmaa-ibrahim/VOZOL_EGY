@@ -18,6 +18,7 @@ import WhatsAppFab from "./components/WhatsAppFab/WhatsAppFab";
 import ScrollToTop from "./components/ScrollToTop";
 import { CartProvider } from "./contexts/CartContext";
 import data from "./data/products";
+import SEO from './components/SEO';
 import "./styles/layout.css";
 export default function App() {
   const [showAgeGate, setShowAgeGate] = useState(false);
@@ -59,6 +60,12 @@ export default function App() {
     setSearchQuery(query);
   };
   return (
+    <>
+    <SEO 
+        title="VOZOLEGY - أفضل موقع لبيع منتجات ال vape في مصر"
+        description="اشتري أجهزة Vape أصلية . توصيل سريع و مجاني لكل محافظات مصر. أسعار مناسبة "
+        keywords=" سيجارة الكترونية مصر, فيب, vape مصر, زيرو نيكوتين,vozol , vozol egypt , zero nicotine , dispossible vape , اجهزة vape"
+      />
     <CartProvider>
       <ScrollToTop />
       <div className="App">
@@ -297,5 +304,6 @@ export default function App() {
         <WhatsAppFab />
       </div>
     </CartProvider>
+    </>
   );
 }
