@@ -143,10 +143,11 @@ import coki_5 from "/assets/products/Coki Zero Necotine/5.jpg";
 
 const products = {
   banners: [
+    { id: 4, title: "Banner 4", img: "../../public/assets/banar images/25k.jpeg" },
     { id: 1, title: "Banner 1", img: "/assets/banar images/vozol gear 50000.jpeg" },
     { id: 2, title: "Banner 2", img: "/assets/banar images/gear50k.jpeg" },
     { id: 3, title: "Banner 3", img: "/assets/banar images/coki-16000puffs.jpeg" },
-    { id: 4, title: "Banner 4", img: "/assets/banar images/shisha 25k.webp" },
+    // { id: 4, title: "Banner 4", img: "/assets/banar images/shisha 25k.webp" },
     { id: 5, title: "Banner 5", img: "/assets/banar images/Vtouch Smart Vape 30000 puffs.jpeg"},
     { id: 6, title: "Banner 6", img: "/assets/banar images/star 40000.webp" },
     { id: 7, title: "Banner 7", img: "/assets/banar images/rave 40000.webp" },
