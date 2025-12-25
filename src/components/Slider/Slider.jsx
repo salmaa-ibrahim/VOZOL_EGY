@@ -8,7 +8,7 @@ export default function Slider({ items }) {
   useEffect(() => {
     const interval = setInterval(() => {
       next();
-    }, 4000); // تغيير الصورة كل 4 ثواني
+    }, 5000); // تغيير الصورة كل 5 ثواني
 
     return () => clearInterval(interval);
   }, [idx]);
