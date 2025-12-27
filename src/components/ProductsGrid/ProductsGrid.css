@@ -145,14 +145,14 @@
 }
 
 .swiper-button-next{
-  background-color: rgb(208, 211, 212);
+  background-color: rgb(39, 39, 39);
   border-radius: 20px;
   padding: 10px;
-  color: black;
+  color: rgb(248, 245, 245);
 }
 .swiper-button-prev{
-  background-color: rgb(208, 211, 212);
+  background-color: rgb(39, 39, 39);
   border-radius: 20px;
   padding: 10px;
-  color: black;
+  color: rgb(248, 245, 245);
 }

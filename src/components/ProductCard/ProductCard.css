@@ -11,7 +11,7 @@
 }
 .product-card img {
   width: 100%;
-  height: 220px;
+  height: 20px;
   object-fit: cover;
   border-radius: 8px;
 }
@@ -24,10 +24,17 @@
 .In-Stock {
   color: green;
   font-size: 12px;
+
 }
 .Out-of-Stock {
   color: red;
   font-size: 12px;
+}
+
+.Sale{
+  color: red;
+  font-size: 12px;
+  margin-left: 20px;
 }
 .image-container {
   width: 100%;
@@ -80,7 +87,13 @@
   justify-content: center;
 }
 
-
+.old-price {
+  font-size: 14px;
+  color: #666;
+  margin-left: 5px;
+  text-decoration: line-through;
+  font-weight: 400;
+}
 
 /* إضافة إلى ProductCard.css */
 .product-card {
@@ -98,13 +111,13 @@
 @media screen and (max-width: 768px) {
 }
 @media screen and (max-width: 480px) {
-  .product-card{
+  .product-card {
     padding: 12px;
     max-width: 200px;
   }
   .product-card img {
     /* height: 200px; */
-    height: auto;
+    height: 190px;
   }
   .product-card p {
     font-size: 18px;
@@ -115,6 +128,7 @@
   .price {
     font-size: 16px;
   }
+
   .actionsBtn {
     gap: 5px;
   }
@@ -128,5 +142,50 @@
     font-size: 12px;
     padding: 3px;
   }
+}
 
+/* 000000000000000000000000000 */
+/* .product-gift-frame {
+    border: 8px solid #228B22;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.product-gift-frame::after {
+    content: "🎁 هدية";
+    position: absolute;
+    top: 10px;
+    right: -30px;
+    background: #C41E3A;
+    color: white;
+    padding: 3px 30px;
+    font-size: 12px;
+    transform: rotate(45deg);
+    font-weight: bold;
+} */
+
+.product-corners {
+  position: relative;
+  padding: 10px;
+  background: white;
+}
+.product-corners::before,
+.product-corners::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 3px solid #d4af37;
+}
+.product-corners::before {
+  top: 0;
+  left: 0;
+  border-right: none;
+  border-bottom: none;
+}
+.product-corners::after {
+  bottom: 0;
+  right: 0;
+  border-left: none;
+  border-top: none;
 }
