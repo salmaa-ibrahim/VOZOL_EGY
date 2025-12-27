@@ -114,13 +114,15 @@
   .product-card {
     padding: 12px;
     max-width: 200px;
+    /* height: 370px; */
   }
   .product-card img {
     /* height: 200px; */
     height: 190px;
   }
   .product-card p {
-    font-size: 18px;
+    font-size:16px;
+
   }
   .product-card .meta {
     font-size: 13px;

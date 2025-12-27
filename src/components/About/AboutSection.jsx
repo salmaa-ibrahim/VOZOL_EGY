@@ -23,7 +23,7 @@ const AboutSection = () => {
       {/* <div className="about-header">
           <h2> ツ اطلب مننا و انبساطك عندنا</h2>
         </div> */}
-        <img className="christmas-image" src="../../../public/assets/AboutImages/tree.jpg" alt="" />
+        <img className="christmas-image" src="/assets/AboutImages/tree.jpg" alt="" />
       <div className="about-content">
         <div className="features">
           <h3>Why Choose VOZOLEGY?</h3>
