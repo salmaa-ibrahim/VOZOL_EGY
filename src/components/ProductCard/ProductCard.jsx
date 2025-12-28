@@ -17,7 +17,7 @@ export default function ProductCard({ product }) {
     alert("تمت إضافة المنتج إلى العربة!");
   };
   return (
-    <div className="product-card">
+    <div className="product-card product-gift-frame">
       {product.rank && <div className="rank">{product.rank}</div>}
       <Link to={`/products/${product.id}`}>
         <div className="image-container">
