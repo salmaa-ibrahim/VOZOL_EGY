@@ -48,6 +48,10 @@
   height: 100%;
   object-fit: cover;
 }
+
+.flavor-info{
+  text-transform: capitalize;
+}
 .product-card .meta {
   color: #666;
   font-size: 17px;

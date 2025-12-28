@@ -23,7 +23,7 @@ export default function ProductCard({ product }) {
           <img src={product.img} alt={product.name} />
         </div>
       </Link>
-      <p>
+      <p className="flavor-info">
         {product.flavor} <br />{" "}
         <span className={product.inStock ? "In-Stock" : "Out-of-Stock"}>
           {product.inStock ? "In Stock" : "Out of Stock"}
