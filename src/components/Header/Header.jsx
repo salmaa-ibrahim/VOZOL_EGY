@@ -7,7 +7,7 @@ import "./Header.css";
 // import logo from "../../../assets/logo.svg";
 import logo2 from "../../../public/assets/Icons/vozolIcon.jpeg";
 // import logo from "../../../public/assets/Icons/VOZOL LOGO.svg";
-import logo from "../../../public/assets/Icons/vozol logo r.png";
+import logo from "../../../public/assets/Icons/vozol logo p.png";
 import instagramIcon from "../../../public/assets/social media icons/instagram_icon.svg";
 import facebookIcon from "../../../public/assets/social media icons/facebook_icon.svg";
 import whatsappIcon from "../../../public/assets/social media icons/whatsapp_icon.svg";
