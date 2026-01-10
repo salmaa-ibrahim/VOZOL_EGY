@@ -1537,7 +1537,7 @@ const products = {
     {
       id: 82,
       name: "Vozol Gear Shisha 25000 puffs",
-      flavor: "orange fruit banana cherry",
+      flavor: "dragon fruit banana cherry",
       price: 700,
       img: shisha_25k_13,
       brand: "Vozol Gear Shisha 25000 puffs",
