@@ -30,7 +30,7 @@ const AboutSection = () => {
       setCurrentImageIndex((prevIndex) => 
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
-    }, 3000); // 10 ثواني = 10000 ميلي ثانية
+    }, 5000); // 10 ثواني = 10000 ميلي ثانية
 
     // تنظيف المؤقت عند إلغاء التثبيت
     return () => clearInterval(interval);
