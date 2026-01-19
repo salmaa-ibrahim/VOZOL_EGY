@@ -61,6 +61,7 @@
 }
 .actionsBtn {
   display: flex;
+  flex-direction: column;
   gap: 35px;
   margin-top: auto;
 }

@@ -129,12 +129,14 @@ export default function ProductCard({ product }) {
       </div>
       
       <div className="actionsBtn">
-        <button className="btn" onClick={handleAddToCart}>
+        <div>
+          <button className="btn" onClick={handleAddToCart}>
           Add to cart
         </button>
         <button className="btn primary" onClick={handleBuyNow}>
           Buy now
         </button>
+        </div>
         <button className="btn whatsapp-btn" onClick={handleWhatsAppOrder}>
           Order via WhatsApp
         </button>
