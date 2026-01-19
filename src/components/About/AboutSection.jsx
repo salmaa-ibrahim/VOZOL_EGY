@@ -12,18 +12,41 @@ import whatsappIcon from "../../../public/assets/social media icons/whatsapp_ico
 import facebookIcon from "../../../public/assets/social media icons/facebook_icon.svg";
 import PhoneCall from "../../../public/assets/social media icons/phone-call.svg";
 import About from "../../../public/assets/AboutImages/Option.jpeg";
+
+import { useState, useEffect } from 'react';
+
 const AboutSection = () => {
+   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  
+  // قائمة الصور
+  const images = [
+    "/assets/Ads/Attention.jpeg",
+    "/assets/Ads/AD.jpeg"
+  ];
+
+  // تأثير التبديل التلقائي كل 10 ثواني
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => 
+        prevIndex === images.length - 1 ? 0 : prevIndex + 1
+      );
+    }, 3000); // 10 ثواني = 10000 ميلي ثانية
+
+    // تنظيف المؤقت عند إلغاء التثبيت
+    return () => clearInterval(interval);
+  }, [images.length]);
+
   return (
     <section className="about-section" id="about">
       <div className="snow-effect"></div>
-      {/* <div className="about-header">
-          <h2>About VOZOLEGY Store</h2>
-          <p>Your premier destination for the best Vape products in Egypt</p>
-        </div> */}
-      {/* <div className="about-header">
-          <h2> ツ اطلب مننا و انبساطك عندنا</h2>
-        </div> */}
-        <img className="christmas-image" src="/assets/Ads/AD.jpeg" alt="" />
+      <div className="about-ad">
+         <img
+          className="about-ad-image"
+          src={images[currentImageIndex]}
+          alt={`Ad ${currentImageIndex + 1}`}
+        />
+        <img className="about-ad-image" src="/assets/Ads/ad.jpeg" alt="" />
+      </div>
       <div className="about-content">
         <div className="features">
           <h3>Why Choose VOZOLEGY?</h3>
