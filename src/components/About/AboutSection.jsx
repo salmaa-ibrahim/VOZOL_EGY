@@ -46,7 +46,6 @@ const AboutSection = () => {
           src={images[currentImageIndex]}
           alt={`Ad ${currentImageIndex + 1}`}
         />
-        <img className="about-ad-image" src="/assets/Ads/ad.jpeg" alt="" />
       </div>
       <div className="about-content">
         <div className="features">
