@@ -41,31 +41,14 @@ const AboutSection = () => {
     <section className="about-section" id="about">
       <div className="snow-effect"></div>
       <div className="about-ad">
-        {/* <img
+        <img
           className="about-ad-image"
           src={images[currentImageIndex]}
           alt={`Ad ${currentImageIndex + 1}`}
-        /> */}
-        <img
-          src="/assets/Ads/Attentionnn.png"
-          className="about-ad-image"
-          alt=""
         />
-        <div className="centered">
-          <h1>ATTENTION!</h1>
-          <p>
-            تحذير هام:
-            <br />
-            نحن التوكيل الوحيد والمعتمد لهذا المنتج، ولا توجد لنا أي صفحات أو
-            وكالء آخرين.
-            <br />
-            
-            نُخلي مسؤوليتنا تمامًا عن أي منتج تقليد وليس له اي عمر افتراضي (ايام
-            معدود) يتم شراؤه من صفحات أو مواقع غير رسمية أو مجهولة المصدر.
-          
-          </p>
+       
          
-        </div>
+        
       </div>
       <div className="about-content">
         <div className="features">

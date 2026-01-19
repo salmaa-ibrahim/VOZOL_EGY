@@ -384,7 +384,7 @@
   }
 }
 
-
+/* 
 .about-ad{
   position: relative;
   text-align: center;
@@ -396,12 +396,12 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 79.4%;
-  padding: 29px;
+  padding: 25px;
 }
 
 .centered h1 {
   color: #ffffff;
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   margin-bottom: 10px;
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
@@ -414,4 +414,4 @@
   font-weight: bold;
   line-height: 1.6;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+} */
