@@ -53,7 +53,6 @@
 //   );
 // }
 
-
 import React from "react";
 import { useCart } from "../../contexts/CartContext";
 import "./ProductCard.css";
@@ -62,7 +61,7 @@ import { useNavigate, Link } from "react-router-dom";
 export default function ProductCard({ product }) {
   const { addItem } = useCart();
   const navigate = useNavigate();
-  
+
   const handleBuyNow = () => {
     addItem(product);
     navigate("/checkout");
@@ -76,31 +75,32 @@ export default function ProductCard({ product }) {
   const handleWhatsAppOrder = () => {
     // رقم الهاتف الذي سيتم إرسال الرسالة إليه
     const phoneNumber = "201141341192"; // استبدل برقمك الحقيقي
-    
+
     // // رابط المنتج (افتراضي)
     // const productUrl =  `https://www.vozolegy.com/products/${product.name.replace(/\s+/g, '-').toLowerCase()}/${product.flavor ? product.flavor.replace(/\s+/g, '-').toLowerCase() : ''}`;
-    
+
     // إنشاء نص الرسالة مع تفاصيل المنتج
-    const message = `مرحباً، أريد طلب المنتج التالي:\n\n` +
-                   `🔹 اسم المنتج: ${product.name}\n` +
-                   `🔹 السعر: EGP ${product.price}\n` +
-                   `🔹 النكهة: ${product.flavor || "غير محدد"}\n` +
-                  //  `🔹 الرابط: ${productUrl}\n\n` +
-                  //  `أرجو مساعدتي في:\n` +
-                  //  `1️⃣ اختيار النوع المناسب\n` +
-                  //  `2️⃣ اختيار النكهة المناسبة\n` +
-                  //  `3️⃣ تأكيد السعر النهائي\n` +
-                  //  `4️⃣ تحديد الكمية المناسبة\n\n` +
-                   `شكراً لمساعدتكم!`;
-    
+    const message =
+      `مرحباً، أريد طلب المنتج التالي:\n\n` +
+      `🔹 اسم المنتج: ${product.name}\n` +
+      `🔹 السعر: EGP ${product.price}\n` +
+      `🔹 النكهة: ${product.flavor || "غير محدد"}\n` +
+      //  `🔹 الرابط: ${productUrl}\n\n` +
+      //  `أرجو مساعدتي في:\n` +
+      //  `1️⃣ اختيار النوع المناسب\n` +
+      //  `2️⃣ اختيار النكهة المناسبة\n` +
+      //  `3️⃣ تأكيد السعر النهائي\n` +
+      //  `4️⃣ تحديد الكمية المناسبة\n\n` +
+      `شكراً لمساعدتكم!`;
+
     // ترميح النص للرابط
     const encodedMessage = encodeURIComponent(message);
-    
+
     // إنشاء رابط الواتساب
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
-    
+
     // فتح الرابط في نافذة جديدة
-    window.open(whatsappUrl, '_blank');
+    window.open(whatsappUrl, "_blank");
   };
 
   return (
@@ -127,17 +127,17 @@ export default function ProductCard({ product }) {
           <span className="old-price">{product.oldPrice}</span>
         </span>
       </div>
-      
+
       <div className="actionsBtn">
-        <div>
+        <div className="main-actions">
           <button className="btn" onClick={handleAddToCart}>
-          Add to cart
-        </button>
-        <button className="btn primary" onClick={handleBuyNow}>
-          Buy now
-        </button>
+            Add to cart
+          </button>
+          <button className="btn" onClick={handleBuyNow}>
+            Buy now
+          </button>
         </div>
-        <button className="btn whatsapp-btn" onClick={handleWhatsAppOrder}>
+        <button className="btn whatsapp-btn primary" onClick={handleWhatsAppOrder}>
           Order via WhatsApp
         </button>
       </div>
