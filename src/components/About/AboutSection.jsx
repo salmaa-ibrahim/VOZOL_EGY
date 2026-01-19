@@ -20,7 +20,7 @@ const AboutSection = () => {
   
   // قائمة الصور
   const images = [
-    "/assets/Ads/Attentionn.png",
+    "/assets/Ads/Attention.jpeg",
     "/assets/Ads/AD.jpeg"
   ];
 
