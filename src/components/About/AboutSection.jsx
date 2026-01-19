@@ -13,22 +13,22 @@ import facebookIcon from "../../../public/assets/social media icons/facebook_ico
 import PhoneCall from "../../../public/assets/social media icons/phone-call.svg";
 import About from "../../../public/assets/AboutImages/Option.jpeg";
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 const AboutSection = () => {
-   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
   // قائمة الصور
   const images = [
     "/assets/Ads/Attentionn.png",
     // "/assets/Ads/Attention.jpeg",
-    "/assets/Ads/AD.jpeg"
+    "/assets/Ads/AD.jpeg",
   ];
 
   // تأثير التبديل التلقائي كل 10 ثواني
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentImageIndex((prevIndex) => 
+      setCurrentImageIndex((prevIndex) =>
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
     }, 5000); // 10 ثواني = 10000 ميلي ثانية
@@ -41,11 +41,31 @@ const AboutSection = () => {
     <section className="about-section" id="about">
       <div className="snow-effect"></div>
       <div className="about-ad">
-         <img
+        {/* <img
           className="about-ad-image"
           src={images[currentImageIndex]}
           alt={`Ad ${currentImageIndex + 1}`}
+        /> */}
+        <img
+          src="/assets/Ads/Attentionnn.png"
+          className="about-ad-image"
+          alt=""
         />
+        <div className="centered">
+          <h1>ATTENTION!</h1>
+          <p>
+            تحذير هام:
+            <br />
+            نحن التوكيل الوحيد والمعتمد لهذا المنتج، ولا توجد لنا أي صفحات أو
+            وكالء آخرين.
+            <br />
+            
+            نُخلي مسؤوليتنا تمامًا عن أي منتج تقليد وليس له اي عمر افتراضي (ايام
+            معدود) يتم شراؤه من صفحات أو مواقع غير رسمية أو مجهولة المصدر.
+          
+          </p>
+         
+        </div>
       </div>
       <div className="about-content">
         <div className="features">
