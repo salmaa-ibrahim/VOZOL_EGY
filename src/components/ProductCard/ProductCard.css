@@ -165,7 +165,7 @@
   .btn {
     padding: 4px 5px;
     font-size: 10px;
-    font-weight: bold;
+    font-weight:bolder;
     color: #000;
   }
   .rank {
