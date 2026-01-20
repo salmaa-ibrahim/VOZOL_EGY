@@ -1,75 +1,41 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import './WhatsAppPopup.css';
 
 const WhatsAppPopup = ({ phoneNumber, message = "محتار؟ محتاج مساعده؟ كلمنا واتساب ونساعدك فورًا" }) => {
-  const [isVisible, setIsVisible] = useState(false);
-  const intervalRef = useRef(null);
-  const hasShownRef = useRef(false);
+  const [isVisible, setIsVisible] = = useState(false);
+  const [timeSpent, setTimeSpent] = useState(0);
 
   const whatsappLink = `https://wa.me/${phoneNumber || "201141341192"}?text=${encodeURIComponent("مرحباً، أريد الاستفسار عن منتج...")}`;
 
   useEffect(() => {
-    // تأخير أول ظهور لـ 15 ثانية
-    const initialTimeout = setTimeout(() => {
-      setIsVisible(true);
-      hasShownRef.current = true;
-      
-      // إخفاء البوب أب بعد 5 ثوانٍ (اختياري)
-      setTimeout(() => {
-        setIsVisible(false);
-      }, 5000);
-    }, 15000); // 15 ثانية
+    // إعادة تعيين العلامة عند تحميل الصفحة
+    localStorage.removeItem('popupShown');
+    
+    // مؤقت لحساب الوقت
+    const timer = setInterval(() => {
+      setTimeSpent(prev => {
+        const newTime = prev + 1;
+        
+        // ظهور البوب أب بعد 15 ثانية
+        if (newTime === 15) {
+          setIsVisible(true);
+        }
+        
+        return newTime;
+      });
+    }, 1000);
 
-    // بدء المؤقت لعرض البوب أب كل 20 ثانية بعد الظهور الأول
-    intervalRef.current = setInterval(() => {
-      setIsVisible(true);
-      
-      // إخفاء البوب أب بعد 5 ثوانٍ
-      setTimeout(() => {
-        setIsVisible(false);
-      }, 5000);
-    }, 20000); // 20 ثانية
-
-    // تنظيف المؤقتات عند إلغاء التحميل
-    return () => {
-      clearTimeout(initialTimeout);
-      if (intervalRef.current) {
-        clearInterval(intervalRef.current);
-      }
-    };
-  }, []);
+    return () => clearInterval(timer);
+  }, []); // سيتم تشغيل هذا الإفكت مرة واحدة عند تحميل المكون
 
   const closePopup = () => {
     setIsVisible(false);
   };
 
-  // إعادة تعيين المؤقت يدوياً (للتجربة)
-  const resetInterval = () => {
-    hasShownRef.current = false;
+  // دالة إعادة الضبط للتجربة فقط
+  const resetPopup = () => {
+    setTimeSpent(0);
     setIsVisible(false);
-    
-    // تنظيف المؤقتات الحالية
-    if (intervalRef.current) {
-      clearInterval(intervalRef.current);
-    }
-    
-    // إعادة البدء من جديد
-    const initialTimeout = setTimeout(() => {
-      setIsVisible(true);
-      hasShownRef.current = true;
-      
-      setTimeout(() => {
-        setIsVisible(false);
-      }, 5000);
-    }, 15000);
-
-    intervalRef.current = setInterval(() => {
-      setIsVisible(true);
-      
-      setTimeout(() => {
-        setIsVisible(false);
-      }, 5000);
-    }, 20000);
   };
 
   if (!isVisible) return null;
@@ -103,26 +69,18 @@ const WhatsAppPopup = ({ phoneNumber, message = "محتار؟ محتاج مسا�
           <span className="btn-text">تواصل معنا على واتساب</span>
         </a>
 
+        {/* <div className="popup-footer">
+          <small>متوسط وقت الانتظار: أقل من 5 دقائق</small>
+        </div> */}
+
         {/* زر للتجربة فقط - احذفه في الإنتاج */}
-        <button 
+        {/* <button 
           className="reset-btn" 
-          onClick={resetInterval}
-          style={{
-            position: 'absolute',
-            bottom: '10px',
-            right: '10px',
-            background: '#f0f0f0',
-            border: 'none',
-            borderRadius: '50%',
-            width: '30px',
-            height: '30px',
-            cursor: 'pointer',
-            fontSize: '12px'
-          }}
-          title="إعادة ضبط المؤقت"
+          onClick={resetPopup}
+          title="للتجربة فقط - إعادة ضبط المؤقت"
         >
           🔄
-        </button>
+        </button> */}
       </div>
     </div>
   );
