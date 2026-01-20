@@ -84,14 +84,14 @@ export default function ProductCard({ product }) {
       `مرحباً، أريد طلب المنتج التالي:\n\n` +
       `🔹 اسم المنتج: ${product.name}\n` +
       `🔹 السعر: EGP ${product.price}\n` +
-      `🔹 النكهة: ${product.flavor || "غير محدد"}\n` ;
-      //  `🔹 الرابط: ${productUrl}\n\n` +
-      //  `أرجو مساعدتي في:\n` +
-      //  `1️⃣ اختيار النوع المناسب\n` +
-      //  `2️⃣ اختيار النكهة المناسبة\n` +
-      //  `3️⃣ تأكيد السعر النهائي\n` +
-      //  `4️⃣ تحديد الكمية المناسبة\n\n` +
-    
+      `🔹 النكهة: ${product.flavor || "غير محدد"}\n`;
+    //  `🔹 الرابط: ${productUrl}\n\n` +
+    //  `أرجو مساعدتي في:\n` +
+    //  `1️⃣ اختيار النوع المناسب\n` +
+    //  `2️⃣ اختيار النكهة المناسبة\n` +
+    //  `3️⃣ تأكيد السعر النهائي\n` +
+    //  `4️⃣ تحديد الكمية المناسبة\n\n` +
+
     // ترميح النص للرابط
     const encodedMessage = encodeURIComponent(message);
 
@@ -136,9 +136,12 @@ export default function ProductCard({ product }) {
             Buy now
           </button>
         </div>
-        <button className="btn whatsapp-btn primary" onClick={handleWhatsAppOrder}>
-          Order via WhatsApp
-        </button>
+        <div className="whatsapp-btn">
+          <button className="whatsapp-btn-layout " onClick={handleWhatsAppOrder}>
+            Order via WhatsApp
+            <img className="whatsapp-icon" src="/assets/social media icons/whatsapp_icon.svg" alt="" />
+          </button>
+        </div>
       </div>
     </div>
   );

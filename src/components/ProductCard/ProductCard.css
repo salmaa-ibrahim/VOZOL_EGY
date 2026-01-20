@@ -24,14 +24,13 @@
 .In-Stock {
   color: green;
   font-size: 12px;
-
 }
 .Out-of-Stock {
   color: red;
   font-size: 12px;
 }
 
-.Sale{
+.Sale {
   color: red;
   font-size: 12px;
   margin-left: 20px;
@@ -49,7 +48,7 @@
   object-fit: cover;
 }
 
-.flavor-info{
+.flavor-info {
   text-transform: capitalize;
 }
 .product-card .meta {
@@ -75,12 +74,32 @@
   padding: 8px 10px;
   border-radius: 8px;
   border: 1px solid #111;
-  background: transparent;
+  /* background: transparent; */
   cursor: pointer;
 }
-.primary {
-  background: #111;
+/* .whatsapp-btn {
+  background-color: rgb(57, 131, 57);
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  padding: 0px;
+} */
+
+.whatsapp-btn-layout {
+  width: 100%;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   color: #fff;
+  background-color: rgb(57, 131, 57);
+  border: none;
+  border-radius: 8px;
+}
+.whatsapp-btn-layout .whatsapp-icon {
+  width: 27px;
+  height: 20px;
+  object-fit: contain;
 }
 .rank {
   position: absolute;
@@ -131,8 +150,7 @@
     height: 190px;
   }
   .product-card p {
-    font-size:15px;
-
+    font-size: 15px;
   }
   .product-card .meta {
     font-size: 13px;
@@ -145,8 +163,9 @@
     gap: 5px;
   }
   .btn {
-    padding: 5px 6px;
-    font-size: 9px;
+    padding: 4px 5px;
+    font-size: 10px;
+    font-weight: bold;
   }
   .rank {
     width: 24px;
@@ -164,21 +183,20 @@
     overflow: hidden;
 } */
 .product-gift-frame::after {
-    content: "SALE ";
-    position: absolute;
-    top: 12px;
-    right: 12px;
-    background: red;
-    color: white;
-    padding: 2px 15px;
-    font-size: 12px;
-    border-radius: 8px;
+  content: "SALE ";
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: red;
+  color: white;
+  padding: 2px 15px;
+  font-size: 12px;
+  border-radius: 8px;
 
-    /* transform: rotate(45deg); */
-    /* font-weight: bold; */
-    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); */
-
-  }
+  /* transform: rotate(45deg); */
+  /* font-weight: bold; */
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); */
+}
 
 .product-corners {
   position: relative;
