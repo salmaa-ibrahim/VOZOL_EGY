@@ -30,11 +30,11 @@ const WhatsAppPopup = ({ phoneNumber, message = "محتار؟ محتاج مسا�
     setIsVisible(false);
   };
 
-//   const resetPopup = () => {
-//     localStorage.removeItem('popupShown');
-//     setTimeSpent(0);
-//     setIsVisible(false);
-//   };
+const resetPopup = () => {
+localStorage.removeItem('popupShown');
+setTimeSpent(0);
+setIsVisible(false);
+};
 
   if (!isVisible) return null;
 
