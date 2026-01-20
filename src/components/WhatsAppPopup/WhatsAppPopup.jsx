@@ -4,30 +4,35 @@ import './WhatsAppPopup.css';
 const WhatsAppPopup = ({ phoneNumber, message = "محتار؟ محتاج مساعده؟ كلمنا واتساب ونساعدك فورًا" }) => {
   const [isVisible, setIsVisible] = useState(false);
   const intervalRef = useRef(null);
+  const hasShownRef = useRef(false);
 
   const whatsappLink = `https://wa.me/${phoneNumber || "201141341192"}?text=${encodeURIComponent("مرحباً، أريد الاستفسار عن منتج...")}`;
 
   useEffect(() => {
-    // عرض البوب أب فور تحميل الصفحة
-    const showPopup = () => {
+    // تأخير أول ظهور لـ 15 ثانية
+    const initialTimeout = setTimeout(() => {
       setIsVisible(true);
+      hasShownRef.current = true;
       
       // إخفاء البوب أب بعد 5 ثوانٍ (اختياري)
       setTimeout(() => {
         setIsVisible(false);
       }, 5000);
-    };
+    }, 15000); // 15 ثانية
 
-    // عرض البوب أب فوراً
-    showPopup();
-
-    // بدء المؤقت لعرض البوب أب كل 20 ثانية
+    // بدء المؤقت لعرض البوب أب كل 20 ثانية بعد الظهور الأول
     intervalRef.current = setInterval(() => {
-      showPopup();
+      setIsVisible(true);
+      
+      // إخفاء البوب أب بعد 5 ثوانٍ
+      setTimeout(() => {
+        setIsVisible(false);
+      }, 5000);
     }, 20000); // 20 ثانية
 
-    // تنظيف المؤقت عند إلغاء التحميل
+    // تنظيف المؤقتات عند إلغاء التحميل
     return () => {
+      clearTimeout(initialTimeout);
       if (intervalRef.current) {
         clearInterval(intervalRef.current);
       }
@@ -40,12 +45,30 @@ const WhatsAppPopup = ({ phoneNumber, message = "محتار؟ محتاج مسا�
 
   // إعادة تعيين المؤقت يدوياً (للتجربة)
   const resetInterval = () => {
+    hasShownRef.current = false;
+    setIsVisible(false);
+    
+    // تنظيف المؤقتات الحالية
     if (intervalRef.current) {
       clearInterval(intervalRef.current);
     }
+    
+    // إعادة البدء من جديد
+    const initialTimeout = setTimeout(() => {
+      setIsVisible(true);
+      hasShownRef.current = true;
+      
+      setTimeout(() => {
+        setIsVisible(false);
+      }, 5000);
+    }, 15000);
+
     intervalRef.current = setInterval(() => {
       setIsVisible(true);
-      setTimeout(() => setIsVisible(false), 5000);
+      
+      setTimeout(() => {
+        setIsVisible(false);
+      }, 5000);
     }, 20000);
   };
 
