@@ -1,63 +1,52 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './WhatsAppPopup.css';
 
 const WhatsAppPopup = ({ phoneNumber, message = "محتار؟ محتاج مساعده؟ كلمنا واتساب ونساعدك فورًا" }) => {
   const [isVisible, setIsVisible] = useState(false);
-  const [lastShowTime, setLastShowTime] = useState(0);
-  const [sessionStartTime] = useState(Date.now());
+  const intervalRef = useRef(null);
 
   const whatsappLink = `https://wa.me/${phoneNumber || "201141341192"}?text=${encodeURIComponent("مرحباً، أريد الاستفسار عن منتج...")}`;
 
   useEffect(() => {
-    // تحميل آخر وقت ظهر فيه البوب أب من localStorage
-    const savedLastShowTime = localStorage.getItem('whatsapp_popup_last_show');
-    if (savedLastShowTime) {
-      setLastShowTime(parseInt(savedLastShowTime));
-    }
-
-    // مؤقت للتحقق من ظهور البوب أب
-    const checkPopup = () => {
-      const currentTime = Date.now();
-      const timeSinceSessionStart = (currentTime - sessionStartTime) / 1000; // تحويل إلى ثواني
-      const timeSinceLastShow = savedLastShowTime 
-        ? (currentTime - parseInt(savedLastShowTime)) / 1000 
-        : Infinity;
-
-      // ظهور أول مرة بعد 15 ثانية من بدء الجلسة
-      if (!savedLastShowTime && timeSinceSessionStart >= 15) {
-        showPopup(currentTime);
-      }
-      // ظهور متكرر كل 30 ثانية بعد آخر ظهور
-      else if (savedLastShowTime && timeSinceLastShow >= 30) {
-        showPopup(currentTime);
-      }
+    // عرض البوب أب فور تحميل الصفحة
+    const showPopup = () => {
+      setIsVisible(true);
+      
+      // إخفاء البوب أب بعد 5 ثوانٍ (اختياري)
+      setTimeout(() => {
+        setIsVisible(false);
+      }, 5000);
     };
 
-    // التحقق كل ثانية
-    const timer = setInterval(checkPopup, 1000);
+    // عرض البوب أب فوراً
+    showPopup();
 
-    // التحقق فور تحميل الصفحة
-    checkPopup();
+    // بدء المؤقت لعرض البوب أب كل 20 ثانية
+    intervalRef.current = setInterval(() => {
+      showPopup();
+    }, 20000); // 20 ثانية
 
-    return () => clearInterval(timer);
-  }, [sessionStartTime]);
-
-  const showPopup = (currentTime) => {
-    setIsVisible(true);
-    const time = currentTime || Date.now();
-    setLastShowTime(time);
-    localStorage.setItem('whatsapp_popup_last_show', time.toString());
-  };
+    // تنظيف المؤقت عند إلغاء التحميل
+    return () => {
+      if (intervalRef.current) {
+        clearInterval(intervalRef.current);
+      }
+    };
+  }, []);
 
   const closePopup = () => {
     setIsVisible(false);
   };
 
-  const resetPopup = () => {
-    localStorage.removeItem('whatsapp_popup_last_show');
-    setLastShowTime(0);
-    setIsVisible(false);
-    window.location.reload(); // إعادة تحميل الصفحة لبدء جلسة جديدة
+  // إعادة تعيين المؤقت يدوياً (للتجربة)
+  const resetInterval = () => {
+    if (intervalRef.current) {
+      clearInterval(intervalRef.current);
+    }
+    intervalRef.current = setInterval(() => {
+      setIsVisible(true);
+      setTimeout(() => setIsVisible(false), 5000);
+    }, 20000);
   };
 
   if (!isVisible) return null;
@@ -94,10 +83,22 @@ const WhatsAppPopup = ({ phoneNumber, message = "محتار؟ محتاج مسا�
         {/* زر للتجربة فقط - احذفه في الإنتاج */}
         <button 
           className="reset-btn" 
-          onClick={resetPopup}
-          title="للتجربة فقط - إعادة ضبط المؤقت"
+          onClick={resetInterval}
+          style={{
+            position: 'absolute',
+            bottom: '10px',
+            right: '10px',
+            background: '#f0f0f0',
+            border: 'none',
+            borderRadius: '50%',
+            width: '30px',
+            height: '30px',
+            cursor: 'pointer',
+            fontSize: '12px'
+          }}
+          title="إعادة ضبط المؤقت"
         >
-          🔄 إعادة ضبط البوب أب
+          🔄
         </button>
       </div>
     </div>
