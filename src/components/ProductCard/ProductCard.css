@@ -95,6 +95,8 @@
   background-color: rgb(57, 131, 57);
   border: none;
   border-radius: 8px;
+  cursor: pointer;
+  font-weight: bolder;
 }
 .whatsapp-btn-layout .whatsapp-icon {
   width: 27px;
@@ -168,6 +170,16 @@
     font-weight:bolder;
     color: #000;
   }
+
+  .whatsapp-btn-layout {
+    font-size: 9px;
+  }
+  .whatsapp-btn-layout .whatsapp-icon {
+    width: 27px;
+    height: 20px;
+    object-fit: contain;
+  }
+
   .rank {
     width: 24px;
     height: 24px;
