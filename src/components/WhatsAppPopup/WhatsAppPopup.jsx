@@ -2,23 +2,21 @@ import React, { useState, useEffect } from 'react';
 import './WhatsAppPopup.css';
 
 const WhatsAppPopup = ({ phoneNumber, message = "محتار؟ محتاج مساعده؟ كلمنا واتساب ونساعدك فورًا" }) => {
-  const [isVisible, setIsVisible] = = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
   const [timeSpent, setTimeSpent] = useState(0);
 
   const whatsappLink = `https://wa.me/${phoneNumber || "201141341192"}?text=${encodeURIComponent("مرحباً، أريد الاستفسار عن منتج...")}`;
 
   useEffect(() => {
-    // إعادة تعيين العلامة عند تحميل الصفحة
-    localStorage.removeItem('popupShown');
-    
     // مؤقت لحساب الوقت
     const timer = setInterval(() => {
       setTimeSpent(prev => {
         const newTime = prev + 1;
         
-        // ظهور البوب أب بعد 15 ثانية
-        if (newTime === 15) {
+        // ظهور البوب أب بعد دقيقة (60 ثانية)
+        if (newTime === 15 && !localStorage.getItem('popupShown')) {
           setIsVisible(true);
+          localStorage.setItem('popupShown', 'true');
         }
         
         return newTime;
@@ -26,17 +24,17 @@ const WhatsAppPopup = ({ phoneNumber, message = "محتار؟ محتاج مسا�
     }, 1000);
 
     return () => clearInterval(timer);
-  }, []); // سيتم تشغيل هذا الإفكت مرة واحدة عند تحميل المكون
+  }, []);
 
   const closePopup = () => {
     setIsVisible(false);
   };
 
-  // دالة إعادة الضبط للتجربة فقط
-  const resetPopup = () => {
-    setTimeSpent(0);
-    setIsVisible(false);
-  };
+const resetPopup = () => {
+localStorage.removeItem('popupShown');
+setTimeSpent(0);
+setIsVisible(false);
+};
 
   if (!isVisible) return null;
 
@@ -86,4 +84,4 @@ const WhatsAppPopup = ({ phoneNumber, message = "محتار؟ محتاج مسا�
   );
 };
 
-export default WhatsAppPopup;
+export default WhatsAppPopup;  
