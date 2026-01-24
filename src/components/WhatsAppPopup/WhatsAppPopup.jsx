@@ -14,7 +14,7 @@ const WhatsAppPopup = ({ phoneNumber, message = "محتار؟ محتاج مسا�
         const newTime = prev + 1;
         
         // ظهور البوب أب بعد دقيقة (60 ثانية)
-        if (newTime === 15 && !localStorage.getItem('popupShown')) {
+        if (newTime === 30 && !localStorage.getItem('popupShown')) {
           setIsVisible(true);
           localStorage.setItem('popupShown', 'true');
         }
