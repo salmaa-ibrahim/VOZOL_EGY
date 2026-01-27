@@ -249,14 +249,14 @@ export default function App() {
               }
             />
             <Route
-              path="/AIVINI Zero Necotine 20000 puffs"
+              path="/AIVONO Zero Necotine 20000 puffs"
               element={
                 <main className="container">
                   <ProductsGrid
                     products={data.products.filter(
-                      (product) => product.brand === "AIVINI Zero Necotine 20000 puffs"
+                      (product) => product.brand === "AIVONO Zero Necotine 20000 puffs"
                     )}
-                    brand="AIVINI Zero Necotine 20000 puffs"
+                    brand="AIVONO Zero Necotine 20000 puffs"
                   />
                 </main>
               }
