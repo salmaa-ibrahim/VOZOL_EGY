@@ -127,7 +127,7 @@ const AboutSection = () => {
                     isActive ? "product-link active" : "product-link"
                   }
                 >
-                  ★ AIVINI Zero Necotine 20000 puffs
+                  ★ AIVONO Zero Necotine 20000 puffs
                 </NavLink>
               </li>
               <li>
