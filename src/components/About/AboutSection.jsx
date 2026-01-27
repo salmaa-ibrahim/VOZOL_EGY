@@ -20,7 +20,7 @@ const AboutSection = () => {
 
   // قائمة الصور
   const images = [
-    "/assets/Ads/Attentionn.png",
+    "/assets/Ads/Attention.png",
     // "/assets/Ads/Attention.jpeg",
     "/assets/Ads/AD.jpeg",
   ];
@@ -118,6 +118,16 @@ const AboutSection = () => {
                   }
                 >
                   ★ Vozol Gear 50000 puffs
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/AIVINI Zero Necotine 20000 puffs"
+                  className={({ isActive }) =>
+                    isActive ? "product-link active" : "product-link"
+                  }
+                >
+                  ★ AIVINI Zero Necotine 20000 puffs
                 </NavLink>
               </li>
               <li>

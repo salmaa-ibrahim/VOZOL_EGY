@@ -248,6 +248,20 @@ export default function App() {
                 </main>
               }
             />
+            <Route
+              path="/AIVINI Zero Necotine 20000 puffs"
+              element={
+                <main className="container">
+                  <ProductsGrid
+                    products={data.products.filter(
+                      (product) => product.brand === "AIVINI Zero Necotine 20000 puffs"
+                    )}
+                    brand="AIVINI Zero Necotine 20000 puffs"
+                  />
+                </main>
+              }
+            />
+            
 
             <Route
               path="/Vozol Vista 40000 puffs"

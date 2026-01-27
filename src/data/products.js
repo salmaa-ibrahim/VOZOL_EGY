@@ -141,6 +141,20 @@ import coki_3 from "/assets/products/Coki Zero Necotine/1 (3).jpg";
 import coki_4 from "/assets/products/Coki Zero Necotine/1 (4).jpg";
 import coki_5 from "/assets/products/Coki Zero Necotine/5.jpg";
 
+import AIVINI_1 from "/assets/products/AIVONO 20K/1.jpeg";
+import AIVINI_2 from "/assets/products/AIVONO 20K/2.jpeg";
+import AIVINI_3 from "/assets/products/AIVONO 20K/3.jpeg";
+import AIVINI_4 from "/assets/products/AIVONO 20K/4.jpeg";
+import AIVINI_5 from "/assets/products/AIVONO 20K/5.jpeg";
+import AIVINI_6 from "/assets/products/AIVONO 20K/6.jpeg";
+import AIVINI_7 from "/assets/products/AIVONO 20K/7.jpeg";
+import AIVINI_8 from "/assets/products/AIVONO 20K/8.jpeg";
+import AIVINI_9 from "/assets/products/AIVONO 20K/9.jpeg";
+import AIVINI_10 from "/assets/products/AIVONO 20K/10.jpeg";
+
+
+
+
 const products = {
   banners: [
     {
@@ -539,6 +553,122 @@ const products = {
     //   puffs: "50000",
     //   inStock: true,
     // },
+
+
+    //-------------AIVINI Zero Necotine 20000 puffs-------------------
+    {
+      id: 135,
+      name: "AIVINI Zero Necotine 20000 puffs",
+      flavor: "STRAWBERRY WATERMELON",
+      price: 1099,
+      img: AIVINI_1,
+      brand: "AIVINI Zero Necotine 20000 puffs",
+      BrandImg: "/assets/banar images/AIVIONO 20k.png",
+      description: "none",
+      puffs: "20000",
+      inStock: true,
+    },
+    {
+      id: 136,
+      name: "AIVINI Zero Necotine 20000 puffs",
+      flavor: "MANGO ICE",
+      price: 1099,
+      img: AIVINI_2,
+      brand: "AIVINI Zero Necotine 20000 puffs",
+      description: "none",
+      puffs: "20000",
+      inStock: true,
+    },
+    {
+      id: 137,
+      name: "AIVINI Zero Necotine 20000 puffs",
+      flavor: "MIXED BERRY",
+      price: 1099,
+      img: AIVINI_3,
+      brand: "AIVINI Zero Necotine 20000 puffs",
+      description: "none",
+      puffs: "20000",
+      inStock: true,
+    },
+    {
+  id: 138,
+  name: "AIVINI Zero Necotine 20000 puffs",
+  flavor: "BLUBERRY ICE",
+  price: 1099,
+  img: AIVINI_4,
+  brand: "AIVINI Zero Necotine 20000 puffs",
+  description: "none",
+  puffs: "20000",
+  inStock: true,
+},
+{
+  id: 139,
+  name: "AIVINI Zero Necotine 20000 puffs",
+  flavor: "COOL MINT",
+  price: 1099,
+  img: AIVINI_5,
+  brand: "AIVINI Zero Necotine 20000 puffs",
+  description: "none",
+  puffs: "20000",
+  inStock: true,
+},
+{
+  id: 140,
+  name: "AIVINI Zero Necotine 20000 puffs",
+  flavor: "KIWI PASSION FRUIT GUAVA",
+  price: 1099,
+  img: AIVINI_6,
+  brand: "AIVINI Zero Necotine 20000 puffs",
+  description: "none",
+  puffs: "20000",
+  inStock: true,
+},
+{
+  id: 141,
+  name: "AIVINI Zero Necotine 20000 puffs",
+  flavor: "LOVE 66",
+  price: 1099,
+  img: AIVINI_7,
+  brand: "AIVINI Zero Necotine 20000 puffs",
+  description: "none",
+  puffs: "20000",
+  inStock: true,
+},
+{
+  id: 142,
+  name: "AIVINI Zero Necotine 20000 puffs",
+  flavor: "GRAPE ICE",
+  price: 1099,
+  img: AIVINI_8,
+  brand: "AIVINI Zero Necotine 20000 puffs",
+  description: "none",
+  puffs: "20000",
+  inStock: true,
+},
+{
+  id: 143,
+  name: "AIVINI Zero Necotine 20000 puffs",
+  flavor: "WATERMELON ICE",
+  price: 1099,
+  img: AIVINI_9,
+  brand: "AIVINI Zero Necotine 20000 puffs",
+  description: "WATERMELON ICE",
+  puffs: "20000",
+  inStock: true,
+},
+{
+  id: 144,
+  name: "AIVINI Zero Necotine 20000 puffs",
+  flavor: "MANGO PASSION FRUIT",
+  price: 1099,
+  img: AIVINI_10,
+  brand: "AIVINI Zero Necotine 20000 puffs",
+  description: "none",
+  puffs: "20000",
+  inStock: true,
+},
+
+    
 
     //-------------Coki Zero Necotine 16000 puffs-------------------
     {
