@@ -122,7 +122,7 @@ const AboutSection = () => {
               </li>
               <li>
                 <NavLink
-                  to="/AIVINI Zero Necotine 20000 puffs"
+                  to="/AIVONO Zero Necotine 20000 puffs"
                   className={({ isActive }) =>
                     isActive ? "product-link active" : "product-link"
                   }
