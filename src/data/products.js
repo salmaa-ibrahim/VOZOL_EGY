@@ -1869,7 +1869,7 @@ const products = {
       id: 100,
       name: "Vozol Star 20000 puffs",
       flavor: "grape ice",
-      price: 590,
+      price: 591,
       img: star_20k_11,
       brand: "Vozol Star 20000 puffs",
       description: "none",
