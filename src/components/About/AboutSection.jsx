@@ -62,7 +62,7 @@ const AboutSection = () => {
               <div className="info">
                 <a
                   className=" contact"
-                  href="https://wa.me/201505337422?text=مرحباً، أريد الاستفسار عن المنتجات"
+                  href="https://wa.me/201141341192?text=مرحباً، أريد الاستفسار عن المنتجات"
                   target="_blank"
                 >
                   <img src={whatsappIcon} alt="" />
