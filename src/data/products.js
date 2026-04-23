@@ -157,11 +157,7 @@ import AIVONO_10 from "/assets/products/AIVONO 20K/10.jpeg";
 
 const products = {
   banners: [
-    {
-      id: 11,
-      title: "Banner 11",
-      img: "/assets/banar images/christmas bannerrr.png",
-    },
+    
     { id: 4, title: "Banner 4", img: "/assets/banar images/25k.jpeg" },
     {
       id: 1,
