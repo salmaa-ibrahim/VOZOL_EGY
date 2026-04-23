@@ -183,6 +183,11 @@ import shisha_40k_28 from "/assets/products/vozol Shisha 40000 puffs/28.jpg";
 
 const products = {
   banners: [
+     {
+      id: 12,
+      title: "Banner 11",
+      img: "/assets/banar images/shisha40k.jpg",
+    },
     {
       id: 11,
       title: "Banner 11",
@@ -298,7 +303,7 @@ const products = {
       price: 999,
       img: shisha_40k_1,
       brand: "Vozol Shisha 40000 puffs",
-      BrandImg: "/assets/banar images/shisha40k.jpeg",
+      BrandImg: "/assets/banar images/shisha40k.jpg",
       description:
         "Vozol Shisha 40000 Puffs disposable vape with dual mesh coil, up to 40K puffs, rechargeable 1000mAh battery, smart display, adjustable airflow, and dual modes for smooth shisha-like experience.",
       puffs: "40000",
