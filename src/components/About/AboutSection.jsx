@@ -110,6 +110,16 @@ const AboutSection = () => {
             </p>
 
             <ul className="products-list">
+             <li>
+                <NavLink
+                  to="/Vozol Shisha 40000 puffs"
+                  className={({ isActive }) =>
+                    isActive ? "product-link active" : "product-link"
+                  }
+                >
+                  ★ Vozol ShiSha 40000 puffs
+                </NavLink>
+              </li>
               <li>
                 <NavLink
                   to="/Vozol Gear 50000 puffs"

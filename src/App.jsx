@@ -261,6 +261,20 @@ export default function App() {
                 </main>
               }
             />
+
+            <Route
+              path="/Vozol Shisha 40000 puffs"
+              element={
+                <main className="container">
+                  <ProductsGrid
+                    products={data.products.filter(
+                      (product) => product.brand === "Vozol Shisha 40000 puffs"
+                    )}
+                    brand="Vozol Shisha 40000 puffs"
+                  />
+                </main>
+              }
+            />
             
 
             <Route

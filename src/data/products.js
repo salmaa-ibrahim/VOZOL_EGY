@@ -298,7 +298,7 @@ const products = {
     {
       id: 145,
       name: "Vozol Shisha 40000 puffs",
-      flavor: "none",
+      flavor: "BLUEBERRY MINT",
       price: 999,
       img: shisha_40k_1,
       brand: "Vozol Shisha 40000 puffs",
@@ -311,7 +311,7 @@ const products = {
     {
       id: 146,
       name: "Vozol Shisha 40000 puffs",
-      flavor: "none",
+      flavor: "PEACH ICE",
       price: 999,
       img: shisha_40k_2,
       brand: "Vozol Shisha 40000 puffs",
@@ -323,7 +323,7 @@ const products = {
     {
       id: 147,
       name: "Vozol Shisha 40000 puffs",
-      flavor: "none",
+      flavor: "GRAPE MINT",
       price: 999,
       img: shisha_40k_3,
       brand: "Vozol Shisha 40000 puffs",
@@ -335,7 +335,7 @@ const products = {
     {
       id: 148,
       name: "Vozol Shisha 40000 puffs",
-      flavor: "none",
+      flavor: "BLACKCURRUNT ICE",
       price: 999,
       img: shisha_40k_4,
       brand: "Vozol Shisha 40000 puffs",
@@ -347,7 +347,7 @@ const products = {
     {
       id: 149,
       name: "Vozol Shisha 40000 puffs",
-      flavor: "none",
+      flavor: "STRAWBERRY MARGRITA",
       price: 999,
       img: shisha_40k_5,
       brand: "Vozol Shisha 40000 puffs",
@@ -359,7 +359,7 @@ const products = {
     {
       id: 150,
       name: "Vozol Shisha 40000 puffs",
-      flavor: "none",
+      flavor: "GRAPE ICE",
       price: 999,
       img: shisha_40k_6,
       brand: "Vozol Shisha 40000 puffs",
@@ -371,7 +371,7 @@ const products = {
     {
       id: 151,
       name: "Vozol Shisha 40000 puffs",
-      flavor: "none",
+      flavor: "BIRRY MINT",
       price: 999,
       img: shisha_40k_7,
       brand: "Vozol Shisha 40000 puffs",
@@ -383,7 +383,7 @@ const products = {
     {
       id: 152,
       name: "Vozol Shisha 40000 puffs",
-      flavor: "none",
+      flavor: "FROZEN STRWABERRY KIWI",
       price: 999,
       img: shisha_40k_8,
       brand: "Vozol Shisha 40000 puffs",
@@ -395,7 +395,7 @@ const products = {
     {
       id: 153,
       name: "Vozol Shisha 40000 puffs",
-      flavor: "none",
+      flavor: "MANGO FREEZE",
       price: 999,
       img: shisha_40k_9,
       brand: "Vozol Shisha 40000 puffs",
@@ -407,7 +407,7 @@ const products = {
     {
       id: 154,
       name: "Vozol Shisha 40000 puffs",
-      flavor: "none",
+      flavor: "BLUE RAZZ ICE",
       price: 999,
       img: shisha_40k_10,
       brand: "Vozol Shisha 40000 puffs",
@@ -419,7 +419,7 @@ const products = {
     {
       id: 155,
       name: "Vozol Shisha 40000 puffs",
-      flavor: "none",
+      flavor: "BERRY ICE",
       price: 999,
       img: shisha_40k_11,
       brand: "Vozol Shisha 40000 puffs",
@@ -431,7 +431,7 @@ const products = {
     {
       id: 156,
       name: "Vozol Shisha 40000 puffs",
-      flavor: "none",
+      flavor: "WATERMELON MINT",
       price: 999,
       img: shisha_40k_12,
       brand: "Vozol Shisha 40000 puffs",
@@ -443,7 +443,7 @@ const products = {
     {
       id: 157,
       name: "Vozol Shisha 40000 puffs",
-      flavor: "none",
+      flavor: "BLUEBERRY ICE",
       price: 999,
       img: shisha_40k_13,
       brand: "Vozol Shisha 40000 puffs",
@@ -455,7 +455,7 @@ const products = {
     {
       id: 158,
       name: "Vozol Shisha 40000 puffs",
-      flavor: "none",
+      flavor: "MAIDEN KILLER",
       price: 999,
       img: shisha_40k_14,
       brand: "Vozol Shisha 40000 puffs",
@@ -467,7 +467,7 @@ const products = {
     {
       id: 159,
       name: "Vozol Shisha 40000 puffs",
-      flavor: "none",
+      flavor: "WATERMELON ICE",
       price: 999,
       img: shisha_40k_15,
       brand: "Vozol Shisha 40000 puffs",
@@ -479,7 +479,7 @@ const products = {
     {
       id: 160,
       name: "Vozol Shisha 40000 puffs",
-      flavor: "none",
+      flavor: "SWEET PASSION FRUIT",
       price: 999,
       img: shisha_40k_16,
       brand: "Vozol Shisha 40000 puffs",
@@ -491,7 +491,7 @@ const products = {
     {
       id: 161,
       name: "Vozol Shisha 40000 puffs",
-      flavor: "none",
+      flavor: "LEMON MINT",
       price: 999,
       img: shisha_40k_17,
       brand: "Vozol Shisha 40000 puffs",
@@ -503,7 +503,7 @@ const products = {
     {
       id: 162,
       name: "Vozol Shisha 40000 puffs",
-      flavor: "none",
+      flavor: "PASSION FRUIT LYCHEE ORANGE",
       price: 999,
       img: shisha_40k_18,
       brand: "Vozol Shisha 40000 puffs",
@@ -515,7 +515,7 @@ const products = {
     {
       id: 163,
       name: "Vozol Shisha 40000 puffs",
-      flavor: "none",
+      flavor: "STRAWBERRY KIWI",
       price: 999,
       img: shisha_40k_19,
       brand: "Vozol Shisha 40000 puffs",
@@ -527,7 +527,7 @@ const products = {
     {
       id: 164,
       name: "Vozol Shisha 40000 puffs",
-      flavor: "none",
+      flavor: "MOSCOW EVENINGS",
       price: 999,
       img: shisha_40k_20,
       brand: "Vozol Shisha 40000 puffs",
@@ -539,7 +539,7 @@ const products = {
     {
       id: 165,
       name: "Vozol Shisha 40000 puffs",
-      flavor: "none",
+      flavor: "BLUEBERRY WATERMELON",
       price: 999,
       img: shisha_40k_21,
       brand: "Vozol Shisha 40000 puffs",
@@ -551,7 +551,7 @@ const products = {
     {
       id: 166,
       name: "Vozol Shisha 40000 puffs",
-      flavor: "none",
+      flavor: "PUNKMAN",
       price: 999,
       img: shisha_40k_22,
       brand: "Vozol Shisha 40000 puffs",
@@ -563,7 +563,7 @@ const products = {
     {
       id: 167,
       name: "Vozol Shisha 40000 puffs",
-      flavor: "none",
+      flavor: "CHERRY COLA",
       price: 999,
       img: shisha_40k_23,
       brand: "Vozol Shisha 40000 puffs",
@@ -575,7 +575,7 @@ const products = {
     {
       id: 168,
       name: "Vozol Shisha 40000 puffs",
-      flavor: "none",
+      flavor: "MANGO PEACH",
       price: 999,
       img: shisha_40k_24,
       brand: "Vozol Shisha 40000 puffs",
@@ -587,7 +587,7 @@ const products = {
     {
       id: 169,
       name: "Vozol Shisha 40000 puffs",
-      flavor: "none",
+      flavor: "BLUE MOJITO",
       price: 999,
       img: shisha_40k_25,
       brand: "Vozol Shisha 40000 puffs",
@@ -599,7 +599,7 @@ const products = {
     {
       id: 170,
       name: "Vozol Shisha 40000 puffs",
-      flavor: "none",
+      flavor: "LOVE777",
       price: 999,
       img: shisha_40k_26,
       brand: "Vozol Shisha 40000 puffs",
@@ -611,7 +611,7 @@ const products = {
     {
       id: 171,
       name: "Vozol Shisha 40000 puffs",
-      flavor: "none",
+      flavor: "TWO APPLES",
       price: 999,
       img: shisha_40k_27,
       brand: "Vozol Shisha 40000 puffs",
