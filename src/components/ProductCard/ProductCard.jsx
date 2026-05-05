@@ -74,7 +74,7 @@ export default function ProductCard({ product }) {
 
   const handleWhatsAppOrder = () => {
     // رقم الهاتف الذي سيتم إرسال الرسالة إليه
-    const phoneNumber = "201141341192"; // استبدل برقمك الحقيقي
+    const phoneNumber = "201505337422"; // استبدل برقمك الحقيقي
 
     // // رابط المنتج (افتراضي)
     // const productUrl =  `https://www.vozolegy.com/products/${product.name.replace(/\s+/g, '-').toLowerCase()}/${product.flavor ? product.flavor.replace(/\s+/g, '-').toLowerCase() : ''}`;
