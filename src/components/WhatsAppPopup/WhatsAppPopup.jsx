@@ -9,7 +9,7 @@ const WhatsAppPopup = ({
   const [timeSpent, setTimeSpent] = useState(0);
 
   const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
-    "مرحباً، أريد الاستفسار عن منتج..."
+    "مرحباً، أريد الاستفسار عن منتج.."
   )}`;
 
   useEffect(() => {
