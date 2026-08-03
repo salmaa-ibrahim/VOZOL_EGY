@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './WhatsAppPopup.css';
 
 const WhatsAppPopup = ({
-  phoneNumber = "2015562209222",
+  phoneNumber = "201556220922",
   message = "محتار؟ محتاج مساعده؟ كلمنا واتساب ونساعدك فورًا"
 }) => {
   const [isVisible, setIsVisible] = useState(false);
